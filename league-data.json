@@ -1,0 +1,488 @@
+{
+  "standings": [
+    [
+      1,
+      "JohnnyC",
+      462,
+      485,
+      947,
+      "Leader",
+      1
+    ],
+    [
+      2,
+      "Joe / Mike",
+      449,
+      490,
+      939,
+      "-8",
+      1
+    ],
+    [
+      3,
+      "Craig / Patty",
+      453,
+      411,
+      864,
+      "-83",
+      0
+    ],
+    [
+      4,
+      "JJ / George",
+      448,
+      352,
+      800,
+      "-147",
+      0
+    ],
+    [
+      5,
+      "Don / Kendall",
+      364,
+      431,
+      795,
+      "-152",
+      0
+    ],
+    [
+      6,
+      "Corey / Jeff",
+      417,
+      285,
+      702,
+      "-245",
+      0
+    ],
+    [
+      7,
+      "Linda",
+      350,
+      346,
+      696,
+      "-251",
+      0
+    ],
+    [
+      8,
+      "Ron / Jill",
+      310,
+      379,
+      689,
+      "-258",
+      0
+    ],
+    [
+      9,
+      "Grub / Jim",
+      321,
+      288,
+      609,
+      "-338",
+      0
+    ],
+    [
+      10,
+      "Roberto / Elsie",
+      306,
+      293,
+      599,
+      "-348",
+      0
+    ]
+  ],
+  "rosters": [
+    [
+      "Linda",
+      [
+        [
+          "#11",
+          "Denny Hamlin"
+        ],
+        [
+          "#17",
+          "Chris Buescher"
+        ],
+        [
+          "#22",
+          "Joey Logano"
+        ],
+        [
+          "#1",
+          "Ross Chastain"
+        ]
+      ]
+    ],
+    [
+      "Don / Kendall",
+      [
+        [
+          "#45",
+          "Tyler Reddick"
+        ],
+        [
+          "#14",
+          "Chase Briscoe"
+        ],
+        [
+          "#77",
+          "Carson Hocevar"
+        ],
+        [
+          "#48",
+          "Alex Bowman"
+        ]
+      ]
+    ],
+    [
+      "Joe / Mike",
+      [
+        [
+          "#9",
+          "Chase Elliott"
+        ],
+        [
+          "#12",
+          "Ryan Blaney"
+        ],
+        [
+          "#97",
+          "Shane Van Giesbergen"
+        ],
+        [
+          "#7",
+          "Daniel Suarez"
+        ]
+      ]
+    ],
+    [
+      "Corey / Jeff",
+      [
+        [
+          "#54",
+          "Ty Gibbs"
+        ],
+        [
+          "#24",
+          "William Byron"
+        ],
+        [
+          "#23",
+          "Bubba Wallace"
+        ],
+        [
+          "#6",
+          "Brad Keselowski"
+        ]
+      ]
+    ],
+    [
+      "JJ / George",
+      [
+        [
+          "#12",
+          "Ryan Blaney"
+        ],
+        [
+          "#54",
+          "Ty Gibbs"
+        ],
+        [
+          "#6",
+          "Brad Keselowski"
+        ],
+        [
+          "#23",
+          "Bubba Wallace"
+        ]
+      ]
+    ],
+    [
+      "Grub / Jim",
+      [
+        [
+          "#24",
+          "William Byron"
+        ],
+        [
+          "#20",
+          "Christopher Bell"
+        ],
+        [
+          "#1",
+          "Ross Chastain"
+        ],
+        [
+          "#2",
+          "Austin Cindric"
+        ]
+      ]
+    ],
+    [
+      "Craig / Patty",
+      [
+        [
+          "#20",
+          "Christopher Bell"
+        ],
+        [
+          "#5",
+          "Kyle Larson"
+        ],
+        [
+          "#60",
+          "Ryan Preece"
+        ],
+        [
+          "#97",
+          "Shane Van Giesbergen"
+        ]
+      ]
+    ],
+    [
+      "JohnnyC",
+      [
+        [
+          "#14",
+          "Chase Briscoe"
+        ],
+        [
+          "#45",
+          "Tyler Reddick"
+        ],
+        [
+          "#7",
+          "Daniel Suarez"
+        ],
+        [
+          "#22",
+          "Joey Logano"
+        ]
+      ]
+    ],
+    [
+      "Ron / Jill",
+      [
+        [
+          "#5",
+          "Kyle Larson"
+        ],
+        [
+          "#9",
+          "Chase Elliott"
+        ],
+        [
+          "#33",
+          "Austin Hill"
+        ],
+        [
+          "#77",
+          "Carson Hocevar"
+        ]
+      ]
+    ],
+    [
+      "Roberto / Elsie",
+      [
+        [
+          "#17",
+          "Chris Buescher"
+        ],
+        [
+          "#11",
+          "Denny Hamlin"
+        ],
+        [
+          "#2",
+          "Austin Cindric"
+        ],
+        [
+          "#60",
+          "Ryan Preece"
+        ]
+      ]
+    ]
+  ],
+  "nashville_driver_results": [
+    [
+      "Denny Hamlin",
+      "#11",
+      1,
+      40,
+      1,
+      120,
+      160
+    ],
+    [
+      "Christopher Bell",
+      "#20",
+      4,
+      37,
+      2,
+      117,
+      154
+    ],
+    [
+      "Tyler Reddick",
+      "#45",
+      2,
+      39,
+      6,
+      105,
+      144
+    ],
+    [
+      "Shane Van Giesbergen",
+      "#97",
+      10,
+      31,
+      5,
+      108,
+      139
+    ],
+    [
+      "Ryan Blaney",
+      "#12",
+      7,
+      34,
+      8,
+      99,
+      133
+    ],
+    [
+      "Chase Briscoe",
+      "#14",
+      31,
+      10,
+      3,
+      114,
+      124
+    ],
+    [
+      "Ty Gibbs",
+      "#54",
+      6,
+      35,
+      13,
+      84,
+      119
+    ],
+    [
+      "Carson Hocevar",
+      "#77",
+      17,
+      24,
+      10,
+      93,
+      117
+    ],
+    [
+      "Chase Elliott",
+      "#9",
+      29,
+      12,
+      7,
+      102,
+      114
+    ],
+    [
+      "Joey Logano",
+      "#22",
+      9,
+      32,
+      14,
+      81,
+      113
+    ],
+    [
+      "Daniel Suarez",
+      "#7",
+      3,
+      38,
+      19,
+      66,
+      104
+    ],
+    [
+      "Kyle Larson",
+      "#5",
+      5,
+      36,
+      23,
+      54,
+      90
+    ],
+    [
+      "William Byron",
+      "#24",
+      8,
+      33,
+      30,
+      33,
+      66
+    ],
+    [
+      "Austin Hill",
+      "#33",
+      25,
+      16,
+      27,
+      42,
+      58
+    ],
+    [
+      "Chris Buescher",
+      "#17",
+      22,
+      19,
+      29,
+      36,
+      55
+    ],
+    [
+      "Bubba Wallace",
+      "#23",
+      18,
+      23,
+      32,
+      27,
+      50
+    ],
+    [
+      "Austin Cindric",
+      "#2",
+      36,
+      5,
+      26,
+      45,
+      50
+    ],
+    [
+      "Alex Bowman",
+      "#48",
+      19,
+      22,
+      33,
+      24,
+      46
+    ],
+    [
+      "Ryan Preece",
+      "#60",
+      28,
+      13,
+      36,
+      15,
+      28
+    ],
+    [
+      "Ross Chastain",
+      "#1",
+      35,
+      6,
+      37,
+      12,
+      18
+    ]
+  ]
+}
