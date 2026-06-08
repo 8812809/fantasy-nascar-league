@@ -57,7 +57,7 @@ window.LEAGUE_DATA = {
         "Tyler Reddick",
         "Chase Briscoe",
         "Carson Hocevar",
-        "Zane Smith (#38)"
+        "Zane Smith"
       ],
       "charlotte": 364,
       "nashville": 431,
