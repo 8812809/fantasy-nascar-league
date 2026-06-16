@@ -1,11 +1,19 @@
 window.LEAGUE_DATA = {
   "league": "Fantasy NASCAR League",
   "segment": 2,
-  "races_completed": 3,
-  "current_race": "Michigan",
-  "next_race": "Pocono",
-  "last_updated": "2026-06-08",
+  "races_completed": 4,
+  "current_race": "Pocono",
+  "next_race": "Coronado Naval Base",
+  "last_updated": "2026-06-15",
   "label_preference": "Segment Points",
+  "pending_transaction": {
+    "team": "Corey / Jeff",
+    "team_id": 4,
+    "out": "#6 Brad Keselowski",
+    "in": "#43 Erik Jones",
+    "effective": "Race 5 - Coronado Naval Base",
+    "status": "Pending Change"
+  },
   "races": [
     {
       "race_number": 1,
@@ -27,6 +35,13 @@ window.LEAGUE_DATA = {
       "date": "2026-06-07",
       "weekly_winner": "Linda",
       "winning_score": 492
+    },
+    {
+      "race_number": 4,
+      "name": "Pocono",
+      "date": "2026-06-14",
+      "weekly_winner": "Linda",
+      "winning_score": 464
     }
   ],
   "teams": [
@@ -42,13 +57,36 @@ window.LEAGUE_DATA = {
       "charlotte": 350,
       "nashville": 346,
       "michigan": 492,
-      "segment_points": 1188,
-      "segment_total": 1188,
+      "pocono": 464,
+      "segment_points": 1652,
+      "segment_total": 1652,
       "weekly_scores": {
         "Charlotte": 350,
         "Nashville": 346,
-        "Michigan": 492
-      }
+        "Michigan": 492,
+        "Pocono": 464
+      },
+      "drafted": 6,
+      "roster": [
+        {
+          "driver": "Denny Hamlin",
+          "car": 11
+        },
+        {
+          "driver": "Chris Buescher",
+          "car": 17
+        },
+        {
+          "driver": "Joey Logano",
+          "car": 22
+        },
+        {
+          "driver": "Ross Chastain",
+          "car": 1
+        }
+      ],
+      "locked": false,
+      "change_status": ""
     },
     {
       "id": 2,
@@ -62,13 +100,36 @@ window.LEAGUE_DATA = {
       "charlotte": 364,
       "nashville": 431,
       "michigan": 381,
-      "segment_points": 1176,
-      "segment_total": 1176,
+      "pocono": 378,
+      "segment_points": 1554,
+      "segment_total": 1554,
       "weekly_scores": {
         "Charlotte": 364,
         "Nashville": 431,
-        "Michigan": 381
-      }
+        "Michigan": 381,
+        "Pocono": 378
+      },
+      "drafted": 10,
+      "roster": [
+        {
+          "driver": "Tyler Reddick",
+          "car": 45
+        },
+        {
+          "driver": "Chase Briscoe",
+          "car": 19
+        },
+        {
+          "driver": "Carson Hocevar",
+          "car": 77
+        },
+        {
+          "driver": "Zane Smith",
+          "car": 38
+        }
+      ],
+      "locked": true,
+      "change_status": "Locked - used change"
     },
     {
       "id": 3,
@@ -76,19 +137,42 @@ window.LEAGUE_DATA = {
       "drivers": [
         "Chase Elliott",
         "Ryan Blaney",
-        "Shane Van Gisbergen",
+        "Shane van Gisbergen",
         "Daniel Suarez"
       ],
       "charlotte": 449,
       "nashville": 490,
       "michigan": 362,
-      "segment_points": 1301,
-      "segment_total": 1301,
+      "pocono": 394,
+      "segment_points": 1695,
+      "segment_total": 1695,
       "weekly_scores": {
         "Charlotte": 449,
         "Nashville": 490,
-        "Michigan": 362
-      }
+        "Michigan": 362,
+        "Pocono": 394
+      },
+      "drafted": 5,
+      "roster": [
+        {
+          "driver": "Chase Elliott",
+          "car": 9
+        },
+        {
+          "driver": "Ryan Blaney",
+          "car": 12
+        },
+        {
+          "driver": "Shane van Gisbergen",
+          "car": 97
+        },
+        {
+          "driver": "Daniel Suarez",
+          "car": 7
+        }
+      ],
+      "locked": false,
+      "change_status": ""
     },
     {
       "id": 4,
@@ -102,13 +186,36 @@ window.LEAGUE_DATA = {
       "charlotte": 417,
       "nashville": 285,
       "michigan": 364,
-      "segment_points": 1066,
-      "segment_total": 1066,
+      "pocono": 355,
+      "segment_points": 1421,
+      "segment_total": 1421,
       "weekly_scores": {
         "Charlotte": 417,
         "Nashville": 285,
-        "Michigan": 364
-      }
+        "Michigan": 364,
+        "Pocono": 355
+      },
+      "drafted": 8,
+      "roster": [
+        {
+          "driver": "Ty Gibbs",
+          "car": 54
+        },
+        {
+          "driver": "William Byron",
+          "car": 24
+        },
+        {
+          "driver": "Bubba Wallace",
+          "car": 23
+        },
+        {
+          "driver": "Brad Keselowski",
+          "car": 6
+        }
+      ],
+      "locked": false,
+      "change_status": "Pending change effective Race 5"
     },
     {
       "id": 5,
@@ -122,13 +229,36 @@ window.LEAGUE_DATA = {
       "charlotte": 448,
       "nashville": 352,
       "michigan": 384,
-      "segment_points": 1184,
-      "segment_total": 1184,
+      "pocono": 333,
+      "segment_points": 1517,
+      "segment_total": 1517,
       "weekly_scores": {
         "Charlotte": 448,
         "Nashville": 352,
-        "Michigan": 384
-      }
+        "Michigan": 384,
+        "Pocono": 333
+      },
+      "drafted": 9,
+      "roster": [
+        {
+          "driver": "Ryan Blaney",
+          "car": 12
+        },
+        {
+          "driver": "Ty Gibbs",
+          "car": 54
+        },
+        {
+          "driver": "Brad Keselowski",
+          "car": 6
+        },
+        {
+          "driver": "Bubba Wallace",
+          "car": 23
+        }
+      ],
+      "locked": false,
+      "change_status": ""
     },
     {
       "id": 6,
@@ -142,13 +272,36 @@ window.LEAGUE_DATA = {
       "charlotte": 321,
       "nashville": 288,
       "michigan": 348,
-      "segment_points": 957,
-      "segment_total": 957,
+      "pocono": 431,
+      "segment_points": 1388,
+      "segment_total": 1388,
       "weekly_scores": {
         "Charlotte": 321,
         "Nashville": 288,
-        "Michigan": 348
-      }
+        "Michigan": 348,
+        "Pocono": 431
+      },
+      "drafted": 4,
+      "roster": [
+        {
+          "driver": "William Byron",
+          "car": 24
+        },
+        {
+          "driver": "Christopher Bell",
+          "car": 20
+        },
+        {
+          "driver": "Ross Chastain",
+          "car": 1
+        },
+        {
+          "driver": "Austin Cindric",
+          "car": 2
+        }
+      ],
+      "locked": false,
+      "change_status": ""
     },
     {
       "id": 7,
@@ -157,18 +310,41 @@ window.LEAGUE_DATA = {
         "Christopher Bell",
         "Kyle Larson",
         "Ryan Preece",
-        "Shane Van Gisbergen"
+        "Shane van Gisbergen"
       ],
       "charlotte": 453,
       "nashville": 411,
       "michigan": 305,
-      "segment_points": 1169,
-      "segment_total": 1169,
+      "pocono": 296,
+      "segment_points": 1465,
+      "segment_total": 1465,
       "weekly_scores": {
         "Charlotte": 453,
         "Nashville": 411,
-        "Michigan": 305
-      }
+        "Michigan": 305,
+        "Pocono": 296
+      },
+      "drafted": 7,
+      "roster": [
+        {
+          "driver": "Christopher Bell",
+          "car": 20
+        },
+        {
+          "driver": "Kyle Larson",
+          "car": 5
+        },
+        {
+          "driver": "Ryan Preece",
+          "car": 60
+        },
+        {
+          "driver": "Shane van Gisbergen",
+          "car": 97
+        }
+      ],
+      "locked": false,
+      "change_status": ""
     },
     {
       "id": 8,
@@ -182,13 +358,36 @@ window.LEAGUE_DATA = {
       "charlotte": 462,
       "nashville": 485,
       "michigan": 445,
-      "segment_points": 1392,
-      "segment_total": 1392,
+      "pocono": 438,
+      "segment_points": 1830,
+      "segment_total": 1830,
       "weekly_scores": {
         "Charlotte": 462,
         "Nashville": 485,
-        "Michigan": 445
-      }
+        "Michigan": 445,
+        "Pocono": 438
+      },
+      "drafted": 3,
+      "roster": [
+        {
+          "driver": "Chase Briscoe",
+          "car": 19
+        },
+        {
+          "driver": "Tyler Reddick",
+          "car": 45
+        },
+        {
+          "driver": "Daniel Suarez",
+          "car": 7
+        },
+        {
+          "driver": "Joey Logano",
+          "car": 22
+        }
+      ],
+      "locked": false,
+      "change_status": ""
     },
     {
       "id": 9,
@@ -202,13 +401,36 @@ window.LEAGUE_DATA = {
       "charlotte": 310,
       "nashville": 379,
       "michigan": 430,
-      "segment_points": 1119,
-      "segment_total": 1119,
+      "pocono": 429,
+      "segment_points": 1548,
+      "segment_total": 1548,
       "weekly_scores": {
         "Charlotte": 310,
         "Nashville": 379,
-        "Michigan": 430
-      }
+        "Michigan": 430,
+        "Pocono": 429
+      },
+      "drafted": 1,
+      "roster": [
+        {
+          "driver": "Kyle Larson",
+          "car": 5
+        },
+        {
+          "driver": "Chase Elliott",
+          "car": 9
+        },
+        {
+          "driver": "Austin Hill",
+          "car": 33
+        },
+        {
+          "driver": "Carson Hocevar",
+          "car": 77
+        }
+      ],
+      "locked": false,
+      "change_status": ""
     },
     {
       "id": 10,
@@ -222,13 +444,36 @@ window.LEAGUE_DATA = {
       "charlotte": 306,
       "nashville": 293,
       "michigan": 436,
-      "segment_points": 1035,
-      "segment_total": 1035,
+      "pocono": 447,
+      "segment_points": 1482,
+      "segment_total": 1482,
       "weekly_scores": {
         "Charlotte": 306,
         "Nashville": 293,
-        "Michigan": 436
-      }
+        "Michigan": 436,
+        "Pocono": 447
+      },
+      "drafted": 2,
+      "roster": [
+        {
+          "driver": "Chris Buescher",
+          "car": 17
+        },
+        {
+          "driver": "Denny Hamlin",
+          "car": 11
+        },
+        {
+          "driver": "Austin Cindric",
+          "car": 2
+        },
+        {
+          "driver": "Ryan Preece",
+          "car": 60
+        }
+      ],
+      "locked": false,
+      "change_status": ""
     }
   ],
   "standings": [
@@ -236,121 +481,131 @@ window.LEAGUE_DATA = {
       "rank": 1,
       "team": "JohnnyC",
       "team_id": 8,
-      "segment_points": 1392,
-      "points": 1392,
+      "segment_points": 1830,
+      "points": 1830,
       "behind": 0,
       "weekly_wins": 1,
       "charlotte": 462,
       "nashville": 485,
-      "michigan": 445
+      "michigan": 445,
+      "pocono": 438
     },
     {
       "rank": 2,
       "team": "Joe / Mike",
       "team_id": 3,
-      "segment_points": 1301,
-      "points": 1301,
-      "behind": 91,
+      "segment_points": 1695,
+      "points": 1695,
+      "behind": 135,
       "weekly_wins": 1,
       "charlotte": 449,
       "nashville": 490,
-      "michigan": 362
+      "michigan": 362,
+      "pocono": 394
     },
     {
       "rank": 3,
       "team": "Linda",
       "team_id": 1,
-      "segment_points": 1188,
-      "points": 1188,
-      "behind": 204,
-      "weekly_wins": 1,
+      "segment_points": 1652,
+      "points": 1652,
+      "behind": 178,
+      "weekly_wins": 2,
       "charlotte": 350,
       "nashville": 346,
-      "michigan": 492
+      "michigan": 492,
+      "pocono": 464
     },
     {
       "rank": 4,
-      "team": "JJ / George",
-      "team_id": 5,
-      "segment_points": 1184,
-      "points": 1184,
-      "behind": 208,
-      "weekly_wins": 0,
-      "charlotte": 448,
-      "nashville": 352,
-      "michigan": 384
-    },
-    {
-      "rank": 5,
       "team": "Don / Kendall",
       "team_id": 2,
-      "segment_points": 1176,
-      "points": 1176,
-      "behind": 216,
+      "segment_points": 1554,
+      "points": 1554,
+      "behind": 276,
       "weekly_wins": 0,
       "charlotte": 364,
       "nashville": 431,
-      "michigan": 381
+      "michigan": 381,
+      "pocono": 378
     },
     {
-      "rank": 6,
-      "team": "Craig / Patty",
-      "team_id": 7,
-      "segment_points": 1169,
-      "points": 1169,
-      "behind": 223,
-      "weekly_wins": 0,
-      "charlotte": 453,
-      "nashville": 411,
-      "michigan": 305
-    },
-    {
-      "rank": 7,
+      "rank": 5,
       "team": "Ron / Jill",
       "team_id": 9,
-      "segment_points": 1119,
-      "points": 1119,
-      "behind": 273,
+      "segment_points": 1548,
+      "points": 1548,
+      "behind": 282,
       "weekly_wins": 0,
       "charlotte": 310,
       "nashville": 379,
-      "michigan": 430
+      "michigan": 430,
+      "pocono": 429
     },
     {
-      "rank": 8,
-      "team": "Corey / Jeff",
-      "team_id": 4,
-      "segment_points": 1066,
-      "points": 1066,
-      "behind": 326,
+      "rank": 6,
+      "team": "JJ / George",
+      "team_id": 5,
+      "segment_points": 1517,
+      "points": 1517,
+      "behind": 313,
       "weekly_wins": 0,
-      "charlotte": 417,
-      "nashville": 285,
-      "michigan": 364
+      "charlotte": 448,
+      "nashville": 352,
+      "michigan": 384,
+      "pocono": 333
     },
     {
-      "rank": 9,
+      "rank": 7,
       "team": "Roberto / Elsie",
       "team_id": 10,
-      "segment_points": 1035,
-      "points": 1035,
-      "behind": 357,
+      "segment_points": 1482,
+      "points": 1482,
+      "behind": 348,
       "weekly_wins": 0,
       "charlotte": 306,
       "nashville": 293,
-      "michigan": 436
+      "michigan": 436,
+      "pocono": 447
+    },
+    {
+      "rank": 8,
+      "team": "Craig / Patty",
+      "team_id": 7,
+      "segment_points": 1465,
+      "points": 1465,
+      "behind": 365,
+      "weekly_wins": 0,
+      "charlotte": 453,
+      "nashville": 411,
+      "michigan": 305,
+      "pocono": 296
+    },
+    {
+      "rank": 9,
+      "team": "Corey / Jeff",
+      "team_id": 4,
+      "segment_points": 1421,
+      "points": 1421,
+      "behind": 409,
+      "weekly_wins": 0,
+      "charlotte": 417,
+      "nashville": 285,
+      "michigan": 364,
+      "pocono": 355
     },
     {
       "rank": 10,
       "team": "Grub / Jim",
       "team_id": 6,
-      "segment_points": 957,
-      "points": 957,
-      "behind": 435,
+      "segment_points": 1388,
+      "points": 1388,
+      "behind": 442,
       "weekly_wins": 0,
       "charlotte": 321,
       "nashville": 288,
-      "michigan": 348
+      "michigan": 348,
+      "pocono": 431
     }
   ],
   "weekly_winners": [
@@ -368,12 +623,18 @@ window.LEAGUE_DATA = {
       "race": "Michigan",
       "winner": "Linda",
       "score": 492
+    },
+    {
+      "race": "Pocono",
+      "winner": "Linda",
+      "score": 464
     }
   ],
   "notes": [
     "Use Segment Points instead of Total Points in site labels.",
-    "Team 2 Don / Kendall roster updated to Zane Smith (#38) for Michigan.",
-    "Michigan uploaded file: Michigan_race3.ods."
+    "Team 2 Don / Kendall roster updated to Zane Smith (#38) starting Michigan and remains locked.",
+    "Team 4 Corey / Jeff pending Coronado change: drop #6 Brad Keselowski and add #43 Erik Jones.",
+    "Pocono update calculated from NASCAR/Jayski start and finish positions."
   ],
   "schedule": [
     {
@@ -398,13 +659,13 @@ window.LEAGUE_DATA = {
       "race_number": 4,
       "name": "Pocono",
       "date": "2026-06-14",
-      "status": "Next Race"
+      "status": "Completed"
     },
     {
       "race_number": 5,
       "name": "Coronado Naval Base",
       "date": "2026-06-21",
-      "status": "Upcoming"
+      "status": "Next Race"
     },
     {
       "race_number": 6,
@@ -448,5 +709,252 @@ window.LEAGUE_DATA = {
       "date": "2026-08-15",
       "status": "Upcoming"
     }
-  ]
+  ],
+  "pocono_driver_results": [
+    {
+      "car": 11,
+      "driver": "Denny Hamlin",
+      "start": 1,
+      "qualifying_points": 40,
+      "finish": 1,
+      "race_points": 120,
+      "total": 160
+    },
+    {
+      "car": 45,
+      "driver": "Tyler Reddick",
+      "start": 16,
+      "qualifying_points": 25,
+      "finish": 2,
+      "race_points": 117,
+      "total": 142
+    },
+    {
+      "car": 24,
+      "driver": "William Byron",
+      "start": 9,
+      "qualifying_points": 32,
+      "finish": 3,
+      "race_points": 114,
+      "total": 146
+    },
+    {
+      "car": 5,
+      "driver": "Kyle Larson",
+      "start": 2,
+      "qualifying_points": 39,
+      "finish": 5,
+      "race_points": 108,
+      "total": 147
+    },
+    {
+      "car": 17,
+      "driver": "Chris Buescher",
+      "start": 6,
+      "qualifying_points": 35,
+      "finish": 7,
+      "race_points": 102,
+      "total": 137
+    },
+    {
+      "car": 1,
+      "driver": "Ross Chastain",
+      "start": 24,
+      "qualifying_points": 17,
+      "finish": 8,
+      "race_points": 99,
+      "total": 116
+    },
+    {
+      "car": 54,
+      "driver": "Ty Gibbs",
+      "start": 4,
+      "qualifying_points": 37,
+      "finish": 9,
+      "race_points": 96,
+      "total": 133
+    },
+    {
+      "car": 12,
+      "driver": "Ryan Blaney",
+      "start": 10,
+      "qualifying_points": 31,
+      "finish": 10,
+      "race_points": 93,
+      "total": 124
+    },
+    {
+      "car": 9,
+      "driver": "Chase Elliott",
+      "start": 23,
+      "qualifying_points": 18,
+      "finish": 11,
+      "race_points": 90,
+      "total": 108
+    },
+    {
+      "car": 19,
+      "driver": "Chase Briscoe",
+      "start": 5,
+      "qualifying_points": 36,
+      "finish": 12,
+      "race_points": 87,
+      "total": 123
+    },
+    {
+      "car": 7,
+      "driver": "Daniel Suarez",
+      "start": 3,
+      "qualifying_points": 38,
+      "finish": 13,
+      "race_points": 84,
+      "total": 122
+    },
+    {
+      "car": 2,
+      "driver": "Austin Cindric",
+      "start": 17,
+      "qualifying_points": 24,
+      "finish": 14,
+      "race_points": 81,
+      "total": 105
+    },
+    {
+      "car": 33,
+      "driver": "Austin Hill",
+      "start": 14,
+      "qualifying_points": 27,
+      "finish": 18,
+      "race_points": 69,
+      "total": 96
+    },
+    {
+      "car": 77,
+      "driver": "Carson Hocevar",
+      "start": 26,
+      "qualifying_points": 15,
+      "finish": 20,
+      "race_points": 63,
+      "total": 78
+    },
+    {
+      "car": 23,
+      "driver": "Bubba Wallace",
+      "start": 38,
+      "qualifying_points": 3,
+      "finish": 21,
+      "race_points": 60,
+      "total": 63
+    },
+    {
+      "car": 20,
+      "driver": "Christopher Bell",
+      "start": 22,
+      "qualifying_points": 19,
+      "finish": 26,
+      "race_points": 45,
+      "total": 64
+    },
+    {
+      "car": 60,
+      "driver": "Ryan Preece",
+      "start": 35,
+      "qualifying_points": 6,
+      "finish": 28,
+      "race_points": 39,
+      "total": 45
+    },
+    {
+      "car": 97,
+      "driver": "Shane van Gisbergen",
+      "start": 31,
+      "qualifying_points": 10,
+      "finish": 31,
+      "race_points": 30,
+      "total": 40
+    },
+    {
+      "car": 22,
+      "driver": "Joey Logano",
+      "start": 11,
+      "qualifying_points": 30,
+      "finish": 34,
+      "race_points": 21,
+      "total": 51
+    },
+    {
+      "car": 38,
+      "driver": "Zane Smith",
+      "start": 18,
+      "qualifying_points": 23,
+      "finish": 37,
+      "race_points": 12,
+      "total": 35
+    },
+    {
+      "car": 6,
+      "driver": "Brad Keselowski",
+      "start": 37,
+      "qualifying_points": 4,
+      "finish": 38,
+      "race_points": 9,
+      "total": 13
+    }
+  ],
+  "driver_car_numbers": {
+    "Denny Hamlin": 11,
+    "Chris Buescher": 17,
+    "Joey Logano": 22,
+    "Ross Chastain": 1,
+    "Tyler Reddick": 45,
+    "Chase Briscoe": 19,
+    "Carson Hocevar": 77,
+    "Zane Smith": 38,
+    "Chase Elliott": 9,
+    "Ryan Blaney": 12,
+    "Shane van Gisbergen": 97,
+    "Daniel Suarez": 7,
+    "Ty Gibbs": 54,
+    "William Byron": 24,
+    "Bubba Wallace": 23,
+    "Brad Keselowski": 6,
+    "Erik Jones": 43,
+    "Christopher Bell": 20,
+    "Austin Cindric": 2,
+    "Kyle Larson": 5,
+    "Ryan Preece": 60,
+    "Austin Hill": 33
+  },
+  "league_transactions": [
+    {
+      "team_id": 2,
+      "team": "Don / Kendall",
+      "status": "Completed",
+      "out": "#48 Alex Bowman",
+      "in": "#38 Zane Smith",
+      "effective": "Race 3 - Michigan",
+      "lock_status": "Locked"
+    },
+    {
+      "team_id": 4,
+      "team": "Corey / Jeff",
+      "status": "Pending Change",
+      "out": "#6 Brad Keselowski",
+      "in": "#43 Erik Jones",
+      "effective": "Race 5 - Coronado Naval Base",
+      "lock_status": "Pending Lock"
+    }
+  ],
+  "homepage_alerts": [
+    {
+      "title": "League Transaction - Pending",
+      "message": "Team 4 (Corey / Jeff) dropped #6 Brad Keselowski and picked up #43 Erik Jones. This change becomes effective at Race 5 - Coronado Naval Base.",
+      "type": "transaction"
+    }
+  ],
+  "points_leader": {
+    "team": "JohnnyC",
+    "team_id": 8,
+    "segment_points": 1830
+  }
 };
