@@ -1049,7 +1049,7 @@ window.LEAGUE_DATA = {
         "Nashville": 285,
         "Michigan": 364,
         "Pocono": 355,
-        "Coronado": 319
+        "Coronado": 361
       }
     },
     {
