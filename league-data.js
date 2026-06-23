@@ -322,7 +322,7 @@ window.LEAGUE_DATA = {
         },
         {
           "race": "Coronado",
-          "points": 319
+          "points": 361
         }
       ],
       "segment_points": 1740,
