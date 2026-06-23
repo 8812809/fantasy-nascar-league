@@ -1043,7 +1043,7 @@ window.LEAGUE_DATA = {
       "nashville": 285,
       "michigan": 364,
       "pocono": 355,
-      "coronado": 319,
+      "coronado": 361,
       "weekly_scores": {
         "Charlotte": 417,
         "Nashville": 285,
