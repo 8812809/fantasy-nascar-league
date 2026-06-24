@@ -1410,7 +1410,7 @@ window.LEAGUE_DATA = {
           "team_id": 4,
           "team": "Corey / Jeff",
           "display_name": "Team 4 Corey / Jeff",
-          "points": 319
+          "points": 361
         },
         {
           "team_id": 5,
@@ -1420,7 +1420,7 @@ window.LEAGUE_DATA = {
         },
         {
           "team_id": 6,
-          "team": "Grub / Jim",
+          "team": "Grub / Jim",.
           "display_name": "Team 6 Grub / Jim",
           "points": 243
         },
@@ -2040,8 +2040,8 @@ window.LEAGUE_DATA = {
           "team_id": 4,
           "team": "Corey / Jeff",
           "qualifying_points": 76,
-          "race_points": 243,
-          "weekly_total": 319
+          "race_points": 285,
+          "weekly_total": 361
         },
         {
           "team_id": 5,
