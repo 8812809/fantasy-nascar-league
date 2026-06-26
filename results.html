@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Race Results | Fantasy NASCAR League</title>
+  <style>
+:root{--bg:#f4f4f4;--text:#222;--dark:#111;--mid:#222;--light:#fff;--gold:#d6a600;--soft:#fff7d6;--border:#ddd;--muted:#666;--green:#e6f7ea;--red:#fde8e8;}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.55;font-size:17px}header{background:var(--dark);color:#fff;padding:18px 16px;text-align:center}header h1{margin:0;font-size:1.9rem;letter-spacing:.5px}header p{margin:6px 0 0;color:#ddd}.menu-wrap{background:var(--mid);padding:10px 16px;text-align:center}details{max-width:560px;margin:0 auto;text-align:left}summary{cursor:pointer;color:#fff;font-weight:bold;font-size:1.25rem;list-style:none;padding:15px 20px;background:#333;border-radius:10px;text-align:center}summary::-webkit-details-marker{display:none}nav{margin-top:8px;background:#fff;border-radius:8px;overflow:hidden;border:1px solid var(--border)}nav a{display:block;padding:15px 18px;color:#111;text-decoration:none;border-bottom:1px solid #eee;font-weight:bold;font-size:1.08rem}nav a:last-child{border-bottom:none}nav a:hover,nav a.active{background:var(--soft)}main{max-width:1100px;margin:0 auto;padding:18px 14px 40px}.card{background:#fff;border-radius:12px;padding:18px;margin-bottom:18px;box-shadow:0 2px 8px rgba(0,0,0,.08)}h2{margin-top:0;border-bottom:3px solid #111;padding-bottom:8px;font-size:1.45rem}h3{margin:16px 0 8px}.button-link{display:inline-block;background:#111;color:#fff;text-decoration:none;padding:12px 16px;border-radius:9px;font-weight:bold;margin:6px 6px 6px 0;font-size:1rem}table{width:100%;border-collapse:collapse;margin-top:10px;font-size:1rem}th,td{padding:10px;border:1px solid var(--border);text-align:left;vertical-align:top}th{background:#111;color:#fff}tr:nth-child(even){background:#fafafa}.note{background:var(--soft);border:1px solid var(--gold);border-radius:10px;padding:13px}.muted{color:var(--muted);font-size:.92rem}.race-nav{margin-bottom:12px}.footer{max-width:1050px;margin:0 auto;padding:20px 14px 30px;color:#666;text-align:center;font-size:.85rem;border-top:1px solid #ddd}.num{text-align:right}.winner{background:var(--green);font-weight:bold}.scroll{overflow-x:auto}@media(max-width:700px){body{font-size:16px}header h1{font-size:1.65rem}main{padding:14px 10px 32px}.card{padding:14px}th,td{padding:9px;font-size:.94rem}summary{font-size:1.2rem;padding:15px 20px}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Race Results</h1>
+    <p>Weekly team scores broken down by qualifying points, race points, and weekly total.</p>
+  </header>
+  <div class="menu-wrap">
+    <details>
+      <summary>☰ Menu</summary>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="standings.html">Standings</a>
+        <a href="teams.html">Teams</a>
+        <a class="active" href="results.html">Race Results</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="rules.html">Rules</a>
+        <a href="history.html">History</a>
+      </nav>
+    </details>
+  </div>
+  <main>
+    <section class="card">
+      <h2>Race Results Summary</h2>
+      <p class="muted">Use the buttons to jump to each race. The page uses detailed qualifying/race/driver data when available and falls back to weekly team scores when that is all that is loaded.</p>
+      <div class="race-nav" id="raceNav"></div>
+    </section>
+    <div id="resultsArea"></div>
+  </main>
+  <div class="footer">Fantasy NASCAR League is an independent private fantasy league site. NASCAR and driver/team names are property of their respective owners.</div>
+
+  <script src="league-data.js"></script>
+  <script>
+(function(){
+  const d = window.LEAGUE_DATA || {};
+  const nav = document.getElementById('raceNav');
+  const area = document.getElementById('resultsArea');
+  const fmt = v => (v === null || v === undefined || v === '') ? '—' : v;
+  const normalize = s => String(s || '').trim().toLowerCase();
+
+  function raceKey(name){ return normalize(name).replace(/[^a-z0-9]+/g,''); }
+
+  function getRaceResultsMap(){
+    const map = {};
+    if (d.race_results && typeof d.race_results === 'object') {
+      Object.entries(d.race_results).forEach(([name, val]) => {
+        if (val && typeof val === 'object') map[raceKey(name)] = Object.assign({name:name}, val);
+      });
+    }
+    if (Array.isArray(d.race_breakdowns)) {
+      d.race_breakdowns.forEach(r => { if (r && r.name) map[raceKey(r.name)] = r; });
+    } else if (d.race_breakdowns && typeof d.race_breakdowns === 'object') {
+      Object.entries(d.race_breakdowns).forEach(([name, val]) => {
+        if (val && typeof val === 'object') map[raceKey(name)] = Object.assign({name:name}, val);
+      });
+    }
+    return map;
+  }
+
+  function getWeeklyScoresMap(){
+    const map = {};
+    (d.weekly_team_scores || []).forEach(w => {
+      if (w && w.race) map[raceKey(w.race)] = w;
+    });
+    return map;
+  }
+
+  function getWinnerMap(){
+    const map = {};
+    (d.weekly_winners || []).forEach(w => {
+      if (w && w.race) map[raceKey(w.race)] = w;
+    });
+    (d.races || []).forEach(r => {
+      if (r && r.name) {
+        const key = raceKey(r.name);
+        map[key] = Object.assign({}, map[key] || {}, {
+          weekly_winner_display: r.weekly_winner,
+          winning_score: r.winning_score
+        });
+      }
+    });
+    return map;
+  }
+
+  function teamNameById(id){
+    const t = (d.teams || []).find(x => Number(x.id) === Number(id) || Number(x.team_id) === Number(id));
+    return t ? (t.display_name || ('Team ' + t.id + ' ' + t.name)) : ('Team ' + id);
+  }
+
+  const detailsMap = getRaceResultsMap();
+  const weeklyMap = getWeeklyScoresMap();
+  const winnerMap = getWinnerMap();
+
+  let races = (d.races || []).map(r => Object.assign({}, r));
+  if (!races.length && Array.isArray(d.schedule)) {
+    races = d.schedule.filter(r => /completed/i.test(r.status || '')).map(r => Object.assign({}, r));
+  }
+
+  // Add races that exist only in weekly_team_scores or race_results.
+  Object.values(weeklyMap).forEach(w => {
+    if (!races.some(r => raceKey(r.name) === raceKey(w.race))) {
+      races.push({race_number:w.race_number, name:w.race, status:'Completed'});
+    }
+  });
+  Object.entries(detailsMap).forEach(([key, r]) => {
+    if (!races.some(x => raceKey(x.name) === key)) {
+      races.push({race_number:r.race_number, name:r.name || key, status:'Completed'});
+    }
+  });
+
+  races = races
+    .filter(r => r && r.name)
+    .filter(r => {
+      const key = raceKey(r.name);
+      return /completed/i.test(r.status || '') || weeklyMap[key] || detailsMap[key] || r.weekly_winner || r.winning_score;
+    })
+    .sort((a,b)=>(Number(a.race_number)||99)-(Number(b.race_number)||99));
+
+  nav.innerHTML = races.map(r => `<a class="button-link" href="#race-${fmt(r.race_number)}">Race ${fmt(r.race_number)}: ${fmt(r.name)}</a>`).join('');
+
+  area.innerHTML = races.map(r => {
+    const key = raceKey(r.name);
+    const detail = detailsMap[key] || {};
+    const weekly = weeklyMap[key] || {};
+    const win = winnerMap[key] || {};
+    const teams = (detail.team_results || detail.team_breakdown || weekly.scores || []).slice();
+
+    teams.sort((a,b) => {
+      const av = Number(a.rank || 0), bv = Number(b.rank || 0);
+      if (av && bv) return av - bv;
+      const ap = Number(a.weekly_total ?? a.points ?? 0);
+      const bp = Number(b.weekly_total ?? b.points ?? 0);
+      return bp - ap;
+    });
+
+    const teamRows = teams.map((t, i) => {
+      const teamId = t.team_id || t.id || '';
+      const total = t.weekly_total ?? t.points;
+      const q = t.qualifying_points ?? t.starting_points ?? '—';
+      const rp = t.race_points ?? '—';
+      const rank = t.rank || (i + 1);
+      const label = t.display_name || (teamId ? teamNameById(teamId) : (t.team || '—'));
+      const isWinner = (win.team_id && Number(teamId) === Number(win.team_id)) ||
+                       (detail.weekly_winner_team_id && Number(teamId) === Number(detail.weekly_winner_team_id)) ||
+                       (win.team && normalize(t.team) === normalize(win.team));
+      return `<tr class="${isWinner ? 'winner' : ''}"><td>${fmt(rank)}</td><td>${fmt(label)}</td><td class="num">${fmt(q)}</td><td class="num">${fmt(rp)}</td><td class="num"><strong>${fmt(total)}</strong></td></tr>`;
+    }).join('');
+
+    const drivers = detail.driver_results || [];
+    const driverRows = drivers.length ? drivers.map(dr => `<tr><td>${dr.team_id ? teamNameById(dr.team_id) : '—'}</td><td>#${fmt(dr.car || dr.car_number)}</td><td>${fmt(dr.driver)}</td><td class="num">${fmt(dr.start)}</td><td class="num">${fmt(dr.qualifying_points)}</td><td class="num">${fmt(dr.finish)}</td><td class="num">${fmt(dr.race_points)}</td><td class="num"><strong>${fmt(dr.total)}</strong></td></tr>`).join('') : `<tr><td colspan="8" class="muted">Driver/car breakdown is not loaded for this race yet.</td></tr>`;
+
+    const winnerText = win.weekly_winner_display || detail.weekly_winner_display || (win.team_id ? teamNameById(win.team_id) : (win.winner || detail.weekly_winner || '—'));
+    const winningScore = win.winning_score || win.score || detail.winning_score || '—';
+
+    return `<section class="card" id="race-${fmt(r.race_number)}">
+      <h2>Race ${fmt(r.race_number)}: ${fmt(r.name)}</h2>
+      <p><strong>Weekly Side Bet Winner:</strong> ${fmt(winnerText)} &nbsp; <strong>Winning Score:</strong> ${fmt(winningScore)}</p>
+      ${detail.note ? `<p class="note">${detail.note}</p>` : ''}
+      <h3>Weekly Team Scores</h3>
+      <div class="scroll"><table><thead><tr><th>Rank</th><th>Team</th><th>Qualifying Points</th><th>Race Points</th><th>Weekly Total</th></tr></thead><tbody>${teamRows || `<tr><td colspan="5" class="muted">Team scores are not loaded for this race yet.</td></tr>`}</tbody></table></div>
+      <h3>Driver / Car Breakdown</h3>
+      <div class="scroll"><table><thead><tr><th>Team</th><th>Car #</th><th>Driver</th><th>Start</th><th>Qualifying Points</th><th>Finish</th><th>Race Points</th><th>Total</th></tr></thead><tbody>${driverRows}</tbody></table></div>
+    </section>`;
+  }).join('') || '<section class="card"><p>No race results loaded.</p></section>';
+})();
+  </script>
+</body>
+</html>
