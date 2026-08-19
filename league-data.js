@@ -1390,7 +1390,7 @@ window.LEAGUE_DATA = {
       "segment_points": 5140,
       "segment_total": 5140,
       "points": 5140,
-      "weekly_wins": 2,
+      "weekly_wins": 3,
       "charlotte": 462,
       "nashville": 485,
       "michigan": 445,
