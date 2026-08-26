@@ -12,7 +12,7 @@ window.LEAGUE_DATA = {
       "name": "New Hampshire Motor Speedway",
       "date": "2026-08-23",
       "status": "Completed",
-      "weekly_winner": "TIE \u2014 Team 5 Don / Kendall and Team 9 Joe / Mike",
+      "weekly_winner": "TIE — Team 5 Don / Kendall and Team 9 Joe / Mike",
       "winning_score": 480
     }
   ],
@@ -22,7 +22,7 @@ window.LEAGUE_DATA = {
       "name": "New Hampshire Motor Speedway",
       "date": "2026-08-23",
       "status": "Completed",
-      "weekly_winner": "TIE \u2014 Team 5 Don / Kendall and Team 9 Joe / Mike",
+      "weekly_winner": "TIE — Team 5 Don / Kendall and Team 9 Joe / Mike",
       "winning_score": 480
     },
     {
@@ -565,7 +565,7 @@ window.LEAGUE_DATA = {
       "segment_total": 480,
       "points": 480,
       "behind": 0,
-      "weekly_wins": 1,
+      "weekly_wins": 0.5,
       "weekly_scores": {
         "New Hampshire Motor Speedway": 480
       }
@@ -580,7 +580,7 @@ window.LEAGUE_DATA = {
       "segment_total": 480,
       "points": 480,
       "behind": 0,
-      "weekly_wins": 1,
+      "weekly_wins": 0.5,
       "weekly_scores": {
         "New Hampshire Motor Speedway": 480
       }
@@ -710,7 +710,7 @@ window.LEAGUE_DATA = {
     {
       "race": "New Hampshire Motor Speedway",
       "race_number": 1,
-      "winner": "TIE \u2014 Team 5 Don / Kendall and Team 9 Joe / Mike",
+      "winner": "TIE — Team 5 Don / Kendall and Team 9 Joe / Mike",
       "team_ids": [
         5,
         9
@@ -1211,7 +1211,7 @@ window.LEAGUE_DATA = {
   ],
   "race_results": {
     "New Hampshire Motor Speedway": {
-      "weekly_winner_display": "TIE \u2014 Team 5 Don / Kendall and Team 9 Joe / Mike",
+      "weekly_winner_display": "TIE — Team 5 Don / Kendall and Team 9 Joe / Mike",
       "winning_score": 480,
       "team_breakdown": [
         {
