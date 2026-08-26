@@ -30,6 +30,66 @@
       "name": "Daytona International Speedway",
       "date": "2026-08-29",
       "status": "Upcoming"
+    },
+    {
+      "race_number": 3,
+      "name": "Darlington Raceway",
+      "date": "2026-09-06",
+      "status": "Upcoming"
+    },
+    {
+      "race_number": 4,
+      "name": "World Wide Technology Raceway",
+      "date": "2026-09-13",
+      "status": "Upcoming"
+    },
+    {
+      "race_number": 5,
+      "name": "Bristol Motor Speedway",
+      "date": "2026-09-19",
+      "status": "Upcoming"
+    },
+    {
+      "race_number": 6,
+      "name": "Kansas Speedway",
+      "date": "2026-09-27",
+      "status": "Upcoming"
+    },
+    {
+      "race_number": 7,
+      "name": "Las Vegas Motor Speedway",
+      "date": "2026-10-04",
+      "status": "Upcoming"
+    },
+    {
+      "race_number": 8,
+      "name": "Charlotte Motor Speedway",
+      "date": "2026-10-11",
+      "status": "Upcoming"
+    },
+    {
+      "race_number": 9,
+      "name": "Phoenix Raceway",
+      "date": "2026-10-18",
+      "status": "Upcoming"
+    },
+    {
+      "race_number": 10,
+      "name": "Talladega Superspeedway",
+      "date": "2026-10-25",
+      "status": "Upcoming"
+    },
+    {
+      "race_number": 11,
+      "name": "Martinsville Speedway",
+      "date": "2026-11-01",
+      "status": "Upcoming"
+    },
+    {
+      "race_number": 12,
+      "name": "Homestead-Miami Speedway",
+      "date": "2026-11-08",
+      "status": "Upcoming"
     }
   ],
   "teams": [
