@@ -1,8 +1,5 @@
-Fantasy NASCAR League — Segment 3 New Hampshire correction
+Fantasy NASCAR League — Segment 3 Race 2 Daytona update
 
-Upload all files in this ZIP to the root of the GitHub repository, replacing matching files.
+Upload all files in this ZIP to the root of the GitHub repository, replacing matching files. Do not delete existing files first.
 
-Corrections:
-- Homepage Standings Leader shows the tie between Team 5 Don / Kendall and Team 9 Joe / Mike at 480 points.
-- Segment 3 standings Weekly Wins shows 0.5 for Team 5 and 0.5 for Team 9.
-- All other Segment 3 and archived Segment 2 data is preserved.
+Daytona was independently scored from the official race start/finish positions using the league rules and car number as the scoring key. The calculated weekly totals matched the supplied Excel workbook for all 10 teams.

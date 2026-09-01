@@ -1,10 +1,10 @@
 window.LEAGUE_DATA = {
   "league": "Fantasy NASCAR League",
   "segment": 3,
-  "races_completed": 1,
-  "current_race": "New Hampshire Motor Speedway",
-  "next_race": "Daytona International Speedway",
-  "last_updated": "2026-08-26",
+  "races_completed": 2,
+  "current_race": "Daytona International Speedway",
+  "next_race": "Darlington Raceway",
+  "last_updated": "2026-09-01",
   "label_preference": "Segment Points",
   "races": [
     {
@@ -14,6 +14,14 @@ window.LEAGUE_DATA = {
       "status": "Completed",
       "weekly_winner": "TIE — Team 5 Don / Kendall and Team 9 Joe / Mike",
       "winning_score": 480
+    },
+    {
+      "race_number": 2,
+      "name": "Daytona International Speedway",
+      "date": "2026-08-29",
+      "status": "Completed",
+      "weekly_winner": "Team 5 Don / Kendall",
+      "winning_score": 521
     }
   ],
   "schedule": [
@@ -29,7 +37,9 @@ window.LEAGUE_DATA = {
       "race_number": 2,
       "name": "Daytona International Speedway",
       "date": "2026-08-29",
-      "status": "Upcoming"
+      "status": "Completed",
+      "weekly_winner": "Team 5 Don / Kendall",
+      "winning_score": 521
     },
     {
       "race_number": 3,
@@ -130,16 +140,21 @@ window.LEAGUE_DATA = {
           "display": "Austin Cindric #2"
         }
       ],
-      "segment_points": 395,
-      "segment_total": 395,
-      "points": 395,
+      "segment_points": 749,
+      "segment_total": 749,
+      "points": 749,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 395
+        "New Hampshire Motor Speedway": 395,
+        "Daytona International Speedway": 354
       },
       "weekly_points": [
         {
           "race": "New Hampshire Motor Speedway",
           "points": 395
+        },
+        {
+          "race": "Daytona International Speedway",
+          "points": 354
         }
       ],
       "locked": false,
@@ -182,16 +197,21 @@ window.LEAGUE_DATA = {
           "display": "Shane Van Gisbergen #97"
         }
       ],
-      "segment_points": 408,
-      "segment_total": 408,
-      "points": 408,
+      "segment_points": 635,
+      "segment_total": 635,
+      "points": 635,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 408
+        "New Hampshire Motor Speedway": 408,
+        "Daytona International Speedway": 227
       },
       "weekly_points": [
         {
           "race": "New Hampshire Motor Speedway",
           "points": 408
+        },
+        {
+          "race": "Daytona International Speedway",
+          "points": 227
         }
       ],
       "locked": false,
@@ -234,16 +254,21 @@ window.LEAGUE_DATA = {
           "display": "Erik Jones #43"
         }
       ],
-      "segment_points": 436,
-      "segment_total": 436,
-      "points": 436,
+      "segment_points": 725,
+      "segment_total": 725,
+      "points": 725,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 436
+        "New Hampshire Motor Speedway": 436,
+        "Daytona International Speedway": 289
       },
       "weekly_points": [
         {
           "race": "New Hampshire Motor Speedway",
           "points": 436
+        },
+        {
+          "race": "Daytona International Speedway",
+          "points": 289
         }
       ],
       "locked": false,
@@ -286,16 +311,21 @@ window.LEAGUE_DATA = {
           "display": "Alex Bowman #48"
         }
       ],
-      "segment_points": 394,
-      "segment_total": 394,
-      "points": 394,
+      "segment_points": 767,
+      "segment_total": 767,
+      "points": 767,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 394
+        "New Hampshire Motor Speedway": 394,
+        "Daytona International Speedway": 373
       },
       "weekly_points": [
         {
           "race": "New Hampshire Motor Speedway",
           "points": 394
+        },
+        {
+          "race": "Daytona International Speedway",
+          "points": 373
         }
       ],
       "locked": false,
@@ -338,16 +368,21 @@ window.LEAGUE_DATA = {
           "display": "Josh Berry #21"
         }
       ],
-      "segment_points": 480,
-      "segment_total": 480,
-      "points": 480,
+      "segment_points": 1001,
+      "segment_total": 1001,
+      "points": 1001,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 480
+        "New Hampshire Motor Speedway": 480,
+        "Daytona International Speedway": 521
       },
       "weekly_points": [
         {
           "race": "New Hampshire Motor Speedway",
           "points": 480
+        },
+        {
+          "race": "Daytona International Speedway",
+          "points": 521
         }
       ],
       "locked": false,
@@ -390,16 +425,21 @@ window.LEAGUE_DATA = {
           "display": "Ross Chastain #1"
         }
       ],
-      "segment_points": 428,
-      "segment_total": 428,
-      "points": 428,
+      "segment_points": 719,
+      "segment_total": 719,
+      "points": 719,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 428
+        "New Hampshire Motor Speedway": 428,
+        "Daytona International Speedway": 291
       },
       "weekly_points": [
         {
           "race": "New Hampshire Motor Speedway",
           "points": 428
+        },
+        {
+          "race": "Daytona International Speedway",
+          "points": 291
         }
       ],
       "locked": false,
@@ -442,16 +482,21 @@ window.LEAGUE_DATA = {
           "display": "Bubba Wallace #23"
         }
       ],
-      "segment_points": 423,
-      "segment_total": 423,
-      "points": 423,
+      "segment_points": 859,
+      "segment_total": 859,
+      "points": 859,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 423
+        "New Hampshire Motor Speedway": 423,
+        "Daytona International Speedway": 436
       },
       "weekly_points": [
         {
           "race": "New Hampshire Motor Speedway",
           "points": 423
+        },
+        {
+          "race": "Daytona International Speedway",
+          "points": 436
         }
       ],
       "locked": false,
@@ -494,16 +539,21 @@ window.LEAGUE_DATA = {
           "display": "Daniel Suarez #7"
         }
       ],
-      "segment_points": 395,
-      "segment_total": 395,
-      "points": 395,
+      "segment_points": 811,
+      "segment_total": 811,
+      "points": 811,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 395
+        "New Hampshire Motor Speedway": 395,
+        "Daytona International Speedway": 416
       },
       "weekly_points": [
         {
           "race": "New Hampshire Motor Speedway",
           "points": 395
+        },
+        {
+          "race": "Daytona International Speedway",
+          "points": 416
         }
       ],
       "locked": false,
@@ -546,16 +596,21 @@ window.LEAGUE_DATA = {
           "display": "Carson Hocevar #77"
         }
       ],
-      "segment_points": 480,
-      "segment_total": 480,
-      "points": 480,
+      "segment_points": 747,
+      "segment_total": 747,
+      "points": 747,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 480
+        "New Hampshire Motor Speedway": 480,
+        "Daytona International Speedway": 267
       },
       "weekly_points": [
         {
           "race": "New Hampshire Motor Speedway",
           "points": 480
+        },
+        {
+          "race": "Daytona International Speedway",
+          "points": 267
         }
       ],
       "locked": false,
@@ -598,16 +653,21 @@ window.LEAGUE_DATA = {
           "display": "Chase Elliott #9"
         }
       ],
-      "segment_points": 399,
-      "segment_total": 399,
-      "points": 399,
+      "segment_points": 716,
+      "segment_total": 716,
+      "points": 716,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 399
+        "New Hampshire Motor Speedway": 399,
+        "Daytona International Speedway": 317
       },
       "weekly_points": [
         {
           "race": "New Hampshire Motor Speedway",
           "points": 399
+        },
+        {
+          "race": "Daytona International Speedway",
+          "points": 317
         }
       ],
       "locked": false,
@@ -621,148 +681,158 @@ window.LEAGUE_DATA = {
       "team_id": 5,
       "team_number": 5,
       "display_name": "Team 5 Don / Kendall",
-      "segment_points": 480,
-      "segment_total": 480,
-      "points": 480,
+      "segment_points": 1001,
+      "segment_total": 1001,
+      "points": 1001,
       "behind": 0,
-      "weekly_wins": 0.5,
+      "weekly_wins": 1.5,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 480
+        "New Hampshire Motor Speedway": 480,
+        "Daytona International Speedway": 521
       }
     },
     {
-      "rank": 1,
-      "team": "Joe / Mike",
-      "team_id": 9,
-      "team_number": 9,
-      "display_name": "Team 9 Joe / Mike",
-      "segment_points": 480,
-      "segment_total": 480,
-      "points": 480,
-      "behind": 0,
-      "weekly_wins": 0.5,
-      "weekly_scores": {
-        "New Hampshire Motor Speedway": 480
-      }
-    },
-    {
-      "rank": 3,
-      "team": "JJ / George",
-      "team_id": 3,
-      "team_number": 3,
-      "display_name": "Team 3 JJ / George",
-      "segment_points": 436,
-      "segment_total": 436,
-      "points": 436,
-      "behind": -44,
-      "weekly_wins": 0,
-      "weekly_scores": {
-        "New Hampshire Motor Speedway": 436
-      }
-    },
-    {
-      "rank": 4,
-      "team": "Craig / Patty",
-      "team_id": 6,
-      "team_number": 6,
-      "display_name": "Team 6 Craig / Patty",
-      "segment_points": 428,
-      "segment_total": 428,
-      "points": 428,
-      "behind": -52,
-      "weekly_wins": 0,
-      "weekly_scores": {
-        "New Hampshire Motor Speedway": 428
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "team": "Grub / Jim",
       "team_id": 7,
       "team_number": 7,
       "display_name": "Team 7 Grub / Jim",
-      "segment_points": 423,
-      "segment_total": 423,
-      "points": 423,
-      "behind": -57,
+      "segment_points": 859,
+      "segment_total": 859,
+      "points": 859,
+      "behind": -142,
       "weekly_wins": 0,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 423
+        "New Hampshire Motor Speedway": 423,
+        "Daytona International Speedway": 436
       }
     },
     {
-      "rank": 6,
-      "team": "Corey / Jeff",
-      "team_id": 2,
-      "team_number": 2,
-      "display_name": "Team 2 Corey / Jeff",
-      "segment_points": 408,
-      "segment_total": 408,
-      "points": 408,
-      "behind": -72,
-      "weekly_wins": 0,
-      "weekly_scores": {
-        "New Hampshire Motor Speedway": 408
-      }
-    },
-    {
-      "rank": 7,
-      "team": "Linda",
-      "team_id": 10,
-      "team_number": 10,
-      "display_name": "Team 10 Linda",
-      "segment_points": 399,
-      "segment_total": 399,
-      "points": 399,
-      "behind": -81,
-      "weekly_wins": 0,
-      "weekly_scores": {
-        "New Hampshire Motor Speedway": 399
-      }
-    },
-    {
-      "rank": 8,
-      "team": "Roberto / Elsie",
-      "team_id": 1,
-      "team_number": 1,
-      "display_name": "Team 1 Roberto / Elsie",
-      "segment_points": 395,
-      "segment_total": 395,
-      "points": 395,
-      "behind": -85,
-      "weekly_wins": 0,
-      "weekly_scores": {
-        "New Hampshire Motor Speedway": 395
-      }
-    },
-    {
-      "rank": 8,
+      "rank": 3,
       "team": "JohnnyC",
       "team_id": 8,
       "team_number": 8,
       "display_name": "Team 8 JohnnyC",
-      "segment_points": 395,
-      "segment_total": 395,
-      "points": 395,
-      "behind": -85,
+      "segment_points": 811,
+      "segment_total": 811,
+      "points": 811,
+      "behind": -190,
       "weekly_wins": 0,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 395
+        "New Hampshire Motor Speedway": 395,
+        "Daytona International Speedway": 416
       }
     },
     {
-      "rank": 10,
+      "rank": 4,
       "team": "Ron / Jill",
       "team_id": 4,
       "team_number": 4,
       "display_name": "Team 4 Ron / Jill",
-      "segment_points": 394,
-      "segment_total": 394,
-      "points": 394,
-      "behind": -86,
+      "segment_points": 767,
+      "segment_total": 767,
+      "points": 767,
+      "behind": -234,
       "weekly_wins": 0,
       "weekly_scores": {
-        "New Hampshire Motor Speedway": 394
+        "New Hampshire Motor Speedway": 394,
+        "Daytona International Speedway": 373
+      }
+    },
+    {
+      "rank": 5,
+      "team": "Roberto / Elsie",
+      "team_id": 1,
+      "team_number": 1,
+      "display_name": "Team 1 Roberto / Elsie",
+      "segment_points": 749,
+      "segment_total": 749,
+      "points": 749,
+      "behind": -252,
+      "weekly_wins": 0,
+      "weekly_scores": {
+        "New Hampshire Motor Speedway": 395,
+        "Daytona International Speedway": 354
+      }
+    },
+    {
+      "rank": 6,
+      "team": "Joe / Mike",
+      "team_id": 9,
+      "team_number": 9,
+      "display_name": "Team 9 Joe / Mike",
+      "segment_points": 747,
+      "segment_total": 747,
+      "points": 747,
+      "behind": -254,
+      "weekly_wins": 0.5,
+      "weekly_scores": {
+        "New Hampshire Motor Speedway": 480,
+        "Daytona International Speedway": 267
+      }
+    },
+    {
+      "rank": 7,
+      "team": "JJ / George",
+      "team_id": 3,
+      "team_number": 3,
+      "display_name": "Team 3 JJ / George",
+      "segment_points": 725,
+      "segment_total": 725,
+      "points": 725,
+      "behind": -276,
+      "weekly_wins": 0,
+      "weekly_scores": {
+        "New Hampshire Motor Speedway": 436,
+        "Daytona International Speedway": 289
+      }
+    },
+    {
+      "rank": 8,
+      "team": "Craig / Patty",
+      "team_id": 6,
+      "team_number": 6,
+      "display_name": "Team 6 Craig / Patty",
+      "segment_points": 719,
+      "segment_total": 719,
+      "points": 719,
+      "behind": -282,
+      "weekly_wins": 0,
+      "weekly_scores": {
+        "New Hampshire Motor Speedway": 428,
+        "Daytona International Speedway": 291
+      }
+    },
+    {
+      "rank": 9,
+      "team": "Linda",
+      "team_id": 10,
+      "team_number": 10,
+      "display_name": "Team 10 Linda",
+      "segment_points": 716,
+      "segment_total": 716,
+      "points": 716,
+      "behind": -285,
+      "weekly_wins": 0,
+      "weekly_scores": {
+        "New Hampshire Motor Speedway": 399,
+        "Daytona International Speedway": 317
+      }
+    },
+    {
+      "rank": 10,
+      "team": "Corey / Jeff",
+      "team_id": 2,
+      "team_number": 2,
+      "display_name": "Team 2 Corey / Jeff",
+      "segment_points": 635,
+      "segment_total": 635,
+      "points": 635,
+      "behind": -366,
+      "weekly_wins": 0,
+      "weekly_scores": {
+        "New Hampshire Motor Speedway": 408,
+        "Daytona International Speedway": 227
       }
     }
   ],
@@ -780,6 +850,18 @@ window.LEAGUE_DATA = {
         "Joe / Mike"
       ],
       "score": 480
+    },
+    {
+      "race": "Daytona International Speedway",
+      "race_number": 2,
+      "winner": "Team 5 Don / Kendall",
+      "team_ids": [
+        5
+      ],
+      "teams": [
+        "Don / Kendall"
+      ],
+      "score": 521
     }
   ],
   "weekly_team_scores": [
@@ -1262,6 +1344,491 @@ window.LEAGUE_DATA = {
               "finish": 15,
               "race_points": 78,
               "total": 109
+            }
+          ],
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "race": "Daytona International Speedway",
+      "scores": [
+        {
+          "team_id": 5,
+          "team": "Don / Kendall",
+          "display_name": "Team 5 Don / Kendall",
+          "qualifying_points": 107,
+          "race_points": 414,
+          "weekly_total": 521,
+          "points": 521,
+          "drivers": [
+            {
+              "driver": "Tyler Reddick",
+              "car": 45,
+              "start": 17,
+              "qualifying_points": 24,
+              "finish": 3,
+              "race_points": 114,
+              "total": 138
+            },
+            {
+              "driver": "Chase Briscoe",
+              "car": 19,
+              "start": 12,
+              "qualifying_points": 29,
+              "finish": 13,
+              "race_points": 84,
+              "total": 113
+            },
+            {
+              "driver": "Ryan Preece",
+              "car": 60,
+              "start": 4,
+              "qualifying_points": 37,
+              "finish": 1,
+              "race_points": 120,
+              "total": 157
+            },
+            {
+              "driver": "Josh Berry",
+              "car": 21,
+              "start": 24,
+              "qualifying_points": 17,
+              "finish": 9,
+              "race_points": 96,
+              "total": 113
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "team_id": 7,
+          "team": "Grub / Jim",
+          "display_name": "Team 7 Grub / Jim",
+          "qualifying_points": 85,
+          "race_points": 351,
+          "weekly_total": 436,
+          "points": 436,
+          "drivers": [
+            {
+              "driver": "William Byron",
+              "car": 24,
+              "start": 13,
+              "qualifying_points": 28,
+              "finish": 22,
+              "race_points": 57,
+              "total": 85
+            },
+            {
+              "driver": "Tyler Reddick",
+              "car": 45,
+              "start": 17,
+              "qualifying_points": 24,
+              "finish": 3,
+              "race_points": 114,
+              "total": 138
+            },
+            {
+              "driver": "Daniel Suarez",
+              "car": 7,
+              "start": 23,
+              "qualifying_points": 18,
+              "finish": 2,
+              "race_points": 117,
+              "total": 135
+            },
+            {
+              "driver": "Bubba Wallace",
+              "car": 23,
+              "start": 26,
+              "qualifying_points": 15,
+              "finish": 20,
+              "race_points": 63,
+              "total": 78
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "team_id": 8,
+          "team": "JohnnyC",
+          "display_name": "Team 8 JohnnyC",
+          "qualifying_points": 95,
+          "race_points": 321,
+          "weekly_total": 416,
+          "points": 416,
+          "drivers": [
+            {
+              "driver": "Chase Briscoe",
+              "car": 19,
+              "start": 12,
+              "qualifying_points": 29,
+              "finish": 13,
+              "race_points": 84,
+              "total": 113
+            },
+            {
+              "driver": "Ty Gibbs",
+              "car": 54,
+              "start": 14,
+              "qualifying_points": 27,
+              "finish": 34,
+              "race_points": 21,
+              "total": 48
+            },
+            {
+              "driver": "Alex Bowman",
+              "car": 48,
+              "start": 20,
+              "qualifying_points": 21,
+              "finish": 8,
+              "race_points": 99,
+              "total": 120
+            },
+            {
+              "driver": "Daniel Suarez",
+              "car": 7,
+              "start": 23,
+              "qualifying_points": 18,
+              "finish": 2,
+              "race_points": 117,
+              "total": 135
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "team_id": 4,
+          "team": "Ron / Jill",
+          "display_name": "Team 4 Ron / Jill",
+          "qualifying_points": 124,
+          "race_points": 249,
+          "weekly_total": 373,
+          "points": 373,
+          "drivers": [
+            {
+              "driver": "Joey Logano",
+              "car": 22,
+              "start": 9,
+              "qualifying_points": 32,
+              "finish": 18,
+              "race_points": 69,
+              "total": 101
+            },
+            {
+              "driver": "Kyle Larson",
+              "car": 5,
+              "start": 10,
+              "qualifying_points": 31,
+              "finish": 31,
+              "race_points": 30,
+              "total": 61
+            },
+            {
+              "driver": "Ross Chastain",
+              "car": 1,
+              "start": 1,
+              "qualifying_points": 40,
+              "finish": 24,
+              "race_points": 51,
+              "total": 91
+            },
+            {
+              "driver": "Alex Bowman",
+              "car": 48,
+              "start": 20,
+              "qualifying_points": 21,
+              "finish": 8,
+              "race_points": 99,
+              "total": 120
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "team_id": 1,
+          "team": "Roberto / Elsie",
+          "display_name": "Team 1 Roberto / Elsie",
+          "qualifying_points": 102,
+          "race_points": 252,
+          "weekly_total": 354,
+          "points": 354,
+          "drivers": [
+            {
+              "driver": "Denny Hamlin",
+              "car": 11,
+              "start": 30,
+              "qualifying_points": 11,
+              "finish": 11,
+              "race_points": 90,
+              "total": 101
+            },
+            {
+              "driver": "Chris Buescher",
+              "car": 17,
+              "start": 2,
+              "qualifying_points": 39,
+              "finish": 40,
+              "race_points": 3,
+              "total": 42
+            },
+            {
+              "driver": "Chase Elliott",
+              "car": 9,
+              "start": 22,
+              "qualifying_points": 19,
+              "finish": 23,
+              "race_points": 54,
+              "total": 73
+            },
+            {
+              "driver": "Austin Cindric",
+              "car": 2,
+              "start": 8,
+              "qualifying_points": 33,
+              "finish": 6,
+              "race_points": 105,
+              "total": 138
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "team_id": 10,
+          "team": "Linda",
+          "display_name": "Team 10 Linda",
+          "qualifying_points": 89,
+          "race_points": 228,
+          "weekly_total": 317,
+          "points": 317,
+          "drivers": [
+            {
+              "driver": "Chris Buescher",
+              "car": 17,
+              "start": 2,
+              "qualifying_points": 39,
+              "finish": 40,
+              "race_points": 3,
+              "total": 42
+            },
+            {
+              "driver": "Denny Hamlin",
+              "car": 11,
+              "start": 30,
+              "qualifying_points": 11,
+              "finish": 11,
+              "race_points": 90,
+              "total": 101
+            },
+            {
+              "driver": "Brad Keselowski",
+              "car": 6,
+              "start": 21,
+              "qualifying_points": 20,
+              "finish": 14,
+              "race_points": 81,
+              "total": 101
+            },
+            {
+              "driver": "Chase Elliott",
+              "car": 9,
+              "start": 22,
+              "qualifying_points": 19,
+              "finish": 23,
+              "race_points": 54,
+              "total": 73
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "team_id": 6,
+          "team": "Craig / Patty",
+          "display_name": "Team 6 Craig / Patty",
+          "qualifying_points": 108,
+          "race_points": 183,
+          "weekly_total": 291,
+          "points": 291,
+          "drivers": [
+            {
+              "driver": "Ty Gibbs",
+              "car": 54,
+              "start": 14,
+              "qualifying_points": 27,
+              "finish": 34,
+              "race_points": 21,
+              "total": 48
+            },
+            {
+              "driver": "Christopher Bell",
+              "car": 20,
+              "start": 35,
+              "qualifying_points": 6,
+              "finish": 17,
+              "race_points": 72,
+              "total": 78
+            },
+            {
+              "driver": "Shane Van Gisbergen",
+              "car": 97,
+              "start": 6,
+              "qualifying_points": 35,
+              "finish": 28,
+              "race_points": 39,
+              "total": 74
+            },
+            {
+              "driver": "Ross Chastain",
+              "car": 1,
+              "start": 1,
+              "qualifying_points": 40,
+              "finish": 24,
+              "race_points": 51,
+              "total": 91
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "team_id": 3,
+          "team": "JJ / George",
+          "display_name": "Team 3 JJ / George",
+          "qualifying_points": 79,
+          "race_points": 210,
+          "weekly_total": 289,
+          "points": 289,
+          "drivers": [
+            {
+              "driver": "Christopher Bell",
+              "car": 20,
+              "start": 35,
+              "qualifying_points": 6,
+              "finish": 17,
+              "race_points": 72,
+              "total": 78
+            },
+            {
+              "driver": "Joey Logano",
+              "car": 22,
+              "start": 9,
+              "qualifying_points": 32,
+              "finish": 18,
+              "race_points": 69,
+              "total": 101
+            },
+            {
+              "driver": "Bubba Wallace",
+              "car": 23,
+              "start": 26,
+              "qualifying_points": 15,
+              "finish": 20,
+              "race_points": 63,
+              "total": 78
+            },
+            {
+              "driver": "Erik Jones",
+              "car": 43,
+              "start": 15,
+              "qualifying_points": 26,
+              "finish": 39,
+              "race_points": 6,
+              "total": 32
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "team_id": 9,
+          "team": "Joe / Mike",
+          "display_name": "Team 9 Joe / Mike",
+          "qualifying_points": 99,
+          "race_points": 168,
+          "weekly_total": 267,
+          "points": 267,
+          "drivers": [
+            {
+              "driver": "Kyle Larson",
+              "car": 5,
+              "start": 10,
+              "qualifying_points": 31,
+              "finish": 31,
+              "race_points": 30,
+              "total": 61
+            },
+            {
+              "driver": "Ryan Blaney",
+              "car": 12,
+              "start": 19,
+              "qualifying_points": 22,
+              "finish": 33,
+              "race_points": 24,
+              "total": 46
+            },
+            {
+              "driver": "Austin Cindric",
+              "car": 2,
+              "start": 8,
+              "qualifying_points": 33,
+              "finish": 6,
+              "race_points": 105,
+              "total": 138
+            },
+            {
+              "driver": "Carson Hocevar",
+              "car": 77,
+              "start": 28,
+              "qualifying_points": 13,
+              "finish": 38,
+              "race_points": 9,
+              "total": 22
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "team_id": 2,
+          "team": "Corey / Jeff",
+          "display_name": "Team 2 Corey / Jeff",
+          "qualifying_points": 98,
+          "race_points": 129,
+          "weekly_total": 227,
+          "points": 227,
+          "drivers": [
+            {
+              "driver": "Ryan Blaney",
+              "car": 12,
+              "start": 19,
+              "qualifying_points": 22,
+              "finish": 33,
+              "race_points": 24,
+              "total": 46
+            },
+            {
+              "driver": "William Byron",
+              "car": 24,
+              "start": 13,
+              "qualifying_points": 28,
+              "finish": 22,
+              "race_points": 57,
+              "total": 85
+            },
+            {
+              "driver": "Carson Hocevar",
+              "car": 77,
+              "start": 28,
+              "qualifying_points": 13,
+              "finish": 38,
+              "race_points": 9,
+              "total": 22
+            },
+            {
+              "driver": "Shane Van Gisbergen",
+              "car": 97,
+              "start": 6,
+              "qualifying_points": 35,
+              "finish": 28,
+              "race_points": 39,
+              "total": 74
             }
           ],
           "rank": 10
@@ -1750,6 +2317,492 @@ window.LEAGUE_DATA = {
               "finish": 15,
               "race_points": 78,
               "total": 109
+            }
+          ],
+          "rank": 10
+        }
+      ]
+    },
+    "Daytona International Speedway": {
+      "weekly_winner_display": "Team 5 Don / Kendall",
+      "winning_score": 521,
+      "team_breakdown": [
+        {
+          "team_id": 5,
+          "team": "Don / Kendall",
+          "display_name": "Team 5 Don / Kendall",
+          "qualifying_points": 107,
+          "race_points": 414,
+          "weekly_total": 521,
+          "points": 521,
+          "drivers": [
+            {
+              "driver": "Tyler Reddick",
+              "car": 45,
+              "start": 17,
+              "qualifying_points": 24,
+              "finish": 3,
+              "race_points": 114,
+              "total": 138
+            },
+            {
+              "driver": "Chase Briscoe",
+              "car": 19,
+              "start": 12,
+              "qualifying_points": 29,
+              "finish": 13,
+              "race_points": 84,
+              "total": 113
+            },
+            {
+              "driver": "Ryan Preece",
+              "car": 60,
+              "start": 4,
+              "qualifying_points": 37,
+              "finish": 1,
+              "race_points": 120,
+              "total": 157
+            },
+            {
+              "driver": "Josh Berry",
+              "car": 21,
+              "start": 24,
+              "qualifying_points": 17,
+              "finish": 9,
+              "race_points": 96,
+              "total": 113
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "team_id": 7,
+          "team": "Grub / Jim",
+          "display_name": "Team 7 Grub / Jim",
+          "qualifying_points": 85,
+          "race_points": 351,
+          "weekly_total": 436,
+          "points": 436,
+          "drivers": [
+            {
+              "driver": "William Byron",
+              "car": 24,
+              "start": 13,
+              "qualifying_points": 28,
+              "finish": 22,
+              "race_points": 57,
+              "total": 85
+            },
+            {
+              "driver": "Tyler Reddick",
+              "car": 45,
+              "start": 17,
+              "qualifying_points": 24,
+              "finish": 3,
+              "race_points": 114,
+              "total": 138
+            },
+            {
+              "driver": "Daniel Suarez",
+              "car": 7,
+              "start": 23,
+              "qualifying_points": 18,
+              "finish": 2,
+              "race_points": 117,
+              "total": 135
+            },
+            {
+              "driver": "Bubba Wallace",
+              "car": 23,
+              "start": 26,
+              "qualifying_points": 15,
+              "finish": 20,
+              "race_points": 63,
+              "total": 78
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "team_id": 8,
+          "team": "JohnnyC",
+          "display_name": "Team 8 JohnnyC",
+          "qualifying_points": 95,
+          "race_points": 321,
+          "weekly_total": 416,
+          "points": 416,
+          "drivers": [
+            {
+              "driver": "Chase Briscoe",
+              "car": 19,
+              "start": 12,
+              "qualifying_points": 29,
+              "finish": 13,
+              "race_points": 84,
+              "total": 113
+            },
+            {
+              "driver": "Ty Gibbs",
+              "car": 54,
+              "start": 14,
+              "qualifying_points": 27,
+              "finish": 34,
+              "race_points": 21,
+              "total": 48
+            },
+            {
+              "driver": "Alex Bowman",
+              "car": 48,
+              "start": 20,
+              "qualifying_points": 21,
+              "finish": 8,
+              "race_points": 99,
+              "total": 120
+            },
+            {
+              "driver": "Daniel Suarez",
+              "car": 7,
+              "start": 23,
+              "qualifying_points": 18,
+              "finish": 2,
+              "race_points": 117,
+              "total": 135
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "team_id": 4,
+          "team": "Ron / Jill",
+          "display_name": "Team 4 Ron / Jill",
+          "qualifying_points": 124,
+          "race_points": 249,
+          "weekly_total": 373,
+          "points": 373,
+          "drivers": [
+            {
+              "driver": "Joey Logano",
+              "car": 22,
+              "start": 9,
+              "qualifying_points": 32,
+              "finish": 18,
+              "race_points": 69,
+              "total": 101
+            },
+            {
+              "driver": "Kyle Larson",
+              "car": 5,
+              "start": 10,
+              "qualifying_points": 31,
+              "finish": 31,
+              "race_points": 30,
+              "total": 61
+            },
+            {
+              "driver": "Ross Chastain",
+              "car": 1,
+              "start": 1,
+              "qualifying_points": 40,
+              "finish": 24,
+              "race_points": 51,
+              "total": 91
+            },
+            {
+              "driver": "Alex Bowman",
+              "car": 48,
+              "start": 20,
+              "qualifying_points": 21,
+              "finish": 8,
+              "race_points": 99,
+              "total": 120
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "team_id": 1,
+          "team": "Roberto / Elsie",
+          "display_name": "Team 1 Roberto / Elsie",
+          "qualifying_points": 102,
+          "race_points": 252,
+          "weekly_total": 354,
+          "points": 354,
+          "drivers": [
+            {
+              "driver": "Denny Hamlin",
+              "car": 11,
+              "start": 30,
+              "qualifying_points": 11,
+              "finish": 11,
+              "race_points": 90,
+              "total": 101
+            },
+            {
+              "driver": "Chris Buescher",
+              "car": 17,
+              "start": 2,
+              "qualifying_points": 39,
+              "finish": 40,
+              "race_points": 3,
+              "total": 42
+            },
+            {
+              "driver": "Chase Elliott",
+              "car": 9,
+              "start": 22,
+              "qualifying_points": 19,
+              "finish": 23,
+              "race_points": 54,
+              "total": 73
+            },
+            {
+              "driver": "Austin Cindric",
+              "car": 2,
+              "start": 8,
+              "qualifying_points": 33,
+              "finish": 6,
+              "race_points": 105,
+              "total": 138
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "team_id": 10,
+          "team": "Linda",
+          "display_name": "Team 10 Linda",
+          "qualifying_points": 89,
+          "race_points": 228,
+          "weekly_total": 317,
+          "points": 317,
+          "drivers": [
+            {
+              "driver": "Chris Buescher",
+              "car": 17,
+              "start": 2,
+              "qualifying_points": 39,
+              "finish": 40,
+              "race_points": 3,
+              "total": 42
+            },
+            {
+              "driver": "Denny Hamlin",
+              "car": 11,
+              "start": 30,
+              "qualifying_points": 11,
+              "finish": 11,
+              "race_points": 90,
+              "total": 101
+            },
+            {
+              "driver": "Brad Keselowski",
+              "car": 6,
+              "start": 21,
+              "qualifying_points": 20,
+              "finish": 14,
+              "race_points": 81,
+              "total": 101
+            },
+            {
+              "driver": "Chase Elliott",
+              "car": 9,
+              "start": 22,
+              "qualifying_points": 19,
+              "finish": 23,
+              "race_points": 54,
+              "total": 73
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "team_id": 6,
+          "team": "Craig / Patty",
+          "display_name": "Team 6 Craig / Patty",
+          "qualifying_points": 108,
+          "race_points": 183,
+          "weekly_total": 291,
+          "points": 291,
+          "drivers": [
+            {
+              "driver": "Ty Gibbs",
+              "car": 54,
+              "start": 14,
+              "qualifying_points": 27,
+              "finish": 34,
+              "race_points": 21,
+              "total": 48
+            },
+            {
+              "driver": "Christopher Bell",
+              "car": 20,
+              "start": 35,
+              "qualifying_points": 6,
+              "finish": 17,
+              "race_points": 72,
+              "total": 78
+            },
+            {
+              "driver": "Shane Van Gisbergen",
+              "car": 97,
+              "start": 6,
+              "qualifying_points": 35,
+              "finish": 28,
+              "race_points": 39,
+              "total": 74
+            },
+            {
+              "driver": "Ross Chastain",
+              "car": 1,
+              "start": 1,
+              "qualifying_points": 40,
+              "finish": 24,
+              "race_points": 51,
+              "total": 91
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "team_id": 3,
+          "team": "JJ / George",
+          "display_name": "Team 3 JJ / George",
+          "qualifying_points": 79,
+          "race_points": 210,
+          "weekly_total": 289,
+          "points": 289,
+          "drivers": [
+            {
+              "driver": "Christopher Bell",
+              "car": 20,
+              "start": 35,
+              "qualifying_points": 6,
+              "finish": 17,
+              "race_points": 72,
+              "total": 78
+            },
+            {
+              "driver": "Joey Logano",
+              "car": 22,
+              "start": 9,
+              "qualifying_points": 32,
+              "finish": 18,
+              "race_points": 69,
+              "total": 101
+            },
+            {
+              "driver": "Bubba Wallace",
+              "car": 23,
+              "start": 26,
+              "qualifying_points": 15,
+              "finish": 20,
+              "race_points": 63,
+              "total": 78
+            },
+            {
+              "driver": "Erik Jones",
+              "car": 43,
+              "start": 15,
+              "qualifying_points": 26,
+              "finish": 39,
+              "race_points": 6,
+              "total": 32
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "team_id": 9,
+          "team": "Joe / Mike",
+          "display_name": "Team 9 Joe / Mike",
+          "qualifying_points": 99,
+          "race_points": 168,
+          "weekly_total": 267,
+          "points": 267,
+          "drivers": [
+            {
+              "driver": "Kyle Larson",
+              "car": 5,
+              "start": 10,
+              "qualifying_points": 31,
+              "finish": 31,
+              "race_points": 30,
+              "total": 61
+            },
+            {
+              "driver": "Ryan Blaney",
+              "car": 12,
+              "start": 19,
+              "qualifying_points": 22,
+              "finish": 33,
+              "race_points": 24,
+              "total": 46
+            },
+            {
+              "driver": "Austin Cindric",
+              "car": 2,
+              "start": 8,
+              "qualifying_points": 33,
+              "finish": 6,
+              "race_points": 105,
+              "total": 138
+            },
+            {
+              "driver": "Carson Hocevar",
+              "car": 77,
+              "start": 28,
+              "qualifying_points": 13,
+              "finish": 38,
+              "race_points": 9,
+              "total": 22
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "team_id": 2,
+          "team": "Corey / Jeff",
+          "display_name": "Team 2 Corey / Jeff",
+          "qualifying_points": 98,
+          "race_points": 129,
+          "weekly_total": 227,
+          "points": 227,
+          "drivers": [
+            {
+              "driver": "Ryan Blaney",
+              "car": 12,
+              "start": 19,
+              "qualifying_points": 22,
+              "finish": 33,
+              "race_points": 24,
+              "total": 46
+            },
+            {
+              "driver": "William Byron",
+              "car": 24,
+              "start": 13,
+              "qualifying_points": 28,
+              "finish": 22,
+              "race_points": 57,
+              "total": 85
+            },
+            {
+              "driver": "Carson Hocevar",
+              "car": 77,
+              "start": 28,
+              "qualifying_points": 13,
+              "finish": 38,
+              "race_points": 9,
+              "total": 22
+            },
+            {
+              "driver": "Shane Van Gisbergen",
+              "car": 97,
+              "start": 6,
+              "qualifying_points": 35,
+              "finish": 28,
+              "race_points": 39,
+              "total": 74
             }
           ],
           "rank": 10
@@ -14650,5 +15703,487 @@ window.LEAGUE_DATA = {
         }
       }
     }
-  }
+  },
+  "daytona_team_breakdown": [
+    {
+      "team_id": 5,
+      "team": "Don / Kendall",
+      "display_name": "Team 5 Don / Kendall",
+      "qualifying_points": 107,
+      "race_points": 414,
+      "weekly_total": 521,
+      "points": 521,
+      "drivers": [
+        {
+          "driver": "Tyler Reddick",
+          "car": 45,
+          "start": 17,
+          "qualifying_points": 24,
+          "finish": 3,
+          "race_points": 114,
+          "total": 138
+        },
+        {
+          "driver": "Chase Briscoe",
+          "car": 19,
+          "start": 12,
+          "qualifying_points": 29,
+          "finish": 13,
+          "race_points": 84,
+          "total": 113
+        },
+        {
+          "driver": "Ryan Preece",
+          "car": 60,
+          "start": 4,
+          "qualifying_points": 37,
+          "finish": 1,
+          "race_points": 120,
+          "total": 157
+        },
+        {
+          "driver": "Josh Berry",
+          "car": 21,
+          "start": 24,
+          "qualifying_points": 17,
+          "finish": 9,
+          "race_points": 96,
+          "total": 113
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "team_id": 7,
+      "team": "Grub / Jim",
+      "display_name": "Team 7 Grub / Jim",
+      "qualifying_points": 85,
+      "race_points": 351,
+      "weekly_total": 436,
+      "points": 436,
+      "drivers": [
+        {
+          "driver": "William Byron",
+          "car": 24,
+          "start": 13,
+          "qualifying_points": 28,
+          "finish": 22,
+          "race_points": 57,
+          "total": 85
+        },
+        {
+          "driver": "Tyler Reddick",
+          "car": 45,
+          "start": 17,
+          "qualifying_points": 24,
+          "finish": 3,
+          "race_points": 114,
+          "total": 138
+        },
+        {
+          "driver": "Daniel Suarez",
+          "car": 7,
+          "start": 23,
+          "qualifying_points": 18,
+          "finish": 2,
+          "race_points": 117,
+          "total": 135
+        },
+        {
+          "driver": "Bubba Wallace",
+          "car": 23,
+          "start": 26,
+          "qualifying_points": 15,
+          "finish": 20,
+          "race_points": 63,
+          "total": 78
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "team_id": 8,
+      "team": "JohnnyC",
+      "display_name": "Team 8 JohnnyC",
+      "qualifying_points": 95,
+      "race_points": 321,
+      "weekly_total": 416,
+      "points": 416,
+      "drivers": [
+        {
+          "driver": "Chase Briscoe",
+          "car": 19,
+          "start": 12,
+          "qualifying_points": 29,
+          "finish": 13,
+          "race_points": 84,
+          "total": 113
+        },
+        {
+          "driver": "Ty Gibbs",
+          "car": 54,
+          "start": 14,
+          "qualifying_points": 27,
+          "finish": 34,
+          "race_points": 21,
+          "total": 48
+        },
+        {
+          "driver": "Alex Bowman",
+          "car": 48,
+          "start": 20,
+          "qualifying_points": 21,
+          "finish": 8,
+          "race_points": 99,
+          "total": 120
+        },
+        {
+          "driver": "Daniel Suarez",
+          "car": 7,
+          "start": 23,
+          "qualifying_points": 18,
+          "finish": 2,
+          "race_points": 117,
+          "total": 135
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "team_id": 4,
+      "team": "Ron / Jill",
+      "display_name": "Team 4 Ron / Jill",
+      "qualifying_points": 124,
+      "race_points": 249,
+      "weekly_total": 373,
+      "points": 373,
+      "drivers": [
+        {
+          "driver": "Joey Logano",
+          "car": 22,
+          "start": 9,
+          "qualifying_points": 32,
+          "finish": 18,
+          "race_points": 69,
+          "total": 101
+        },
+        {
+          "driver": "Kyle Larson",
+          "car": 5,
+          "start": 10,
+          "qualifying_points": 31,
+          "finish": 31,
+          "race_points": 30,
+          "total": 61
+        },
+        {
+          "driver": "Ross Chastain",
+          "car": 1,
+          "start": 1,
+          "qualifying_points": 40,
+          "finish": 24,
+          "race_points": 51,
+          "total": 91
+        },
+        {
+          "driver": "Alex Bowman",
+          "car": 48,
+          "start": 20,
+          "qualifying_points": 21,
+          "finish": 8,
+          "race_points": 99,
+          "total": 120
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "team_id": 1,
+      "team": "Roberto / Elsie",
+      "display_name": "Team 1 Roberto / Elsie",
+      "qualifying_points": 102,
+      "race_points": 252,
+      "weekly_total": 354,
+      "points": 354,
+      "drivers": [
+        {
+          "driver": "Denny Hamlin",
+          "car": 11,
+          "start": 30,
+          "qualifying_points": 11,
+          "finish": 11,
+          "race_points": 90,
+          "total": 101
+        },
+        {
+          "driver": "Chris Buescher",
+          "car": 17,
+          "start": 2,
+          "qualifying_points": 39,
+          "finish": 40,
+          "race_points": 3,
+          "total": 42
+        },
+        {
+          "driver": "Chase Elliott",
+          "car": 9,
+          "start": 22,
+          "qualifying_points": 19,
+          "finish": 23,
+          "race_points": 54,
+          "total": 73
+        },
+        {
+          "driver": "Austin Cindric",
+          "car": 2,
+          "start": 8,
+          "qualifying_points": 33,
+          "finish": 6,
+          "race_points": 105,
+          "total": 138
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "team_id": 10,
+      "team": "Linda",
+      "display_name": "Team 10 Linda",
+      "qualifying_points": 89,
+      "race_points": 228,
+      "weekly_total": 317,
+      "points": 317,
+      "drivers": [
+        {
+          "driver": "Chris Buescher",
+          "car": 17,
+          "start": 2,
+          "qualifying_points": 39,
+          "finish": 40,
+          "race_points": 3,
+          "total": 42
+        },
+        {
+          "driver": "Denny Hamlin",
+          "car": 11,
+          "start": 30,
+          "qualifying_points": 11,
+          "finish": 11,
+          "race_points": 90,
+          "total": 101
+        },
+        {
+          "driver": "Brad Keselowski",
+          "car": 6,
+          "start": 21,
+          "qualifying_points": 20,
+          "finish": 14,
+          "race_points": 81,
+          "total": 101
+        },
+        {
+          "driver": "Chase Elliott",
+          "car": 9,
+          "start": 22,
+          "qualifying_points": 19,
+          "finish": 23,
+          "race_points": 54,
+          "total": 73
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "team_id": 6,
+      "team": "Craig / Patty",
+      "display_name": "Team 6 Craig / Patty",
+      "qualifying_points": 108,
+      "race_points": 183,
+      "weekly_total": 291,
+      "points": 291,
+      "drivers": [
+        {
+          "driver": "Ty Gibbs",
+          "car": 54,
+          "start": 14,
+          "qualifying_points": 27,
+          "finish": 34,
+          "race_points": 21,
+          "total": 48
+        },
+        {
+          "driver": "Christopher Bell",
+          "car": 20,
+          "start": 35,
+          "qualifying_points": 6,
+          "finish": 17,
+          "race_points": 72,
+          "total": 78
+        },
+        {
+          "driver": "Shane Van Gisbergen",
+          "car": 97,
+          "start": 6,
+          "qualifying_points": 35,
+          "finish": 28,
+          "race_points": 39,
+          "total": 74
+        },
+        {
+          "driver": "Ross Chastain",
+          "car": 1,
+          "start": 1,
+          "qualifying_points": 40,
+          "finish": 24,
+          "race_points": 51,
+          "total": 91
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "team_id": 3,
+      "team": "JJ / George",
+      "display_name": "Team 3 JJ / George",
+      "qualifying_points": 79,
+      "race_points": 210,
+      "weekly_total": 289,
+      "points": 289,
+      "drivers": [
+        {
+          "driver": "Christopher Bell",
+          "car": 20,
+          "start": 35,
+          "qualifying_points": 6,
+          "finish": 17,
+          "race_points": 72,
+          "total": 78
+        },
+        {
+          "driver": "Joey Logano",
+          "car": 22,
+          "start": 9,
+          "qualifying_points": 32,
+          "finish": 18,
+          "race_points": 69,
+          "total": 101
+        },
+        {
+          "driver": "Bubba Wallace",
+          "car": 23,
+          "start": 26,
+          "qualifying_points": 15,
+          "finish": 20,
+          "race_points": 63,
+          "total": 78
+        },
+        {
+          "driver": "Erik Jones",
+          "car": 43,
+          "start": 15,
+          "qualifying_points": 26,
+          "finish": 39,
+          "race_points": 6,
+          "total": 32
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "team_id": 9,
+      "team": "Joe / Mike",
+      "display_name": "Team 9 Joe / Mike",
+      "qualifying_points": 99,
+      "race_points": 168,
+      "weekly_total": 267,
+      "points": 267,
+      "drivers": [
+        {
+          "driver": "Kyle Larson",
+          "car": 5,
+          "start": 10,
+          "qualifying_points": 31,
+          "finish": 31,
+          "race_points": 30,
+          "total": 61
+        },
+        {
+          "driver": "Ryan Blaney",
+          "car": 12,
+          "start": 19,
+          "qualifying_points": 22,
+          "finish": 33,
+          "race_points": 24,
+          "total": 46
+        },
+        {
+          "driver": "Austin Cindric",
+          "car": 2,
+          "start": 8,
+          "qualifying_points": 33,
+          "finish": 6,
+          "race_points": 105,
+          "total": 138
+        },
+        {
+          "driver": "Carson Hocevar",
+          "car": 77,
+          "start": 28,
+          "qualifying_points": 13,
+          "finish": 38,
+          "race_points": 9,
+          "total": 22
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "team_id": 2,
+      "team": "Corey / Jeff",
+      "display_name": "Team 2 Corey / Jeff",
+      "qualifying_points": 98,
+      "race_points": 129,
+      "weekly_total": 227,
+      "points": 227,
+      "drivers": [
+        {
+          "driver": "Ryan Blaney",
+          "car": 12,
+          "start": 19,
+          "qualifying_points": 22,
+          "finish": 33,
+          "race_points": 24,
+          "total": 46
+        },
+        {
+          "driver": "William Byron",
+          "car": 24,
+          "start": 13,
+          "qualifying_points": 28,
+          "finish": 22,
+          "race_points": 57,
+          "total": 85
+        },
+        {
+          "driver": "Carson Hocevar",
+          "car": 77,
+          "start": 28,
+          "qualifying_points": 13,
+          "finish": 38,
+          "race_points": 9,
+          "total": 22
+        },
+        {
+          "driver": "Shane Van Gisbergen",
+          "car": 97,
+          "start": 6,
+          "qualifying_points": 35,
+          "finish": 28,
+          "race_points": 39,
+          "total": 74
+        }
+      ],
+      "rank": 10
+    }
+  ]
 };
