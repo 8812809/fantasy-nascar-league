@@ -2685,261 +2685,1316 @@ window.LEAGUE_DATA = {
     "2026_segment_2": {
       "champion": "Team 1 Linda",
       "champion_points": 5268,
-      "standings": [
-        {
-          "rank": 1,
-          "team_id": 1,
-          "display_name": "Team 1 Linda",
-          "segment_points": 5268,
-          "behind": 0,
-          "weekly_wins": 3
-        },
-        {
-          "rank": 2,
-          "team_id": 8,
-          "display_name": "Team 8 JohnnyC",
-          "segment_points": 5140,
-          "behind": 128,
-          "weekly_wins": 3
-        },
-        {
-          "rank": 3,
-          "team_id": 5,
-          "display_name": "Team 5 JJ / George",
-          "segment_points": 5041,
-          "behind": 227,
-          "weekly_wins": 2
-        },
-        {
-          "rank": 4,
-          "team_id": 3,
-          "display_name": "Team 3 Joe / Mike",
-          "segment_points": 5035,
-          "behind": 233,
-          "weekly_wins": 2
-        },
-        {
-          "rank": 5,
-          "team_id": 10,
-          "display_name": "Team 10 Roberto / Elsie",
-          "segment_points": 4838,
-          "behind": 430,
-          "weekly_wins": 0
-        },
-        {
-          "rank": 6,
-          "team_id": 4,
-          "display_name": "Team 4 Corey / Jeff",
-          "segment_points": 4742,
-          "behind": 526,
-          "weekly_wins": 1
-        },
-        {
-          "rank": 7,
-          "team_id": 7,
-          "display_name": "Team 7 Craig / Patty",
-          "segment_points": 4647,
-          "behind": 621,
-          "weekly_wins": 1
-        },
-        {
-          "rank": 8,
-          "team_id": 6,
-          "display_name": "Team 6 Grub / Jim",
-          "segment_points": 4639,
-          "behind": 629,
-          "weekly_wins": 0
-        },
-        {
-          "rank": 9,
-          "team_id": 2,
-          "display_name": "Team 2 Don / Kendall",
-          "segment_points": 4582,
-          "behind": 686,
-          "weekly_wins": 0
-        },
-        {
-          "rank": 10,
-          "team_id": 9,
-          "display_name": "Team 9 Ron / Jill",
-          "segment_points": 4193,
-          "behind": 1075,
-          "weekly_wins": 0
-        }
-      ],
-      "weekly_winners": [
+      "standings_snapshots": [
         {
           "race_number": 1,
           "race": "Charlotte",
-          "winner": "Team 8 JohnnyC",
-          "score": 462
+          "date": "2026-05-24",
+          "weekly_winner": "Team 8 JohnnyC",
+          "winning_score": 462,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 462,
+              "segment_points": 462,
+              "behind": 0,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 2,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 453,
+              "segment_points": 453,
+              "behind": 9,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 3,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 449,
+              "segment_points": 449,
+              "behind": 13,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 4,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 448,
+              "segment_points": 448,
+              "behind": 14,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 5,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 417,
+              "segment_points": 417,
+              "behind": 45,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 6,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 364,
+              "segment_points": 364,
+              "behind": 98,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 7,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 350,
+              "segment_points": 350,
+              "behind": 112,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 8,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 321,
+              "segment_points": 321,
+              "behind": 141,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 9,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 310,
+              "segment_points": 310,
+              "behind": 152,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 306,
+              "segment_points": 306,
+              "behind": 156,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 2,
           "race": "Nashville",
-          "winner": "Team 3 Joe / Mike",
-          "score": 490
+          "date": "2026-06-01",
+          "weekly_winner": "Team 3 Joe / Mike",
+          "winning_score": 490,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 485,
+              "segment_points": 947,
+              "behind": 0,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 2,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 490,
+              "segment_points": 939,
+              "behind": 8,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 3,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 411,
+              "segment_points": 864,
+              "behind": 83,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 4,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 352,
+              "segment_points": 800,
+              "behind": 147,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 5,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 431,
+              "segment_points": 795,
+              "behind": 152,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 6,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 285,
+              "segment_points": 702,
+              "behind": 245,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 7,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 346,
+              "segment_points": 696,
+              "behind": 251,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 8,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 379,
+              "segment_points": 689,
+              "behind": 258,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 9,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 288,
+              "segment_points": 609,
+              "behind": 338,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 293,
+              "segment_points": 599,
+              "behind": 348,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 3,
           "race": "Michigan",
-          "winner": "Team 1 Linda",
-          "score": 492
+          "date": "2026-06-07",
+          "weekly_winner": "Team 1 Linda",
+          "winning_score": 492,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 445,
+              "segment_points": 1392,
+              "behind": 0,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 2,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 362,
+              "segment_points": 1301,
+              "behind": 91,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 3,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 492,
+              "segment_points": 1188,
+              "behind": 204,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 4,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 384,
+              "segment_points": 1184,
+              "behind": 208,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 5,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 381,
+              "segment_points": 1176,
+              "behind": 216,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 6,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 305,
+              "segment_points": 1169,
+              "behind": 223,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 7,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 430,
+              "segment_points": 1119,
+              "behind": 273,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 8,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 364,
+              "segment_points": 1066,
+              "behind": 326,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 9,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 436,
+              "segment_points": 1035,
+              "behind": 357,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 348,
+              "segment_points": 957,
+              "behind": 435,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 4,
           "race": "Pocono",
-          "winner": "Team 1 Linda",
-          "score": 464
+          "date": "2026-06-14",
+          "weekly_winner": "Team 1 Linda",
+          "winning_score": 464,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 438,
+              "segment_points": 1830,
+              "behind": 0,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 2,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 394,
+              "segment_points": 1695,
+              "behind": 135,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 3,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 464,
+              "segment_points": 1652,
+              "behind": 178,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 4,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 378,
+              "segment_points": 1554,
+              "behind": 276,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 5,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 429,
+              "segment_points": 1548,
+              "behind": 282,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 6,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 333,
+              "segment_points": 1517,
+              "behind": 313,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 7,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 447,
+              "segment_points": 1482,
+              "behind": 348,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 8,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 296,
+              "segment_points": 1465,
+              "behind": 365,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 9,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 355,
+              "segment_points": 1421,
+              "behind": 409,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 431,
+              "segment_points": 1388,
+              "behind": 442,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 5,
           "race": "Coronado Naval Base",
-          "winner": "Team 5 JJ / George",
-          "score": 454
+          "date": "2026-06-21",
+          "weekly_winner": "Team 5 JJ / George",
+          "winning_score": 454,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 373,
+              "segment_points": 2203,
+              "behind": 0,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 2,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 400,
+              "segment_points": 2095,
+              "behind": 108,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 3,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 437,
+              "segment_points": 2089,
+              "behind": 114,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 4,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 454,
+              "segment_points": 1971,
+              "behind": 232,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 5,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 416,
+              "segment_points": 1970,
+              "behind": 233,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 6,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 390,
+              "segment_points": 1938,
+              "behind": 265,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 7,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 417,
+              "segment_points": 1899,
+              "behind": 304,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 8,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 324,
+              "segment_points": 1789,
+              "behind": 414,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 9,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 361,
+              "segment_points": 1782,
+              "behind": 421,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 243,
+              "segment_points": 1631,
+              "behind": 572,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 6,
           "race": "Sonoma",
-          "winner": "Team 7 Craig / Patty",
-          "score": 560
+          "date": "2026-06-28",
+          "weekly_winner": "Team 7 Craig / Patty",
+          "winning_score": 560,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 328,
+              "segment_points": 2531,
+              "behind": 0,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 2,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 430,
+              "segment_points": 2525,
+              "behind": 6,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 3,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 368,
+              "segment_points": 2457,
+              "behind": 74,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 4,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 419,
+              "segment_points": 2390,
+              "behind": 141,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 5,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 411,
+              "segment_points": 2381,
+              "behind": 150,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 6,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 423,
+              "segment_points": 2361,
+              "behind": 170,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 7,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 560,
+              "segment_points": 2349,
+              "behind": 182,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 8,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 392,
+              "segment_points": 2291,
+              "behind": 240,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 9,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 404,
+              "segment_points": 2186,
+              "behind": 345,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 485,
+              "segment_points": 2116,
+              "behind": 415,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 7,
           "race": "Chicagoland Speedway",
-          "winner": "Team 4 Corey / Jeff",
-          "score": 512
+          "date": "2026-07-05",
+          "weekly_winner": "Team 4 Corey / Jeff",
+          "winning_score": 512,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 406,
+              "segment_points": 2931,
+              "behind": 0,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 2,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 390,
+              "segment_points": 2921,
+              "behind": 10,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 3,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 446,
+              "segment_points": 2903,
+              "behind": 28,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 4,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 499,
+              "segment_points": 2889,
+              "behind": 42,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 5,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 344,
+              "segment_points": 2725,
+              "behind": 206,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 6,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 408,
+              "segment_points": 2699,
+              "behind": 232,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 7,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 512,
+              "segment_points": 2698,
+              "behind": 233,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 8,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 319,
+              "segment_points": 2668,
+              "behind": 263,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 9,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 283,
+              "segment_points": 2644,
+              "behind": 287,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 435,
+              "segment_points": 2551,
+              "behind": 380,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 8,
           "race": "Echo Park Speedway",
-          "winner": "Team 3 Joe / Mike",
-          "score": 508
+          "date": "2026-07-12",
+          "weekly_winner": "Team 3 Joe / Mike",
+          "winning_score": 508,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 508,
+              "segment_points": 3439,
+              "behind": 0,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 2,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 478,
+              "segment_points": 3381,
+              "behind": 58,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 3,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 482,
+              "segment_points": 3371,
+              "behind": 68,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 4,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 376,
+              "segment_points": 3297,
+              "behind": 142,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 5,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 412,
+              "segment_points": 3110,
+              "behind": 329,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 6,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 408,
+              "segment_points": 3107,
+              "behind": 332,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 7,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 392,
+              "segment_points": 3060,
+              "behind": 379,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 8,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 326,
+              "segment_points": 3051,
+              "behind": 388,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 9,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 359,
+              "segment_points": 3003,
+              "behind": 436,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 431,
+              "segment_points": 2982,
+              "behind": 457,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 9,
           "race": "North Wilkesboro Speedway",
-          "winner": "Team 5 JJ / George",
-          "score": 495
+          "date": "2026-07-19",
+          "weekly_winner": "Team 5 JJ / George",
+          "winning_score": 495,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 494,
+              "segment_points": 3933,
+              "behind": 0,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 2,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 495,
+              "segment_points": 3866,
+              "behind": 67,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 3,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 466,
+              "segment_points": 3847,
+              "behind": 86,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 4,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 464,
+              "segment_points": 3761,
+              "behind": 172,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 5,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 478,
+              "segment_points": 3588,
+              "behind": 345,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 6,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 467,
+              "segment_points": 3574,
+              "behind": 359,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 7,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 450,
+              "segment_points": 3510,
+              "behind": 423,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 8,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 384,
+              "segment_points": 3435,
+              "behind": 498,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 9,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 401,
+              "segment_points": 3383,
+              "behind": 550,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 348,
+              "segment_points": 3351,
+              "behind": 582,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 10,
           "race": "Indianapolis Motor Speedway",
-          "winner": "Team 8 JohnnyC",
-          "score": 519
+          "date": "2026-07-26",
+          "weekly_winner": "Team 8 JohnnyC",
+          "winning_score": 519,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 469,
+              "segment_points": 4316,
+              "behind": 0,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 2,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 519,
+              "segment_points": 4280,
+              "behind": 36,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 3,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 301,
+              "segment_points": 4234,
+              "behind": 82,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 4,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 317,
+              "segment_points": 4183,
+              "behind": 133,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 5,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 453,
+              "segment_points": 4027,
+              "behind": 289,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 6,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 497,
+              "segment_points": 3932,
+              "behind": 384,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 7,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 324,
+              "segment_points": 3912,
+              "behind": 404,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 8,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 369,
+              "segment_points": 3879,
+              "behind": 437,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 9,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 406,
+              "segment_points": 3789,
+              "behind": 527,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 232,
+              "segment_points": 3583,
+              "behind": 733,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 11,
           "race": "Iowa Speedway",
-          "winner": "Team 1 Linda",
-          "score": 471
+          "date": "2026-08-09",
+          "weekly_winner": "Team 1 Linda",
+          "winning_score": 471,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 471,
+              "segment_points": 4787,
+              "behind": 0,
+              "weekly_wins": 3.0
+            },
+            {
+              "rank": 2,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 460,
+              "segment_points": 4643,
+              "behind": 144,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 3,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 358,
+              "segment_points": 4638,
+              "behind": 149,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 4,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 354,
+              "segment_points": 4588,
+              "behind": 199,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 5,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 352,
+              "segment_points": 4379,
+              "behind": 408,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 6,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 424,
+              "segment_points": 4336,
+              "behind": 451,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 7,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 332,
+              "segment_points": 4264,
+              "behind": 523,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 8,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 319,
+              "segment_points": 4198,
+              "behind": 589,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 9,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 397,
+              "segment_points": 4186,
+              "behind": 601,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 265,
+              "segment_points": 3848,
+              "behind": 939,
+              "weekly_wins": 0
+            }
+          ]
         },
         {
           "race_number": 12,
           "race": "Richmond Raceway",
-          "winner": "Team 8 JohnnyC",
-          "score": 502
-        }
-      ],
-      "races": [
-        {
-          "race_number": 1,
-          "name": "Charlotte",
-          "date": "2026-05-24",
-          "status": "Completed",
-          "weekly_winner": "Team 8 JohnnyC",
-          "winning_score": 462
-        },
-        {
-          "race_number": 2,
-          "name": "Nashville",
-          "date": "2026-06-01",
-          "status": "Completed",
-          "weekly_winner": "Team 3 Joe / Mike",
-          "winning_score": 490
-        },
-        {
-          "race_number": 3,
-          "name": "Michigan",
-          "date": "2026-06-07",
-          "status": "Completed",
-          "weekly_winner": "Team 1 Linda",
-          "winning_score": 492
-        },
-        {
-          "race_number": 4,
-          "name": "Pocono",
-          "date": "2026-06-14",
-          "status": "Completed",
-          "weekly_winner": "Team 1 Linda",
-          "winning_score": 464
-        },
-        {
-          "race_number": 5,
-          "name": "Coronado Naval Base",
-          "date": "2026-06-21",
-          "status": "Completed",
-          "weekly_winner": "Team 5 JJ / George",
-          "winning_score": 454
-        },
-        {
-          "race_number": 6,
-          "name": "Sonoma",
-          "date": "2026-06-28",
-          "status": "Completed",
-          "weekly_winner": "Team 7 Craig / Patty",
-          "winning_score": 560
-        },
-        {
-          "race_number": 7,
-          "name": "Chicagoland Speedway",
-          "date": "2026-07-05",
-          "status": "Completed",
-          "weekly_winner": "Team 4 Corey / Jeff",
-          "winning_score": 512
-        },
-        {
-          "race_number": 8,
-          "name": "Echo Park Speedway",
-          "date": "2026-07-12",
-          "status": "Completed",
-          "weekly_winner": "Team 3 Joe / Mike",
-          "winning_score": 508
-        },
-        {
-          "race_number": 9,
-          "name": "North Wilkesboro Speedway",
-          "date": "2026-07-19",
-          "status": "Completed",
-          "weekly_winner": "Team 5 JJ / George",
-          "winning_score": 495
-        },
-        {
-          "race_number": 10,
-          "name": "Indianapolis Motor Speedway",
-          "date": "2026-07-26",
-          "status": "Completed",
-          "weekly_winner": "Team 8 JohnnyC",
-          "winning_score": 519
-        },
-        {
-          "race_number": 11,
-          "name": "Iowa Speedway",
-          "date": "2026-08-09",
-          "status": "Completed",
-          "weekly_winner": "Team 1 Linda",
-          "winning_score": 471
-        },
-        {
-          "race_number": 12,
-          "name": "Richmond Raceway",
           "date": "2026-08-15",
-          "status": "Completed",
           "weekly_winner": "Team 8 JohnnyC",
-          "winning_score": 502
+          "winning_score": 502,
+          "standings": [
+            {
+              "rank": 1,
+              "team_id": 1,
+              "team": "Linda",
+              "display_name": "Team 1 Linda",
+              "weekly_points": 481,
+              "segment_points": 5268,
+              "behind": 0,
+              "weekly_wins": 3.0
+            },
+            {
+              "rank": 2,
+              "team_id": 8,
+              "team": "JohnnyC",
+              "display_name": "Team 8 JohnnyC",
+              "weekly_points": 502,
+              "segment_points": 5140,
+              "behind": 128,
+              "weekly_wins": 3.0
+            },
+            {
+              "rank": 3,
+              "team_id": 5,
+              "team": "JJ / George",
+              "display_name": "Team 5 JJ / George",
+              "weekly_points": 398,
+              "segment_points": 5041,
+              "behind": 227,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 4,
+              "team_id": 3,
+              "team": "Joe / Mike",
+              "display_name": "Team 3 Joe / Mike",
+              "weekly_points": 447,
+              "segment_points": 5035,
+              "behind": 233,
+              "weekly_wins": 2.0
+            },
+            {
+              "rank": 5,
+              "team_id": 10,
+              "team": "Roberto / Elsie",
+              "display_name": "Team 10 Roberto / Elsie",
+              "weekly_points": 459,
+              "segment_points": 4838,
+              "behind": 430,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 6,
+              "team_id": 4,
+              "team": "Corey / Jeff",
+              "display_name": "Team 4 Corey / Jeff",
+              "weekly_points": 406,
+              "segment_points": 4742,
+              "behind": 526,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 7,
+              "team_id": 7,
+              "team": "Craig / Patty",
+              "display_name": "Team 7 Craig / Patty",
+              "weekly_points": 449,
+              "segment_points": 4647,
+              "behind": 621,
+              "weekly_wins": 1.0
+            },
+            {
+              "rank": 8,
+              "team_id": 6,
+              "team": "Grub / Jim",
+              "display_name": "Team 6 Grub / Jim",
+              "weekly_points": 453,
+              "segment_points": 4639,
+              "behind": 629,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 9,
+              "team_id": 2,
+              "team": "Don / Kendall",
+              "display_name": "Team 2 Don / Kendall",
+              "weekly_points": 318,
+              "segment_points": 4582,
+              "behind": 686,
+              "weekly_wins": 0
+            },
+            {
+              "rank": 10,
+              "team_id": 9,
+              "team": "Ron / Jill",
+              "display_name": "Team 9 Ron / Jill",
+              "weekly_points": 345,
+              "segment_points": 4193,
+              "behind": 1075,
+              "weekly_wins": 0
+            }
+          ]
         }
-      ],
-      "race_results": {}
+      ]
     }
   }
 };
