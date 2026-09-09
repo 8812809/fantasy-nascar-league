@@ -159,7 +159,7 @@ window.LEAGUE_DATA = {
       "segment_total": 953,
       "points": 953,
       "locked": true,
-      "change_status": "Locked - used Segment 3 change: #97 Shane van Gisbergen to #43 Erik Jones (effective Race 4 - World Wide Technology Raceway)"
+      "change_status": "#97 Shane van Gisbergen to #43 Erik Jones (effective Race 4 - World Wide Technology Raceway)"
     },
     {
       "id": 3,
@@ -2680,5 +2680,266 @@ window.LEAGUE_DATA = {
     "Team 2 Corey / Jeff used its one Segment 3 car change: #97 Shane van Gisbergen out, #43 Erik Jones in, effective Race 4 at World Wide Technology Raceway. Team is locked.",
     "Darlington is scored with #97 for Corey / Jeff; #43 begins scoring at World Wide Technology Raceway.",
     "New Hampshire Race 1 ended in a weekly side-bet tie between Team 5 Don / Kendall and Team 9 Joe / Mike at 480 points each."
-  ]
+  ],
+  "archive": {
+    "2026_segment_2": {
+      "champion": "Team 1 Linda",
+      "champion_points": 5268,
+      "standings": [
+        {
+          "rank": 1,
+          "team_id": 1,
+          "display_name": "Team 1 Linda",
+          "segment_points": 5268,
+          "behind": 0,
+          "weekly_wins": 3
+        },
+        {
+          "rank": 2,
+          "team_id": 8,
+          "display_name": "Team 8 JohnnyC",
+          "segment_points": 5140,
+          "behind": 128,
+          "weekly_wins": 3
+        },
+        {
+          "rank": 3,
+          "team_id": 5,
+          "display_name": "Team 5 JJ / George",
+          "segment_points": 5041,
+          "behind": 227,
+          "weekly_wins": 2
+        },
+        {
+          "rank": 4,
+          "team_id": 3,
+          "display_name": "Team 3 Joe / Mike",
+          "segment_points": 5035,
+          "behind": 233,
+          "weekly_wins": 2
+        },
+        {
+          "rank": 5,
+          "team_id": 10,
+          "display_name": "Team 10 Roberto / Elsie",
+          "segment_points": 4838,
+          "behind": 430,
+          "weekly_wins": 0
+        },
+        {
+          "rank": 6,
+          "team_id": 4,
+          "display_name": "Team 4 Corey / Jeff",
+          "segment_points": 4742,
+          "behind": 526,
+          "weekly_wins": 1
+        },
+        {
+          "rank": 7,
+          "team_id": 7,
+          "display_name": "Team 7 Craig / Patty",
+          "segment_points": 4647,
+          "behind": 621,
+          "weekly_wins": 1
+        },
+        {
+          "rank": 8,
+          "team_id": 6,
+          "display_name": "Team 6 Grub / Jim",
+          "segment_points": 4639,
+          "behind": 629,
+          "weekly_wins": 0
+        },
+        {
+          "rank": 9,
+          "team_id": 2,
+          "display_name": "Team 2 Don / Kendall",
+          "segment_points": 4582,
+          "behind": 686,
+          "weekly_wins": 0
+        },
+        {
+          "rank": 10,
+          "team_id": 9,
+          "display_name": "Team 9 Ron / Jill",
+          "segment_points": 4193,
+          "behind": 1075,
+          "weekly_wins": 0
+        }
+      ],
+      "weekly_winners": [
+        {
+          "race_number": 1,
+          "race": "Charlotte",
+          "winner": "Team 8 JohnnyC",
+          "score": 462
+        },
+        {
+          "race_number": 2,
+          "race": "Nashville",
+          "winner": "Team 3 Joe / Mike",
+          "score": 490
+        },
+        {
+          "race_number": 3,
+          "race": "Michigan",
+          "winner": "Team 1 Linda",
+          "score": 492
+        },
+        {
+          "race_number": 4,
+          "race": "Pocono",
+          "winner": "Team 1 Linda",
+          "score": 464
+        },
+        {
+          "race_number": 5,
+          "race": "Coronado Naval Base",
+          "winner": "Team 5 JJ / George",
+          "score": 454
+        },
+        {
+          "race_number": 6,
+          "race": "Sonoma",
+          "winner": "Team 7 Craig / Patty",
+          "score": 560
+        },
+        {
+          "race_number": 7,
+          "race": "Chicagoland Speedway",
+          "winner": "Team 4 Corey / Jeff",
+          "score": 512
+        },
+        {
+          "race_number": 8,
+          "race": "Echo Park Speedway",
+          "winner": "Team 3 Joe / Mike",
+          "score": 508
+        },
+        {
+          "race_number": 9,
+          "race": "North Wilkesboro Speedway",
+          "winner": "Team 5 JJ / George",
+          "score": 495
+        },
+        {
+          "race_number": 10,
+          "race": "Indianapolis Motor Speedway",
+          "winner": "Team 8 JohnnyC",
+          "score": 519
+        },
+        {
+          "race_number": 11,
+          "race": "Iowa Speedway",
+          "winner": "Team 1 Linda",
+          "score": 471
+        },
+        {
+          "race_number": 12,
+          "race": "Richmond Raceway",
+          "winner": "Team 8 JohnnyC",
+          "score": 502
+        }
+      ],
+      "races": [
+        {
+          "race_number": 1,
+          "name": "Charlotte",
+          "date": "2026-05-24",
+          "status": "Completed",
+          "weekly_winner": "Team 8 JohnnyC",
+          "winning_score": 462
+        },
+        {
+          "race_number": 2,
+          "name": "Nashville",
+          "date": "2026-06-01",
+          "status": "Completed",
+          "weekly_winner": "Team 3 Joe / Mike",
+          "winning_score": 490
+        },
+        {
+          "race_number": 3,
+          "name": "Michigan",
+          "date": "2026-06-07",
+          "status": "Completed",
+          "weekly_winner": "Team 1 Linda",
+          "winning_score": 492
+        },
+        {
+          "race_number": 4,
+          "name": "Pocono",
+          "date": "2026-06-14",
+          "status": "Completed",
+          "weekly_winner": "Team 1 Linda",
+          "winning_score": 464
+        },
+        {
+          "race_number": 5,
+          "name": "Coronado Naval Base",
+          "date": "2026-06-21",
+          "status": "Completed",
+          "weekly_winner": "Team 5 JJ / George",
+          "winning_score": 454
+        },
+        {
+          "race_number": 6,
+          "name": "Sonoma",
+          "date": "2026-06-28",
+          "status": "Completed",
+          "weekly_winner": "Team 7 Craig / Patty",
+          "winning_score": 560
+        },
+        {
+          "race_number": 7,
+          "name": "Chicagoland Speedway",
+          "date": "2026-07-05",
+          "status": "Completed",
+          "weekly_winner": "Team 4 Corey / Jeff",
+          "winning_score": 512
+        },
+        {
+          "race_number": 8,
+          "name": "Echo Park Speedway",
+          "date": "2026-07-12",
+          "status": "Completed",
+          "weekly_winner": "Team 3 Joe / Mike",
+          "winning_score": 508
+        },
+        {
+          "race_number": 9,
+          "name": "North Wilkesboro Speedway",
+          "date": "2026-07-19",
+          "status": "Completed",
+          "weekly_winner": "Team 5 JJ / George",
+          "winning_score": 495
+        },
+        {
+          "race_number": 10,
+          "name": "Indianapolis Motor Speedway",
+          "date": "2026-07-26",
+          "status": "Completed",
+          "weekly_winner": "Team 8 JohnnyC",
+          "winning_score": 519
+        },
+        {
+          "race_number": 11,
+          "name": "Iowa Speedway",
+          "date": "2026-08-09",
+          "status": "Completed",
+          "weekly_winner": "Team 1 Linda",
+          "winning_score": 471
+        },
+        {
+          "race_number": 12,
+          "name": "Richmond Raceway",
+          "date": "2026-08-15",
+          "status": "Completed",
+          "weekly_winner": "Team 8 JohnnyC",
+          "winning_score": 502
+        }
+      ],
+      "race_results": {}
+    }
+  }
 };

@@ -19,6 +19,7 @@
 <a class="active" href="teams.html">Teams</a>
 <a class="" href="results.html">Race Results</a>
 <a class="" href="schedule.html">Schedule</a>
+<a class="" href="archive.html">Archive</a>
 <a class="" href="rules.html">Rules</a>
 <a class="" href="history.html">History</a></nav></details></div>
   <main><section class="card"><h2>Teams & Rosters</h2><div id="teams-grid" class="grid"></div></section></main>
@@ -46,7 +47,7 @@
        const driverName=getDriverName(dr), carNumber=getCarNumber(dr), cls=changedCar(t,carNumber) ? 'changed-car' : 'car';
        return `<li><span>${carNumber ? '<span class="'+cls+'">#'+carNumber+'</span> ' : ''}${driverName}</span></li>`;
      }).join('')}</ul>
-     ${t.change_status ? `<div class="change-note"><strong>Change Used:</strong> ${t.change_status.replace('Locked - used change: ','')}</div>` : ''}
+     ${t.change_status ? `<div class="change-note"><strong>Change Used:</strong> ${t.change_status}</div>` : ''}
    </div>`;
  }).join('');
 })();</script>
