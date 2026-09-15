@@ -1,5 +1,6 @@
-Fantasy NASCAR League — Segment 3 Race 2 Daytona update
+FANTASY NASCAR LEAGUE — WORLD WIDE TECHNOLOGY RACEWAY UPDATE
+Generated September 15, 2026
 
-Upload all files in this ZIP to the root of the GitHub repository, replacing matching files. Do not delete existing files first.
+Upload/replace all files in this ZIP in the GitHub repository root.
 
-Daytona was independently scored from the official race start/finish positions using the league rules and car number as the scoring key. The calculated weekly totals matched the supplied Excel workbook for all 10 teams.
+Includes Segment 3 Race 4 at World Wide Technology Raceway, Ron / Jill's 589-point Weekly Side Bet win, updated standings, Corey / Jeff's #43 Erik Jones effective roster, Bristol as next race, and the Archive restored to 12 black expandable Segment 2 race bars.
