@@ -7,7 +7,7 @@
 <section class="grid"><div class="mini-card"><h3>Standings Leader</h3><p id="leader">Loading...</p><a class="button-link" href="standings.html">View Standings</a></div><div class="mini-card"><h3>Teams</h3><p>View current Segment 3 rosters and points.</p><a class="button-link" href="teams.html">View Teams</a></div><div class="mini-card"><h3>Last Race</h3><p id="winner">Loading...</p><a class="button-link" href="results.html">Race Results</a></div><div class="mini-card"><h3>Archive</h3><p>View completed Segment 2 standings and results.</p><a class="button-link" href="archive.html">View Archive</a></div></section>
 <section class="card"><h2>Locked Teams</h2><div id="locks">Loading...</div></section></main>
 <div class="footer">Fantasy NASCAR League is an independent private fantasy league site.<br>NASCAR and driver/team names are property of their respective owners.</div>
-<script src="league-data.js?v=20260915-seg3-r4-wwtr"></script><script>
+<script src="league-data.js?v=20260921-seg3-r5-bristol"></script><script>
 (function(){const d=window.LEAGUE_DATA;if(!d)return;
 const last=d.races[d.races.length-1],lead=d.standings[0],leaders=d.standings.filter(s=>s.segment_points===lead.segment_points),w=d.weekly_winners[d.weekly_winners.length-1];
 seg.textContent='Segment '+d.segment;done.textContent=d.races_completed;document.getElementById('last').textContent=last.name;next.textContent=d.next_race;

@@ -1,10 +1,10 @@
 window.LEAGUE_DATA = {
   "league": "Fantasy NASCAR League",
   "segment": 3,
-  "races_completed": 4,
-  "current_race": "World Wide Technology Raceway",
-  "next_race": "Bristol Motor Speedway",
-  "last_updated": "2026-09-15",
+  "races_completed": 5,
+  "current_race": "Bristol Motor Speedway",
+  "next_race": "Kansas Speedway",
+  "last_updated": "2026-09-21",
   "label_preference": "Segment Points",
   "races": [
     {
@@ -38,6 +38,14 @@ window.LEAGUE_DATA = {
       "status": "Completed",
       "weekly_winner": "Team 4 Ron / Jill",
       "winning_score": 589
+    },
+    {
+      "race_number": 5,
+      "name": "Bristol Motor Speedway",
+      "date": "2026-09-19",
+      "status": "Completed",
+      "weekly_winner": "Team 4 Ron / Jill",
+      "winning_score": 490
     }
   ],
   "teams": [
@@ -84,7 +92,8 @@ window.LEAGUE_DATA = {
         "New Hampshire Motor Speedway": 395,
         "Daytona International Speedway": 354,
         "Darlington Raceway": 398,
-        "World Wide Technology Raceway": 373
+        "World Wide Technology Raceway": 373,
+        "Bristol Motor Speedway": 430
       },
       "weekly_points": [
         {
@@ -102,11 +111,15 @@ window.LEAGUE_DATA = {
         {
           "race": "World Wide Technology Raceway",
           "points": 373
+        },
+        {
+          "race": "Bristol Motor Speedway",
+          "points": 430
         }
       ],
-      "segment_points": 1520,
-      "segment_total": 1520,
-      "points": 1520,
+      "segment_points": 1950,
+      "segment_total": 1950,
+      "points": 1950,
       "locked": false,
       "change_status": ""
     },
@@ -153,7 +166,8 @@ window.LEAGUE_DATA = {
         "New Hampshire Motor Speedway": 408,
         "Daytona International Speedway": 227,
         "Darlington Raceway": 318,
-        "World Wide Technology Raceway": 418
+        "World Wide Technology Raceway": 418,
+        "Bristol Motor Speedway": 373
       },
       "weekly_points": [
         {
@@ -171,11 +185,15 @@ window.LEAGUE_DATA = {
         {
           "race": "World Wide Technology Raceway",
           "points": 418
+        },
+        {
+          "race": "Bristol Motor Speedway",
+          "points": 373
         }
       ],
-      "segment_points": 1371,
-      "segment_total": 1371,
-      "points": 1371,
+      "segment_points": 1744,
+      "segment_total": 1744,
+      "points": 1744,
       "locked": true,
       "change_status": "#97 Shane van Gisbergen to #43 Erik Jones (effective Race 4 - World Wide Technology Raceway)"
     },
@@ -222,7 +240,8 @@ window.LEAGUE_DATA = {
         "New Hampshire Motor Speedway": 436,
         "Daytona International Speedway": 289,
         "Darlington Raceway": 480,
-        "World Wide Technology Raceway": 472
+        "World Wide Technology Raceway": 472,
+        "Bristol Motor Speedway": 486
       },
       "weekly_points": [
         {
@@ -240,11 +259,15 @@ window.LEAGUE_DATA = {
         {
           "race": "World Wide Technology Raceway",
           "points": 472
+        },
+        {
+          "race": "Bristol Motor Speedway",
+          "points": 486
         }
       ],
-      "segment_points": 1677,
-      "segment_total": 1677,
-      "points": 1677,
+      "segment_points": 2163,
+      "segment_total": 2163,
+      "points": 2163,
       "locked": false,
       "change_status": ""
     },
@@ -291,7 +314,8 @@ window.LEAGUE_DATA = {
         "New Hampshire Motor Speedway": 394,
         "Daytona International Speedway": 373,
         "Darlington Raceway": 426,
-        "World Wide Technology Raceway": 589
+        "World Wide Technology Raceway": 589,
+        "Bristol Motor Speedway": 490
       },
       "weekly_points": [
         {
@@ -309,11 +333,15 @@ window.LEAGUE_DATA = {
         {
           "race": "World Wide Technology Raceway",
           "points": 589
+        },
+        {
+          "race": "Bristol Motor Speedway",
+          "points": 490
         }
       ],
-      "segment_points": 1782,
-      "segment_total": 1782,
-      "points": 1782,
+      "segment_points": 2272,
+      "segment_total": 2272,
+      "points": 2272,
       "locked": false,
       "change_status": ""
     },
@@ -360,7 +388,8 @@ window.LEAGUE_DATA = {
         "New Hampshire Motor Speedway": 480,
         "Daytona International Speedway": 521,
         "Darlington Raceway": 553,
-        "World Wide Technology Raceway": 297
+        "World Wide Technology Raceway": 297,
+        "Bristol Motor Speedway": 379
       },
       "weekly_points": [
         {
@@ -378,11 +407,15 @@ window.LEAGUE_DATA = {
         {
           "race": "World Wide Technology Raceway",
           "points": 297
+        },
+        {
+          "race": "Bristol Motor Speedway",
+          "points": 379
         }
       ],
-      "segment_points": 1851,
-      "segment_total": 1851,
-      "points": 1851,
+      "segment_points": 2230,
+      "segment_total": 2230,
+      "points": 2230,
       "locked": false,
       "change_status": ""
     },
@@ -429,7 +462,8 @@ window.LEAGUE_DATA = {
         "New Hampshire Motor Speedway": 428,
         "Daytona International Speedway": 291,
         "Darlington Raceway": 400,
-        "World Wide Technology Raceway": 393
+        "World Wide Technology Raceway": 393,
+        "Bristol Motor Speedway": 479
       },
       "weekly_points": [
         {
@@ -447,11 +481,15 @@ window.LEAGUE_DATA = {
         {
           "race": "World Wide Technology Raceway",
           "points": 393
+        },
+        {
+          "race": "Bristol Motor Speedway",
+          "points": 479
         }
       ],
-      "segment_points": 1512,
-      "segment_total": 1512,
-      "points": 1512,
+      "segment_points": 1991,
+      "segment_total": 1991,
+      "points": 1991,
       "locked": false,
       "change_status": ""
     },
@@ -498,7 +536,8 @@ window.LEAGUE_DATA = {
         "New Hampshire Motor Speedway": 423,
         "Daytona International Speedway": 436,
         "Darlington Raceway": 409,
-        "World Wide Technology Raceway": 376
+        "World Wide Technology Raceway": 376,
+        "Bristol Motor Speedway": 450
       },
       "weekly_points": [
         {
@@ -516,11 +555,15 @@ window.LEAGUE_DATA = {
         {
           "race": "World Wide Technology Raceway",
           "points": 376
+        },
+        {
+          "race": "Bristol Motor Speedway",
+          "points": 450
         }
       ],
-      "segment_points": 1644,
-      "segment_total": 1644,
-      "points": 1644,
+      "segment_points": 2094,
+      "segment_total": 2094,
+      "points": 2094,
       "locked": false,
       "change_status": ""
     },
@@ -567,7 +610,8 @@ window.LEAGUE_DATA = {
         "New Hampshire Motor Speedway": 395,
         "Daytona International Speedway": 416,
         "Darlington Raceway": 486,
-        "World Wide Technology Raceway": 373
+        "World Wide Technology Raceway": 373,
+        "Bristol Motor Speedway": 340
       },
       "weekly_points": [
         {
@@ -585,11 +629,15 @@ window.LEAGUE_DATA = {
         {
           "race": "World Wide Technology Raceway",
           "points": 373
+        },
+        {
+          "race": "Bristol Motor Speedway",
+          "points": 340
         }
       ],
-      "segment_points": 1670,
-      "segment_total": 1670,
-      "points": 1670,
+      "segment_points": 2010,
+      "segment_total": 2010,
+      "points": 2010,
       "locked": false,
       "change_status": ""
     },
@@ -636,7 +684,8 @@ window.LEAGUE_DATA = {
         "New Hampshire Motor Speedway": 480,
         "Daytona International Speedway": 267,
         "Darlington Raceway": 468,
-        "World Wide Technology Raceway": 470
+        "World Wide Technology Raceway": 470,
+        "Bristol Motor Speedway": 466
       },
       "weekly_points": [
         {
@@ -654,11 +703,15 @@ window.LEAGUE_DATA = {
         {
           "race": "World Wide Technology Raceway",
           "points": 470
+        },
+        {
+          "race": "Bristol Motor Speedway",
+          "points": 466
         }
       ],
-      "segment_points": 1685,
-      "segment_total": 1685,
-      "points": 1685,
+      "segment_points": 2151,
+      "segment_total": 2151,
+      "points": 2151,
       "locked": false,
       "change_status": ""
     },
@@ -705,7 +758,8 @@ window.LEAGUE_DATA = {
         "New Hampshire Motor Speedway": 399,
         "Daytona International Speedway": 317,
         "Darlington Raceway": 362,
-        "World Wide Technology Raceway": 357
+        "World Wide Technology Raceway": 357,
+        "Bristol Motor Speedway": 415
       },
       "weekly_points": [
         {
@@ -723,11 +777,15 @@ window.LEAGUE_DATA = {
         {
           "race": "World Wide Technology Raceway",
           "points": 357
+        },
+        {
+          "race": "Bristol Motor Speedway",
+          "points": 415
         }
       ],
-      "segment_points": 1435,
-      "segment_total": 1435,
-      "points": 1435,
+      "segment_points": 1850,
+      "segment_total": 1850,
+      "points": 1850,
       "locked": false,
       "change_status": ""
     }
@@ -735,106 +793,106 @@ window.LEAGUE_DATA = {
   "standings": [
     {
       "rank": 1,
-      "team_id": 5,
-      "team": "Don / Kendall",
-      "display_name": "Team 5 Don / Kendall",
-      "weekly_points": 297,
-      "world_wide_technology": 297,
-      "segment_points": 1851,
-      "points": 1851,
-      "behind": 0,
-      "behind_leader": 0,
-      "weekly_wins": 2.5
-    },
-    {
-      "rank": 2,
       "team_id": 4,
       "team": "Ron / Jill",
       "display_name": "Team 4 Ron / Jill",
-      "weekly_points": 589,
-      "world_wide_technology": 589,
-      "segment_points": 1782,
-      "points": 1782,
-      "behind": 69,
-      "behind_leader": -69,
-      "weekly_wins": 1.0
+      "weekly_points": 490,
+      "bristol": 490,
+      "segment_points": 2272,
+      "points": 2272,
+      "behind": 0,
+      "behind_leader": 0,
+      "weekly_wins": 2.0
+    },
+    {
+      "rank": 2,
+      "team_id": 5,
+      "team": "Don / Kendall",
+      "display_name": "Team 5 Don / Kendall",
+      "weekly_points": 379,
+      "bristol": 379,
+      "segment_points": 2230,
+      "points": 2230,
+      "behind": 42,
+      "behind_leader": -42,
+      "weekly_wins": 2.5
     },
     {
       "rank": 3,
-      "team_id": 9,
-      "team": "Joe / Mike",
-      "display_name": "Team 9 Joe / Mike",
-      "weekly_points": 470,
-      "world_wide_technology": 470,
-      "segment_points": 1685,
-      "points": 1685,
-      "behind": 166,
-      "behind_leader": -166,
-      "weekly_wins": 0.5
-    },
-    {
-      "rank": 4,
       "team_id": 3,
       "team": "JJ / George",
       "display_name": "Team 3 JJ / George",
-      "weekly_points": 472,
-      "world_wide_technology": 472,
-      "segment_points": 1677,
-      "points": 1677,
-      "behind": 174,
-      "behind_leader": -174,
+      "weekly_points": 486,
+      "bristol": 486,
+      "segment_points": 2163,
+      "points": 2163,
+      "behind": 109,
+      "behind_leader": -109,
       "weekly_wins": 0
     },
     {
+      "rank": 4,
+      "team_id": 9,
+      "team": "Joe / Mike",
+      "display_name": "Team 9 Joe / Mike",
+      "weekly_points": 466,
+      "bristol": 466,
+      "segment_points": 2151,
+      "points": 2151,
+      "behind": 121,
+      "behind_leader": -121,
+      "weekly_wins": 0.5
+    },
+    {
       "rank": 5,
-      "team_id": 8,
-      "team": "JohnnyC",
-      "display_name": "Team 8 JohnnyC",
-      "weekly_points": 373,
-      "world_wide_technology": 373,
-      "segment_points": 1670,
-      "points": 1670,
-      "behind": 181,
-      "behind_leader": -181,
+      "team_id": 7,
+      "team": "Grub / Jim",
+      "display_name": "Team 7 Grub / Jim",
+      "weekly_points": 450,
+      "bristol": 450,
+      "segment_points": 2094,
+      "points": 2094,
+      "behind": 178,
+      "behind_leader": -178,
       "weekly_wins": 0
     },
     {
       "rank": 6,
-      "team_id": 7,
-      "team": "Grub / Jim",
-      "display_name": "Team 7 Grub / Jim",
-      "weekly_points": 376,
-      "world_wide_technology": 376,
-      "segment_points": 1644,
-      "points": 1644,
-      "behind": 207,
-      "behind_leader": -207,
+      "team_id": 8,
+      "team": "JohnnyC",
+      "display_name": "Team 8 JohnnyC",
+      "weekly_points": 340,
+      "bristol": 340,
+      "segment_points": 2010,
+      "points": 2010,
+      "behind": 262,
+      "behind_leader": -262,
       "weekly_wins": 0
     },
     {
       "rank": 7,
-      "team_id": 1,
-      "team": "Roberto / Elsie",
-      "display_name": "Team 1 Roberto / Elsie",
-      "weekly_points": 373,
-      "world_wide_technology": 373,
-      "segment_points": 1520,
-      "points": 1520,
-      "behind": 331,
-      "behind_leader": -331,
+      "team_id": 6,
+      "team": "Craig / Patty",
+      "display_name": "Team 6 Craig / Patty",
+      "weekly_points": 479,
+      "bristol": 479,
+      "segment_points": 1991,
+      "points": 1991,
+      "behind": 281,
+      "behind_leader": -281,
       "weekly_wins": 0
     },
     {
       "rank": 8,
-      "team_id": 6,
-      "team": "Craig / Patty",
-      "display_name": "Team 6 Craig / Patty",
-      "weekly_points": 393,
-      "world_wide_technology": 393,
-      "segment_points": 1512,
-      "points": 1512,
-      "behind": 339,
-      "behind_leader": -339,
+      "team_id": 1,
+      "team": "Roberto / Elsie",
+      "display_name": "Team 1 Roberto / Elsie",
+      "weekly_points": 430,
+      "bristol": 430,
+      "segment_points": 1950,
+      "points": 1950,
+      "behind": 322,
+      "behind_leader": -322,
       "weekly_wins": 0
     },
     {
@@ -842,12 +900,12 @@ window.LEAGUE_DATA = {
       "team_id": 10,
       "team": "Linda",
       "display_name": "Team 10 Linda",
-      "weekly_points": 357,
-      "world_wide_technology": 357,
-      "segment_points": 1435,
-      "points": 1435,
-      "behind": 416,
-      "behind_leader": -416,
+      "weekly_points": 415,
+      "bristol": 415,
+      "segment_points": 1850,
+      "points": 1850,
+      "behind": 422,
+      "behind_leader": -422,
       "weekly_wins": 0
     },
     {
@@ -855,12 +913,12 @@ window.LEAGUE_DATA = {
       "team_id": 2,
       "team": "Corey / Jeff",
       "display_name": "Team 2 Corey / Jeff",
-      "weekly_points": 418,
-      "world_wide_technology": 418,
-      "segment_points": 1371,
-      "points": 1371,
-      "behind": 480,
-      "behind_leader": -480,
+      "weekly_points": 373,
+      "bristol": 373,
+      "segment_points": 1744,
+      "points": 1744,
+      "behind": 528,
+      "behind_leader": -528,
       "weekly_wins": 0
     }
   ],
@@ -888,6 +946,12 @@ window.LEAGUE_DATA = {
       "race": "World Wide Technology Raceway",
       "winner": "4 Ron / Jill",
       "score": 589
+    },
+    {
+      "race_number": 5,
+      "race": "Bristol Motor Speedway",
+      "winner": "4 Ron / Jill",
+      "score": 490
     }
   ],
   "weekly_team_scores": [
@@ -1311,6 +1375,112 @@ window.LEAGUE_DATA = {
           "race_points": 186,
           "points": 297,
           "weekly_total": 297,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "race": "Bristol Motor Speedway",
+      "race_number": 5,
+      "scores": [
+        {
+          "team_id": 4,
+          "team": "Ron / Jill",
+          "display_name": "Team 4 Ron / Jill",
+          "qualifying_points": 148,
+          "race_points": 342,
+          "points": 490,
+          "weekly_total": 490,
+          "rank": 1
+        },
+        {
+          "team_id": 3,
+          "team": "JJ / George",
+          "display_name": "Team 3 JJ / George",
+          "qualifying_points": 126,
+          "race_points": 360,
+          "points": 486,
+          "weekly_total": 486,
+          "rank": 2
+        },
+        {
+          "team_id": 6,
+          "team": "Craig / Patty",
+          "display_name": "Team 6 Craig / Patty",
+          "qualifying_points": 110,
+          "race_points": 369,
+          "points": 479,
+          "weekly_total": 479,
+          "rank": 3
+        },
+        {
+          "team_id": 9,
+          "team": "Joe / Mike",
+          "display_name": "Team 9 Joe / Mike",
+          "qualifying_points": 121,
+          "race_points": 345,
+          "points": 466,
+          "weekly_total": 466,
+          "rank": 4
+        },
+        {
+          "team_id": 7,
+          "team": "Grub / Jim",
+          "display_name": "Team 7 Grub / Jim",
+          "qualifying_points": 102,
+          "race_points": 348,
+          "points": 450,
+          "weekly_total": 450,
+          "rank": 5
+        },
+        {
+          "team_id": 1,
+          "team": "Roberto / Elsie",
+          "display_name": "Team 1 Roberto / Elsie",
+          "qualifying_points": 103,
+          "race_points": 327,
+          "points": 430,
+          "weekly_total": 430,
+          "rank": 6
+        },
+        {
+          "team_id": 10,
+          "team": "Linda",
+          "display_name": "Team 10 Linda",
+          "qualifying_points": 100,
+          "race_points": 315,
+          "points": 415,
+          "weekly_total": 415,
+          "rank": 7
+        },
+        {
+          "team_id": 5,
+          "team": "Don / Kendall",
+          "display_name": "Team 5 Don / Kendall",
+          "qualifying_points": 70,
+          "race_points": 309,
+          "points": 379,
+          "weekly_total": 379,
+          "rank": 8
+        },
+        {
+          "team_id": 2,
+          "team": "Corey / Jeff",
+          "display_name": "Team 2 Corey / Jeff",
+          "qualifying_points": 112,
+          "race_points": 261,
+          "points": 373,
+          "weekly_total": 373,
+          "rank": 9
+        },
+        {
+          "team_id": 8,
+          "team": "JohnnyC",
+          "display_name": "Team 8 JohnnyC",
+          "qualifying_points": 91,
+          "race_points": 249,
+          "points": 340,
+          "weekly_total": 340,
           "rank": 10
         }
       ]
@@ -3252,6 +3422,490 @@ window.LEAGUE_DATA = {
           "rank": 10
         }
       ]
+    },
+    "Bristol Motor Speedway": {
+      "team_breakdown": [
+        {
+          "team_id": 4,
+          "team": "Ron / Jill",
+          "display_name": "Team 4 Ron / Jill",
+          "qualifying_points": 148,
+          "race_points": 342,
+          "points": 490,
+          "weekly_total": 490,
+          "drivers": [
+            {
+              "car": 22,
+              "driver": "Joey Logano",
+              "start": 2,
+              "qualifying_points": 39,
+              "finish": 1,
+              "race_points": 120,
+              "total": 159
+            },
+            {
+              "car": 5,
+              "driver": "Kyle Larson",
+              "start": 1,
+              "qualifying_points": 40,
+              "finish": 2,
+              "race_points": 117,
+              "total": 157
+            },
+            {
+              "car": 1,
+              "driver": "Ross Chastain",
+              "start": 7,
+              "qualifying_points": 34,
+              "finish": 12,
+              "race_points": 87,
+              "total": 121
+            },
+            {
+              "car": 48,
+              "driver": "Alex Bowman",
+              "start": 6,
+              "qualifying_points": 35,
+              "finish": 35,
+              "race_points": 18,
+              "total": 53
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "team_id": 3,
+          "team": "JJ / George",
+          "display_name": "Team 3 JJ / George",
+          "qualifying_points": 126,
+          "race_points": 360,
+          "points": 486,
+          "weekly_total": 486,
+          "drivers": [
+            {
+              "car": 20,
+              "driver": "Christopher Bell",
+              "start": 12,
+              "qualifying_points": 29,
+              "finish": 4,
+              "race_points": 111,
+              "total": 140
+            },
+            {
+              "car": 22,
+              "driver": "Joey Logano",
+              "start": 2,
+              "qualifying_points": 39,
+              "finish": 1,
+              "race_points": 120,
+              "total": 159
+            },
+            {
+              "car": 23,
+              "driver": "Bubba Wallace",
+              "start": 10,
+              "qualifying_points": 31,
+              "finish": 7,
+              "race_points": 102,
+              "total": 133
+            },
+            {
+              "car": 43,
+              "driver": "Erik Jones",
+              "start": 14,
+              "qualifying_points": 27,
+              "finish": 32,
+              "race_points": 27,
+              "total": 54
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "team_id": 6,
+          "team": "Craig / Patty",
+          "display_name": "Team 6 Craig / Patty",
+          "qualifying_points": 110,
+          "race_points": 369,
+          "points": 479,
+          "weekly_total": 479,
+          "drivers": [
+            {
+              "car": 54,
+              "driver": "Ty Gibbs",
+              "start": 13,
+              "qualifying_points": 28,
+              "finish": 5,
+              "race_points": 108,
+              "total": 136
+            },
+            {
+              "car": 20,
+              "driver": "Christopher Bell",
+              "start": 12,
+              "qualifying_points": 29,
+              "finish": 4,
+              "race_points": 111,
+              "total": 140
+            },
+            {
+              "car": 97,
+              "driver": "Shane van Gisbergen",
+              "start": 22,
+              "qualifying_points": 19,
+              "finish": 20,
+              "race_points": 63,
+              "total": 82
+            },
+            {
+              "car": 1,
+              "driver": "Ross Chastain",
+              "start": 7,
+              "qualifying_points": 34,
+              "finish": 12,
+              "race_points": 87,
+              "total": 121
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "team_id": 9,
+          "team": "Joe / Mike",
+          "display_name": "Team 9 Joe / Mike",
+          "qualifying_points": 121,
+          "race_points": 345,
+          "points": 466,
+          "weekly_total": 466,
+          "drivers": [
+            {
+              "car": 5,
+              "driver": "Kyle Larson",
+              "start": 1,
+              "qualifying_points": 40,
+              "finish": 2,
+              "race_points": 117,
+              "total": 157
+            },
+            {
+              "car": 12,
+              "driver": "Ryan Blaney",
+              "start": 29,
+              "qualifying_points": 12,
+              "finish": 33,
+              "race_points": 24,
+              "total": 36
+            },
+            {
+              "car": 2,
+              "driver": "Austin Cindric",
+              "start": 8,
+              "qualifying_points": 33,
+              "finish": 11,
+              "race_points": 90,
+              "total": 123
+            },
+            {
+              "car": 77,
+              "driver": "Carson Hocevar",
+              "start": 5,
+              "qualifying_points": 36,
+              "finish": 3,
+              "race_points": 114,
+              "total": 150
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "team_id": 7,
+          "team": "Grub / Jim",
+          "display_name": "Team 7 Grub / Jim",
+          "qualifying_points": 102,
+          "race_points": 348,
+          "points": 450,
+          "weekly_total": 450,
+          "drivers": [
+            {
+              "car": 24,
+              "driver": "William Byron",
+              "start": 4,
+              "qualifying_points": 37,
+              "finish": 9,
+              "race_points": 96,
+              "total": 133
+            },
+            {
+              "car": 45,
+              "driver": "Tyler Reddick",
+              "start": 20,
+              "qualifying_points": 21,
+              "finish": 18,
+              "race_points": 69,
+              "total": 90
+            },
+            {
+              "car": 7,
+              "driver": "Daniel Suarez",
+              "start": 28,
+              "qualifying_points": 13,
+              "finish": 14,
+              "race_points": 81,
+              "total": 94
+            },
+            {
+              "car": 23,
+              "driver": "Bubba Wallace",
+              "start": 10,
+              "qualifying_points": 31,
+              "finish": 7,
+              "race_points": 102,
+              "total": 133
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "team_id": 1,
+          "team": "Roberto / Elsie",
+          "display_name": "Team 1 Roberto / Elsie",
+          "qualifying_points": 103,
+          "race_points": 327,
+          "points": 430,
+          "weekly_total": 430,
+          "drivers": [
+            {
+              "car": 11,
+              "driver": "Denny Hamlin",
+              "start": 3,
+              "qualifying_points": 38,
+              "finish": 8,
+              "race_points": 99,
+              "total": 137
+            },
+            {
+              "car": 17,
+              "driver": "Chris Buescher",
+              "start": 23,
+              "qualifying_points": 18,
+              "finish": 13,
+              "race_points": 84,
+              "total": 102
+            },
+            {
+              "car": 9,
+              "driver": "Chase Elliott",
+              "start": 27,
+              "qualifying_points": 14,
+              "finish": 23,
+              "race_points": 54,
+              "total": 68
+            },
+            {
+              "car": 2,
+              "driver": "Austin Cindric",
+              "start": 8,
+              "qualifying_points": 33,
+              "finish": 11,
+              "race_points": 90,
+              "total": 123
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "team_id": 10,
+          "team": "Linda",
+          "display_name": "Team 10 Linda",
+          "qualifying_points": 100,
+          "race_points": 315,
+          "points": 415,
+          "weekly_total": 415,
+          "drivers": [
+            {
+              "car": 17,
+              "driver": "Chris Buescher",
+              "start": 23,
+              "qualifying_points": 18,
+              "finish": 13,
+              "race_points": 84,
+              "total": 102
+            },
+            {
+              "car": 11,
+              "driver": "Denny Hamlin",
+              "start": 3,
+              "qualifying_points": 38,
+              "finish": 8,
+              "race_points": 99,
+              "total": 137
+            },
+            {
+              "car": 6,
+              "driver": "Brad Keselowski",
+              "start": 11,
+              "qualifying_points": 30,
+              "finish": 15,
+              "race_points": 78,
+              "total": 108
+            },
+            {
+              "car": 9,
+              "driver": "Chase Elliott",
+              "start": 27,
+              "qualifying_points": 14,
+              "finish": 23,
+              "race_points": 54,
+              "total": 68
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "team_id": 5,
+          "team": "Don / Kendall",
+          "display_name": "Team 5 Don / Kendall",
+          "qualifying_points": 70,
+          "race_points": 309,
+          "points": 379,
+          "weekly_total": 379,
+          "drivers": [
+            {
+              "car": 45,
+              "driver": "Tyler Reddick",
+              "start": 20,
+              "qualifying_points": 21,
+              "finish": 18,
+              "race_points": 69,
+              "total": 90
+            },
+            {
+              "car": 19,
+              "driver": "Chase Briscoe",
+              "start": 26,
+              "qualifying_points": 15,
+              "finish": 27,
+              "race_points": 42,
+              "total": 57
+            },
+            {
+              "car": 60,
+              "driver": "Ryan Preece",
+              "start": 16,
+              "qualifying_points": 25,
+              "finish": 10,
+              "race_points": 93,
+              "total": 118
+            },
+            {
+              "car": 21,
+              "driver": "Josh Berry",
+              "start": 32,
+              "qualifying_points": 9,
+              "finish": 6,
+              "race_points": 105,
+              "total": 114
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "team_id": 2,
+          "team": "Corey / Jeff",
+          "display_name": "Team 2 Corey / Jeff",
+          "qualifying_points": 112,
+          "race_points": 261,
+          "points": 373,
+          "weekly_total": 373,
+          "drivers": [
+            {
+              "car": 12,
+              "driver": "Ryan Blaney",
+              "start": 29,
+              "qualifying_points": 12,
+              "finish": 33,
+              "race_points": 24,
+              "total": 36
+            },
+            {
+              "car": 24,
+              "driver": "William Byron",
+              "start": 4,
+              "qualifying_points": 37,
+              "finish": 9,
+              "race_points": 96,
+              "total": 133
+            },
+            {
+              "car": 77,
+              "driver": "Carson Hocevar",
+              "start": 5,
+              "qualifying_points": 36,
+              "finish": 3,
+              "race_points": 114,
+              "total": 150
+            },
+            {
+              "car": 43,
+              "driver": "Erik Jones",
+              "start": 14,
+              "qualifying_points": 27,
+              "finish": 32,
+              "race_points": 27,
+              "total": 54
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "team_id": 8,
+          "team": "JohnnyC",
+          "display_name": "Team 8 JohnnyC",
+          "qualifying_points": 91,
+          "race_points": 249,
+          "points": 340,
+          "weekly_total": 340,
+          "drivers": [
+            {
+              "car": 19,
+              "driver": "Chase Briscoe",
+              "start": 26,
+              "qualifying_points": 15,
+              "finish": 27,
+              "race_points": 42,
+              "total": 57
+            },
+            {
+              "car": 54,
+              "driver": "Ty Gibbs",
+              "start": 13,
+              "qualifying_points": 28,
+              "finish": 5,
+              "race_points": 108,
+              "total": 136
+            },
+            {
+              "car": 48,
+              "driver": "Alex Bowman",
+              "start": 6,
+              "qualifying_points": 35,
+              "finish": 35,
+              "race_points": 18,
+              "total": 53
+            },
+            {
+              "car": 7,
+              "driver": "Daniel Suarez",
+              "start": 28,
+              "qualifying_points": 13,
+              "finish": 14,
+              "race_points": 81,
+              "total": 94
+            }
+          ],
+          "rank": 10
+        }
+      ]
     }
   },
   "schedule": [
@@ -3283,13 +3937,13 @@ window.LEAGUE_DATA = {
       "race_number": 5,
       "name": "Bristol Motor Speedway",
       "date": "2026-09-19",
-      "status": "Next Race"
+      "status": "Completed"
     },
     {
       "race_number": 6,
       "name": "Kansas Speedway",
       "date": "2026-09-27",
-      "status": "Upcoming"
+      "status": "Next Race"
     },
     {
       "race_number": 7,
@@ -3335,7 +3989,9 @@ window.LEAGUE_DATA = {
     "Darlington is scored with #97 for Corey / Jeff; #43 begins scoring at World Wide Technology Raceway.",
     "New Hampshire Race 1 ended in a weekly side-bet tie between Team 5 Don / Kendall and Team 9 Joe / Mike at 480 points each.",
     "World Wide Technology Raceway Race 4 completed. Weekly Side Bet Winner: Team 4 Ron / Jill with 589 points.",
-    "Team 2 Corey / Jeff scored #43 Erik Jones beginning at World Wide Technology Raceway and remains locked."
+    "Team 2 Corey / Jeff scored #43 Erik Jones beginning at World Wide Technology Raceway and remains locked.",
+    "Bristol Motor Speedway Race 5 completed. Weekly Side Bet Winner: Team 4 Ron / Jill with 490 points.",
+    "Team 2 Corey / Jeff remains locked with #43 Erik Jones."
   ],
   "archive": {
     "2026_segment_2": {

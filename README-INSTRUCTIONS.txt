@@ -1,6 +1,9 @@
-FANTASY NASCAR LEAGUE — WORLD WIDE TECHNOLOGY RACEWAY UPDATE
-Generated September 15, 2026
-
+FANTASY NASCAR LEAGUE — BRISTOL RACE 5 UPDATE
+Generated September 21, 2026
 Upload/replace all files in this ZIP in the GitHub repository root.
 
-Includes Segment 3 Race 4 at World Wide Technology Raceway, Ron / Jill's 589-point Weekly Side Bet win, updated standings, Corey / Jeff's #43 Erik Jones effective roster, Bristol as next race, and the Archive restored to 12 black expandable Segment 2 race bars.
+Bristol Weekly Side Bet Winner: Team 4 Ron / Jill — 490
+Segment leader: Team 4 Ron / Jill — 2,272 Segment Points
+Team 2 Corey / Jeff remains locked with #43 Erik Jones.
+Next race: Kansas Speedway.
+Expandable Segment 2 Archive preserved.
