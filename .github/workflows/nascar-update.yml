@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 jobs:
-  step-4b-dry-run:
+  step-5-online-import-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,15 +19,24 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Reproduce Las Vegas calculation
+      - name: Install online-data requirements
         run: |
-          python automation/verify_las_vegas.py
+          python -m pip install --upgrade pip
+          pip install requests
 
       - name: Validate current live league data
         run: |
           python automation/validate_live_data.py league-data.js
 
-      - name: Generate Las Vegas from Kansas baseline
+      - name: Fetch NASCAR Las Vegas results online
+        run: |
+          python automation/fetch_nascar_results.py
+
+      - name: Compare online results with approved Las Vegas input
+        run: |
+          python automation/compare_online_las_vegas.py
+
+      - name: Generate league data from online race input
         run: |
           python automation/generate_step4b.py
 
@@ -40,14 +49,15 @@ jobs:
         run: |
           python automation/validate_live_data.py automation/generated/league-data.js
 
-      - name: Compare generated data with live Las Vegas
+      - name: Compare generated league data with approved Las Vegas
         run: |
           python automation/compare_generated_to_live.py
 
-      - name: Step 4B passed
+      - name: Step 5 passed
         run: |
-          echo "Fantasy NASCAR Step 4B passed."
-          echo "Calculation engine generated Las Vegas successfully."
-          echo "Generated data passed live-data validation."
-          echo "Generated data matched the approved Las Vegas data."
+          echo "Fantasy NASCAR Step 5 passed."
+          echo "NASCAR race results were obtained online."
+          echo "Online race data matched the approved Las Vegas race input."
+          echo "League calculations passed."
+          echo "Generated league data passed validation."
           echo "LIVE WEBSITE WAS NOT MODIFIED."
