@@ -7,7 +7,7 @@ def load_js(p):
  if not m: raise SystemExit(f'Could not parse {p}')
  return json.loads(m.group(1))
 
-g=load_js(sys.argv[1] if len(sys.argv)>1 else 'automation/generated-league-data.js')
+g=load_js(sys.argv[1] if len(sys.argv)>1 else 'automation/generated/league-data.js')
 l=load_js(sys.argv[2] if len(sys.argv)>2 else 'league-data.js')
 r='Las Vegas Motor Speedway'
 checks=[]
