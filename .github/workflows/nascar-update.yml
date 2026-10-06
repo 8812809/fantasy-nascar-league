@@ -30,14 +30,7 @@ jobs:
 
       - name: Fetch NASCAR Las Vegas results online
         run: |
-          python automation/fetch_nascar_results.py \
-            --year 2026 \
-            --cup-race-number 31 \
-            --fantasy-race-number 7 \
-            --name "Las Vegas Motor Speedway" \
-            --date "2026-10-04" \
-            --next-race "Charlotte Motor Speedway" \
-            --output "automation/test-data/online-las-vegas.json
+          python automation/fetch_nascar_results.py --year 2026 --cup-race-number 31 --fantasy-race-number 7 --name "Las Vegas Motor Speedway" --date "2026-10-04" --next-race "Charlotte Motor Speedway" --output "automation/test-data/online-las-vegas.json"
       - name: Compare online results with approved Las Vegas input
         run: |
           python automation/compare_online_las_vegas.py
