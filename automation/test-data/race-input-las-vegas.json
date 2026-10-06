@@ -1,0 +1,134 @@
+{
+  "race_number": 7,
+  "name": "Las Vegas Motor Speedway",
+  "date": "2026-10-04",
+  "next_race": "Charlotte Motor Speedway",
+  "results": [
+    {
+      "car": 11,
+      "driver": "Denny Hamlin",
+      "start": 1,
+      "finish": 16
+    },
+    {
+      "car": 54,
+      "driver": "Ty Gibbs",
+      "start": 2,
+      "finish": 17
+    },
+    {
+      "car": 20,
+      "driver": "Christopher Bell",
+      "start": 3,
+      "finish": 23
+    },
+    {
+      "car": 19,
+      "driver": "Chase Briscoe",
+      "start": 4,
+      "finish": 1
+    },
+    {
+      "car": 45,
+      "driver": "Tyler Reddick",
+      "start": 5,
+      "finish": 3
+    },
+    {
+      "car": 5,
+      "driver": "Kyle Larson",
+      "start": 6,
+      "finish": 2
+    },
+    {
+      "car": 2,
+      "driver": "Austin Cindric",
+      "start": 7,
+      "finish": 4
+    },
+    {
+      "car": 24,
+      "driver": "William Byron",
+      "start": 8,
+      "finish": 6
+    },
+    {
+      "car": 23,
+      "driver": "Bubba Wallace",
+      "start": 9,
+      "finish": 8
+    },
+    {
+      "car": 77,
+      "driver": "Carson Hocevar",
+      "start": 10,
+      "finish": 12
+    },
+    {
+      "car": 7,
+      "driver": "Daniel Suarez",
+      "start": 11,
+      "finish": 14
+    },
+    {
+      "car": 60,
+      "driver": "Ryan Preece",
+      "start": 12,
+      "finish": 28
+    },
+    {
+      "car": 9,
+      "driver": "Chase Elliott",
+      "start": 13,
+      "finish": 7
+    },
+    {
+      "car": 17,
+      "driver": "Chris Buescher",
+      "start": 14,
+      "finish": 13
+    },
+    {
+      "car": 48,
+      "driver": "Alex Bowman",
+      "start": 15,
+      "finish": 11
+    },
+    {
+      "car": 6,
+      "driver": "Brad Keselowski",
+      "start": 16,
+      "finish": 24
+    },
+    {
+      "car": 1,
+      "driver": "Ross Chastain",
+      "start": 17,
+      "finish": 30
+    },
+    {
+      "car": 12,
+      "driver": "Ryan Blaney",
+      "start": 20,
+      "finish": 5
+    },
+    {
+      "car": 43,
+      "driver": "Erik Jones",
+      "start": 21,
+      "finish": 25
+    },
+    {
+      "car": 22,
+      "driver": "Joey Logano",
+      "start": 23,
+      "finish": 10
+    },
+    {
+      "car": 21,
+      "driver": "Josh Berry",
+      "start": 35,
+      "finish": 26
+    }
+  ]
+}
