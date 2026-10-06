@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 jobs:
-  test-calculation-engine:
+  step-4b-dry-run:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,16 +19,29 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Reproduce Las Vegas results
+      - name: Reproduce Las Vegas calculation
         run: |
           python automation/verify_las_vegas.py
 
-      - name: Validate live league data
+      - name: Validate current live league data
         run: |
           python automation/validate_live_data.py league-data.js
 
-      - name: Step 4A passed
+      - name: Generate Las Vegas from Kansas baseline
         run: |
-          echo "Calculation engine passed."
-          echo "Live league-data.js validation passed."
-          echo "Fantasy NASCAR Step 4A completed successfully."
+          python automation/generate_step4b.py
+
+      - name: Validate generated league data
+        run: |
+          python automation/validate_live_data.py automation/generated/league-data.js
+
+      - name: Compare generated data with live Las Vegas
+        run: |
+          python automation/compare_generated_to_live.py
+
+      - name: Step 4B passed
+        run: |
+          echo "Fantasy NASCAR Step 4B passed."
+          echo "Calculation engine generated Las Vegas successfully."
+          echo "Generated data matched the approved live Las Vegas data."
+          echo "LIVE WEBSITE WAS NOT MODIFIED."
