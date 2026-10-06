@@ -19,19 +19,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Verify automation files
-        run: |
-          test -f automation/update_nascar.py
-          test -f automation/verify_las_vegas.py
-          test -f automation/test-data/kansas-baseline.json
-          test -f automation/test-data/race-input-las-vegas.json
-          test -f automation/test-data/expected-las-vegas.json
-          echo "All Fantasy NASCAR automation files found."
-
       - name: Reproduce Las Vegas results
         run: |
           python automation/verify_las_vegas.py
 
-      - name: Calculation engine test passed
+      - name: Validate live league data
         run: |
-          echo "Fantasy NASCAR calculation engine passed the Las Vegas verification test."
+          python automation/validate_live_data.py league-data.js
+
+      - name: Step 4A passed
+        run: |
+          echo "Calculation engine passed."
+          echo "Live league-data.js validation passed."
+          echo "Fantasy NASCAR Step 4A completed successfully."
