@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 jobs:
-  step-5-online-import-test:
+  step-5b-jayski-access-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,44 +19,19 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install online-data requirements
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
-
       - name: Validate current live league data
-        run: |
-          python automation/validate_live_data.py league-data.js
+        run: python automation/validate_live_data.py league-data.js
 
-      - name: Fetch NASCAR Las Vegas results online
-        run: |
-          python automation/fetch_nascar_results.py --year 2026 --cup-race-number 31 --fantasy-race-number 7 --name "Las Vegas Motor Speedway" --date "2026-10-04" --next-race "Charlotte Motor Speedway" --output "automation/test-data/online-las-vegas.json"
-      - name: Compare online results with approved Las Vegas input
-        run: |
-          python automation/compare_online_las_vegas.py
+      - name: Test Jayski access and discover Las Vegas resources
+        run: python automation/fetch_jayski_results.py --race-number 31 --track "Las Vegas Motor Speedway" --output "automation/test-data/jayski-las-vegas-discovery.json"
 
-      - name: Generate league data from online race input
+      - name: Confirm Jayski discovery file exists
         run: |
-          python automation/generate_step4b.py
+          test -f automation/test-data/jayski-las-vegas-discovery.json
+          echo "Jayski discovery file created."
 
-      - name: Confirm generated file exists
+      - name: Step 5B passed
         run: |
-          test -f automation/generated/league-data.js
-          echo "Generated league-data.js found successfully."
-
-      - name: Validate generated league data
-        run: |
-          python automation/validate_live_data.py automation/generated/league-data.js
-
-      - name: Compare generated league data with approved Las Vegas
-        run: |
-          python automation/compare_generated_to_live.py
-
-      - name: Step 5 passed
-        run: |
-          echo "Fantasy NASCAR Step 5 passed."
-          echo "NASCAR race results were obtained online."
-          echo "Online race data matched the approved Las Vegas race input."
-          echo "League calculations passed."
-          echo "Generated league data passed validation."
+          echo "Fantasy NASCAR Step 5B Jayski access test passed."
+          echo "GitHub Actions can reach Jayski and identify the Las Vegas race resources."
           echo "LIVE WEBSITE WAS NOT MODIFIED."
