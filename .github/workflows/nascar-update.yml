@@ -7,21 +7,31 @@ permissions:
   contents: write
 
 jobs:
-  test-automation:
+  test-calculation-engine:
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out Fantasy NASCAR repository
         uses: actions/checkout@v4
 
-      - name: Verify league files
-        run: |
-          echo "Fantasy NASCAR automation is running."
-          echo "Repository files:"
-          ls -la
-          test -f league-data.js
-          echo "league-data.js found successfully."
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
-      - name: Automation test complete
+      - name: Verify automation files
         run: |
-          echo "Fantasy NASCAR automation test passed."
+          test -f automation/update_nascar.py
+          test -f automation/verify_las_vegas.py
+          test -f automation/test-data/kansas-baseline.json
+          test -f automation/test-data/race-input-las-vegas.json
+          test -f automation/test-data/expected-las-vegas.json
+          echo "All Fantasy NASCAR automation files found."
+
+      - name: Reproduce Las Vegas results
+        run: |
+          python automation/verify_las_vegas.py
+
+      - name: Calculation engine test passed
+        run: |
+          echo "Fantasy NASCAR calculation engine passed the Las Vegas verification test."
