@@ -52,7 +52,7 @@ def main():
     d.setdefault('weekly_winners',[]).append({'race_number':race['race_number'],'race':name,'winner':winner_text,'score':win})
     
     wts=d.setdefault('weekly_team_scores',[])
-    entry={'race_number':race['race_number'],'race':name,'scores':[{'team_id':x['team_id'],'team':x['team'],'points':x['points']} for x in breakdown]}
+    entry={'race_number':race['race_number'],'race':name,'scores':[{k:x[k] for k in ('team_id','team','display_name','qualifying_points','race_points','points','weekly_total','rank')} for x in breakdown]}
     if isinstance(wts,list): wts.append(entry)
     else: wts[name]=entry['scores']
     d.setdefault('race_results',{})[name]={'team_breakdown':breakdown}
@@ -64,7 +64,10 @@ def main():
     standings=[]
     for t in d['teams']:
         b=next(x for x in breakdown if x['team_id']==t['id'])
-        standings.append({'team_id':t['id'],'team':t['name'],'display_name':f"Team {t['id']} {t['name']}",'weekly_points':b['points'],'segment_points':t['segment_points'],'points':t['segment_points'],'weekly_wins':oldwins.get(t['id'],0)})
+        row={'team_id':t['id'],'team':t['name'],'display_name':f"Team {t['id']} {t['name']}",'weekly_points':b['points'],'segment_points':t['segment_points'],'points':t['segment_points'],'weekly_wins':oldwins.get(t['id'],0)}
+        slug=name.lower().replace(' motor speedway','').replace(' speedway','').replace(' ','_').replace('-','_')
+        row[slug]=b['points']
+        standings.append(row)
     standings.sort(key=lambda x:(-x['segment_points'],x['team_id'])); leader=standings[0]['segment_points']
     for i,s in enumerate(standings,1):
         s['rank']=i; s['behind']=leader-s['segment_points']; s['behind_leader']=s['segment_points']-leader
