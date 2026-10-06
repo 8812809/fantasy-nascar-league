@@ -1,0 +1,27 @@
+name: Fantasy NASCAR Update
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test-automation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Fantasy NASCAR repository
+        uses: actions/checkout@v4
+
+      - name: Verify league files
+        run: |
+          echo "Fantasy NASCAR automation is running."
+          echo "Repository files:"
+          ls -la
+          test -f league-data.js
+          echo "league-data.js found successfully."
+
+      - name: Automation test complete
+        run: |
+          echo "Fantasy NASCAR automation test passed."
