@@ -31,6 +31,11 @@ jobs:
         run: |
           python automation/generate_step4b.py
 
+      - name: Confirm generated file exists
+        run: |
+          test -f automation/generated/league-data.js
+          echo "Generated league-data.js found successfully."
+
       - name: Validate generated league data
         run: |
           python automation/validate_live_data.py automation/generated/league-data.js
@@ -43,5 +48,6 @@ jobs:
         run: |
           echo "Fantasy NASCAR Step 4B passed."
           echo "Calculation engine generated Las Vegas successfully."
-          echo "Generated data matched the approved live Las Vegas data."
+          echo "Generated data passed live-data validation."
+          echo "Generated data matched the approved Las Vegas data."
           echo "LIVE WEBSITE WAS NOT MODIFIED."
