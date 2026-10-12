@@ -1,15 +1,10 @@
-FANTASY NASCAR LEAGUE — BRISTOL RACE 5 UPDATE
-Generated September 21, 2026
-Upload/replace all files in this ZIP in the GitHub repository root.
+CHARLOTTE RACE 8 UPDATE — October 12, 2026
 
-Bristol Weekly Side Bet Winner: Team 4 Ron / Jill — 490
-Segment leader: Team 4 Ron / Jill — 2,272 Segment Points
-Team 2 Corey / Jeff remains locked with #43 Erik Jones.
-Next race: Kansas Speedway.
-Expandable Segment 2 Archive preserved.
+Upload the website files to the ROOT of your GitHub repository, replacing the existing versions. Do NOT delete the .github or automation folders.
 
+Charlotte scored using official NASCAR race results (starting position and finishing position), 40-to-1 starting points and 120-to-6 finishing points (minus 3 each position), no stage points. 39 starters. No roster changes.
 
-LAS VEGAS RACE 7 UPDATE (Oct. 4, 2026)
-- No car changes.
-- Weekly Side Bet Winner: Team 9 Joe / Mike — 544 points.
-- Next race: Charlotte Motor Speedway.
+Weekly winner: Team 5 Don / Kendall — 516 points.
+Next race: Phoenix Raceway.
+
+This ZIP updates the website; it does not enable automatic GitHub deployment.
