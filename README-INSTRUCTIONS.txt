@@ -1,10 +1,8 @@
-CHARLOTTE RACE 8 UPDATE — October 12, 2026
+PHOENIX RACE 9 WEBSITE UPDATE - OCTOBER 18, 2026
 
-Upload the website files to the ROOT of your GitHub repository, replacing the existing versions. Do NOT delete the .github or automation folders.
+Upload the website files in this ZIP to the root of the GitHub Pages repository, replacing existing files. Do not delete the .github or automation folders.
 
-Charlotte scored using official NASCAR race results (starting position and finishing position), 40-to-1 starting points and 120-to-6 finishing points (minus 3 each position), no stage points. 39 starters. No roster changes.
+No roster changes. Scoring: qualifying 40 through 4 for 37 starters; finish 120 through 12 for 37 finishers. No stage points.
 
-Weekly winner: Team 5 Don / Kendall — 516 points.
-Next race: Phoenix Raceway.
-
-This ZIP updates the website; it does not enable automatic GitHub deployment.
+Phoenix weekly winner: Team 6 Craig / Patty (522 points).
+Next race: Talladega Superspeedway.
