@@ -78,6 +78,14 @@ window.LEAGUE_DATA = {
       "status": "Completed",
       "weekly_winner": "Team 6 Craig / Patty",
       "winning_score": 522
+    },
+    {
+      "race_number": 10,
+      "name": "Talladega Superspeedway",
+      "date": "2026-10-25",
+      "status": "Completed",
+      "weekly_winner": "Team 4 Ron / Jill",
+      "winning_score": 464
     }
   ],
   "teams": [
