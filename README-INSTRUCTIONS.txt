@@ -1,8 +1,10 @@
-PHOENIX RACE 9 WEBSITE UPDATE - OCTOBER 18, 2026
+Fantasy NASCAR League — Talladega Race 10 update (October 25, 2026)
 
-Upload the website files in this ZIP to the root of the GitHub Pages repository, replacing existing files. Do not delete the .github or automation folders.
+Upload the website files in this ZIP to the ROOT of the GitHub repository, replacing same-named files. Do not remove the automation folder.
 
-No roster changes. Scoring: qualifying 40 through 4 for 37 starters; finish 120 through 12 for 37 finishers. No stage points.
+No roster changes. Source: published October 25 finishing order (Hendrick Motorsports) and October 24 qualifying lineup (USA TODAY Network).
 
-Phoenix weekly winner: Team 6 Craig / Patty (522 points).
-Next race: Talladega Superspeedway.
+Weekly Side Bet Winner: Team 4 Ron / Jill — 464 points.
+Next race: Martinsville Speedway, November 1, 2026.
+
+NOTE: This ZIP updates league-data.js and league-data.json while preserving the website HTML from the previous Phoenix ZIP.
