@@ -1,5 +1,4 @@
-CORRECTED Talladega Race 10 update (2026-10-25)
-
-Fix: Talladega was present in race_results but missing from the races list, so the Race Results page omitted it. Added Race 10 to the completed races list and refreshed cache version in HTML. No roster changes.
-
-Upload ZIP contents to the ROOT of your GitHub repository, replacing files of the same name. Keep automation folders unchanged.
+MARTINSVILLE RACE 11 UPDATE — NOVEMBER 1, 2026
+Upload all website files from this ZIP to the root of your GitHub repository. Do not delete automation folders.
+No roster changes. Martinsville included in completed races, weekly team scores, and race results with full per-driver breakdowns.
+Source: NASCAR Reference 2026 Xfinity 500, race 35, November 1, 2026.
