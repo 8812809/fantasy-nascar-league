@@ -1,10 +1,10 @@
 {
   "league": "Fantasy NASCAR League",
   "segment": 3,
-  "races_completed": 11,
-  "current_race": "Martinsville Speedway",
-  "next_race": "Homestead-Miami Speedway",
-  "last_updated": "2026-11-01",
+  "races_completed": 12,
+  "current_race": "Homestead-Miami Speedway",
+  "next_race": "Season complete",
+  "last_updated": "2026-11-08",
   "label_preference": "Segment Points",
   "races": [
     {
@@ -94,6 +94,14 @@
       "status": "Completed",
       "weekly_winner": "Team 6 Craig / Patty",
       "winning_score": 530
+    },
+    {
+      "race_number": 12,
+      "name": "Homestead-Miami Speedway",
+      "date": "2026-11-08",
+      "status": "Completed",
+      "weekly_winner": "Team 7 Grub / Jim",
+      "winning_score": 563
     }
   ],
   "teams": [
@@ -147,12 +155,13 @@
         "Charlotte Motor Speedway": 485,
         "Phoenix Raceway": 388,
         "Talladega Superspeedway": 287,
-        "Martinsville Speedway": 420
+        "Martinsville Speedway": 420,
+        "Homestead-Miami Speedway": 448
       },
-      "weekly_points": 420,
-      "segment_points": 4532,
-      "segment_total": 4532,
-      "points": 4532,
+      "weekly_points": 448,
+      "segment_points": 4980,
+      "segment_total": 4980,
+      "points": 4980,
       "locked": false,
       "change_status": ""
     },
@@ -206,12 +215,13 @@
         "Charlotte Motor Speedway": 370,
         "Phoenix Raceway": 408,
         "Talladega Superspeedway": 335,
-        "Martinsville Speedway": 322
+        "Martinsville Speedway": 322,
+        "Homestead-Miami Speedway": 454
       },
-      "weekly_points": 322,
-      "segment_points": 4038,
-      "segment_total": 4038,
-      "points": 4038,
+      "weekly_points": 454,
+      "segment_points": 4492,
+      "segment_total": 4492,
+      "points": 4492,
       "locked": true,
       "change_status": "#97 Shane van Gisbergen to #43 Erik Jones (effective Race 4 - World Wide Technology Raceway)"
     },
@@ -265,12 +275,13 @@
         "Charlotte Motor Speedway": 383,
         "Phoenix Raceway": 441,
         "Talladega Superspeedway": 223,
-        "Martinsville Speedway": 397
+        "Martinsville Speedway": 397,
+        "Homestead-Miami Speedway": 451
       },
-      "weekly_points": 397,
-      "segment_points": 4471,
-      "segment_total": 4471,
-      "points": 4471,
+      "weekly_points": 451,
+      "segment_points": 4922,
+      "segment_total": 4922,
+      "points": 4922,
       "locked": false,
       "change_status": ""
     },
@@ -324,12 +335,13 @@
         "Charlotte Motor Speedway": 397,
         "Phoenix Raceway": 353,
         "Talladega Superspeedway": 464,
-        "Martinsville Speedway": 472
+        "Martinsville Speedway": 472,
+        "Homestead-Miami Speedway": 389
       },
-      "weekly_points": 472,
-      "segment_points": 4839,
-      "segment_total": 4839,
-      "points": 4839,
+      "weekly_points": 389,
+      "segment_points": 5228,
+      "segment_total": 5228,
+      "points": 5228,
       "locked": false,
       "change_status": ""
     },
@@ -383,12 +395,13 @@
         "Charlotte Motor Speedway": 516,
         "Phoenix Raceway": 498,
         "Talladega Superspeedway": 297,
-        "Martinsville Speedway": 458
+        "Martinsville Speedway": 458,
+        "Homestead-Miami Speedway": 369
       },
-      "weekly_points": 458,
-      "segment_points": 4844,
-      "segment_total": 4844,
-      "points": 4844,
+      "weekly_points": 369,
+      "segment_points": 5213,
+      "segment_total": 5213,
+      "points": 5213,
       "locked": false,
       "change_status": ""
     },
@@ -442,12 +455,13 @@
         "Charlotte Motor Speedway": 402,
         "Phoenix Raceway": 522,
         "Talladega Superspeedway": 402,
-        "Martinsville Speedway": 530
+        "Martinsville Speedway": 530,
+        "Homestead-Miami Speedway": 436
       },
-      "weekly_points": 530,
-      "segment_points": 4564,
-      "segment_total": 4564,
-      "points": 4564,
+      "weekly_points": 436,
+      "segment_points": 5000,
+      "segment_total": 5000,
+      "points": 5000,
       "locked": true,
       "change_status": "#97 Shane van Gisbergen to #21 Josh Berry (effective Race 6 - Kansas Speedway)"
     },
@@ -501,12 +515,13 @@
         "Charlotte Motor Speedway": 333,
         "Phoenix Raceway": 465,
         "Talladega Superspeedway": 331,
-        "Martinsville Speedway": 450
+        "Martinsville Speedway": 450,
+        "Homestead-Miami Speedway": 563
       },
-      "weekly_points": 450,
-      "segment_points": 4692,
-      "segment_total": 4692,
-      "points": 4692,
+      "weekly_points": 563,
+      "segment_points": 5255,
+      "segment_total": 5255,
+      "points": 5255,
       "locked": false,
       "change_status": ""
     },
@@ -560,12 +575,13 @@
         "Charlotte Motor Speedway": 336,
         "Phoenix Raceway": 391,
         "Talladega Superspeedway": 405,
-        "Martinsville Speedway": 471
+        "Martinsville Speedway": 471,
+        "Homestead-Miami Speedway": 317
       },
-      "weekly_points": 471,
-      "segment_points": 4504,
-      "segment_total": 4504,
-      "points": 4504,
+      "weekly_points": 317,
+      "segment_points": 4821,
+      "segment_total": 4821,
+      "points": 4821,
       "locked": true,
       "change_status": "#7 Daniel Suarez to #60 Ryan Preece (effective Race 6 - Kansas Speedway)"
     },
@@ -619,12 +635,13 @@
         "Charlotte Motor Speedway": 515,
         "Phoenix Raceway": 389,
         "Talladega Superspeedway": 349,
-        "Martinsville Speedway": 308
+        "Martinsville Speedway": 308,
+        "Homestead-Miami Speedway": 489
       },
-      "weekly_points": 308,
-      "segment_points": 4747,
-      "segment_total": 4747,
-      "points": 4747,
+      "weekly_points": 489,
+      "segment_points": 5236,
+      "segment_total": 5236,
+      "points": 5236,
       "locked": false,
       "change_status": ""
     },
@@ -678,12 +695,13 @@
         "Charlotte Motor Speedway": 432,
         "Phoenix Raceway": 394,
         "Talladega Superspeedway": 302,
-        "Martinsville Speedway": 428
+        "Martinsville Speedway": 428,
+        "Homestead-Miami Speedway": 350
       },
-      "weekly_points": 428,
-      "segment_points": 4304,
-      "segment_total": 4304,
-      "points": 4304,
+      "weekly_points": 350,
+      "segment_points": 4654,
+      "segment_total": 4654,
+      "points": 4654,
       "locked": false,
       "change_status": ""
     }
@@ -691,163 +709,173 @@
   "standings": [
     {
       "rank": 1,
-      "team_id": 5,
-      "team": "Don / Kendall",
-      "display_name": "Team 5 Don / Kendall",
-      "weekly_points": 458,
-      "segment_points": 4844,
-      "points": 4844,
-      "weekly_wins": 3.5,
-      "behind": 0,
-      "behind_leader": 0,
-      "charlotte": 516,
-      "phoenix": 498,
-      "talladega": 297,
-      "martinsville": 458
-    },
-    {
-      "rank": 2,
-      "team_id": 4,
-      "team": "Ron / Jill",
-      "display_name": "Team 4 Ron / Jill",
-      "weekly_points": 472,
-      "segment_points": 4839,
-      "points": 4839,
-      "weekly_wins": 3,
-      "behind": 5,
-      "behind_leader": -5,
-      "charlotte": 397,
-      "phoenix": 353,
-      "talladega": 464,
-      "martinsville": 472
-    },
-    {
-      "rank": 3,
-      "team_id": 9,
-      "team": "Joe / Mike",
-      "display_name": "Team 9 Joe / Mike",
-      "weekly_points": 308,
-      "segment_points": 4747,
-      "points": 4747,
-      "weekly_wins": 1.5,
-      "behind": 97,
-      "behind_leader": -97,
-      "charlotte": 515,
-      "phoenix": 389,
-      "talladega": 349,
-      "martinsville": 308
-    },
-    {
-      "rank": 4,
       "team_id": 7,
       "team": "Grub / Jim",
       "display_name": "Team 7 Grub / Jim",
-      "weekly_points": 450,
-      "segment_points": 4692,
-      "points": 4692,
-      "weekly_wins": 0,
-      "behind": 152,
-      "behind_leader": -152,
+      "weekly_points": 563,
+      "segment_points": 5255,
+      "points": 5255,
+      "weekly_wins": 1.0,
+      "behind": 0,
+      "behind_leader": 0,
       "charlotte": 333,
       "phoenix": 465,
       "talladega": 331,
-      "martinsville": 450
+      "martinsville": 450,
+      "homestead": 563
+    },
+    {
+      "rank": 2,
+      "team_id": 9,
+      "team": "Joe / Mike",
+      "display_name": "Team 9 Joe / Mike",
+      "weekly_points": 489,
+      "segment_points": 5236,
+      "points": 5236,
+      "weekly_wins": 1.5,
+      "behind": 19,
+      "behind_leader": -19,
+      "charlotte": 515,
+      "phoenix": 389,
+      "talladega": 349,
+      "martinsville": 308,
+      "homestead": 489
+    },
+    {
+      "rank": 3,
+      "team_id": 4,
+      "team": "Ron / Jill",
+      "display_name": "Team 4 Ron / Jill",
+      "weekly_points": 389,
+      "segment_points": 5228,
+      "points": 5228,
+      "weekly_wins": 3,
+      "behind": 27,
+      "behind_leader": -27,
+      "charlotte": 397,
+      "phoenix": 353,
+      "talladega": 464,
+      "martinsville": 472,
+      "homestead": 389
+    },
+    {
+      "rank": 4,
+      "team_id": 5,
+      "team": "Don / Kendall",
+      "display_name": "Team 5 Don / Kendall",
+      "weekly_points": 369,
+      "segment_points": 5213,
+      "points": 5213,
+      "weekly_wins": 3.5,
+      "behind": 42,
+      "behind_leader": -42,
+      "charlotte": 516,
+      "phoenix": 498,
+      "talladega": 297,
+      "martinsville": 458,
+      "homestead": 369
     },
     {
       "rank": 5,
       "team_id": 6,
       "team": "Craig / Patty",
       "display_name": "Team 6 Craig / Patty",
-      "weekly_points": 530,
-      "segment_points": 4564,
-      "points": 4564,
+      "weekly_points": 436,
+      "segment_points": 5000,
+      "points": 5000,
       "weekly_wins": 2,
-      "behind": 280,
-      "behind_leader": -280,
+      "behind": 255,
+      "behind_leader": -255,
       "charlotte": 402,
       "phoenix": 522,
       "talladega": 402,
-      "martinsville": 530
+      "martinsville": 530,
+      "homestead": 436
     },
     {
       "rank": 6,
       "team_id": 1,
       "team": "Roberto / Elsie",
       "display_name": "Team 1 Roberto / Elsie",
-      "weekly_points": 420,
-      "segment_points": 4532,
-      "points": 4532,
+      "weekly_points": 448,
+      "segment_points": 4980,
+      "points": 4980,
       "weekly_wins": 1,
-      "behind": 312,
-      "behind_leader": -312,
+      "behind": 275,
+      "behind_leader": -275,
       "charlotte": 485,
       "phoenix": 388,
       "talladega": 287,
-      "martinsville": 420
+      "martinsville": 420,
+      "homestead": 448
     },
     {
       "rank": 7,
-      "team_id": 8,
-      "team": "JohnnyC",
-      "display_name": "Team 8 JohnnyC",
-      "weekly_points": 471,
-      "segment_points": 4504,
-      "points": 4504,
-      "weekly_wins": 0,
-      "behind": 340,
-      "behind_leader": -340,
-      "charlotte": 336,
-      "phoenix": 391,
-      "talladega": 405,
-      "martinsville": 471
-    },
-    {
-      "rank": 8,
       "team_id": 3,
       "team": "JJ / George",
       "display_name": "Team 3 JJ / George",
-      "weekly_points": 397,
-      "segment_points": 4471,
-      "points": 4471,
+      "weekly_points": 451,
+      "segment_points": 4922,
+      "points": 4922,
       "weekly_wins": 0,
-      "behind": 373,
-      "behind_leader": -373,
+      "behind": 333,
+      "behind_leader": -333,
       "charlotte": 383,
       "phoenix": 441,
       "talladega": 223,
-      "martinsville": 397
+      "martinsville": 397,
+      "homestead": 451
+    },
+    {
+      "rank": 8,
+      "team_id": 8,
+      "team": "JohnnyC",
+      "display_name": "Team 8 JohnnyC",
+      "weekly_points": 317,
+      "segment_points": 4821,
+      "points": 4821,
+      "weekly_wins": 0,
+      "behind": 434,
+      "behind_leader": -434,
+      "charlotte": 336,
+      "phoenix": 391,
+      "talladega": 405,
+      "martinsville": 471,
+      "homestead": 317
     },
     {
       "rank": 9,
       "team_id": 10,
       "team": "Linda",
       "display_name": "Team 10 Linda",
-      "weekly_points": 428,
-      "segment_points": 4304,
-      "points": 4304,
+      "weekly_points": 350,
+      "segment_points": 4654,
+      "points": 4654,
       "weekly_wins": 0,
-      "behind": 540,
-      "behind_leader": -540,
+      "behind": 601,
+      "behind_leader": -601,
       "charlotte": 432,
       "phoenix": 394,
       "talladega": 302,
-      "martinsville": 428
+      "martinsville": 428,
+      "homestead": 350
     },
     {
       "rank": 10,
       "team_id": 2,
       "team": "Corey / Jeff",
       "display_name": "Team 2 Corey / Jeff",
-      "weekly_points": 322,
-      "segment_points": 4038,
-      "points": 4038,
+      "weekly_points": 454,
+      "segment_points": 4492,
+      "points": 4492,
       "weekly_wins": 0,
-      "behind": 806,
-      "behind_leader": -806,
+      "behind": 763,
+      "behind_leader": -763,
       "charlotte": 370,
       "phoenix": 408,
       "talladega": 335,
-      "martinsville": 322
+      "martinsville": 322,
+      "homestead": 454
     }
   ],
   "weekly_winners": [
@@ -916,6 +944,12 @@
       "race": "Martinsville Speedway",
       "winner": "Team 6 Craig / Patty",
       "score": 530
+    },
+    {
+      "race_number": 12,
+      "race": "Homestead-Miami Speedway",
+      "winner": "Team 7 Grub / Jim",
+      "score": 563
     }
   ],
   "weekly_team_scores": [
@@ -2081,6 +2115,112 @@
           "race_points": 189,
           "points": 308,
           "weekly_total": 308,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "race": "Homestead-Miami Speedway",
+      "race_number": 12,
+      "scores": [
+        {
+          "team_id": 7,
+          "team": "Grub / Jim",
+          "display_name": "Team 7 Grub / Jim",
+          "qualifying_points": 125,
+          "race_points": 438,
+          "points": 563,
+          "weekly_total": 563,
+          "rank": 1
+        },
+        {
+          "team_id": 9,
+          "team": "Joe / Mike",
+          "display_name": "Team 9 Joe / Mike",
+          "qualifying_points": 120,
+          "race_points": 369,
+          "points": 489,
+          "weekly_total": 489,
+          "rank": 2
+        },
+        {
+          "team_id": 2,
+          "team": "Corey / Jeff",
+          "display_name": "Team 2 Corey / Jeff",
+          "qualifying_points": 97,
+          "race_points": 357,
+          "points": 454,
+          "weekly_total": 454,
+          "rank": 3
+        },
+        {
+          "team_id": 3,
+          "team": "JJ / George",
+          "display_name": "Team 3 JJ / George",
+          "qualifying_points": 97,
+          "race_points": 354,
+          "points": 451,
+          "weekly_total": 451,
+          "rank": 4
+        },
+        {
+          "team_id": 1,
+          "team": "Roberto / Elsie",
+          "display_name": "Team 1 Roberto / Elsie",
+          "qualifying_points": 133,
+          "race_points": 315,
+          "points": 448,
+          "weekly_total": 448,
+          "rank": 5
+        },
+        {
+          "team_id": 6,
+          "team": "Craig / Patty",
+          "display_name": "Team 6 Craig / Patty",
+          "qualifying_points": 109,
+          "race_points": 327,
+          "points": 436,
+          "weekly_total": 436,
+          "rank": 6
+        },
+        {
+          "team_id": 4,
+          "team": "Ron / Jill",
+          "display_name": "Team 4 Ron / Jill",
+          "qualifying_points": 113,
+          "race_points": 276,
+          "points": 389,
+          "weekly_total": 389,
+          "rank": 7
+        },
+        {
+          "team_id": 5,
+          "team": "Don / Kendall",
+          "display_name": "Team 5 Don / Kendall",
+          "qualifying_points": 114,
+          "race_points": 255,
+          "points": 369,
+          "weekly_total": 369,
+          "rank": 8
+        },
+        {
+          "team_id": 10,
+          "team": "Linda",
+          "display_name": "Team 10 Linda",
+          "qualifying_points": 98,
+          "race_points": 252,
+          "points": 350,
+          "weekly_total": 350,
+          "rank": 9
+        },
+        {
+          "team_id": 8,
+          "team": "JohnnyC",
+          "display_name": "Team 8 JohnnyC",
+          "qualifying_points": 98,
+          "race_points": 219,
+          "points": 317,
+          "weekly_total": 317,
           "rank": 10
         }
       ]
@@ -7410,6 +7550,490 @@
           "rank": 6
         }
       ]
+    },
+    "Homestead-Miami Speedway": {
+      "team_breakdown": [
+        {
+          "team_id": 1,
+          "team": "Roberto / Elsie",
+          "display_name": "Team 1 Roberto / Elsie",
+          "qualifying_points": 133,
+          "race_points": 315,
+          "points": 448,
+          "weekly_total": 448,
+          "drivers": [
+            {
+              "car": 11,
+              "driver": "Denny Hamlin",
+              "start": 2,
+              "qualifying_points": 39,
+              "finish": 6,
+              "race_points": 105,
+              "total": 144
+            },
+            {
+              "car": 17,
+              "driver": "Chris Buescher",
+              "start": 17,
+              "qualifying_points": 24,
+              "finish": 24,
+              "race_points": 51,
+              "total": 75
+            },
+            {
+              "car": 9,
+              "driver": "Chase Elliott",
+              "start": 7,
+              "qualifying_points": 34,
+              "finish": 22,
+              "race_points": 57,
+              "total": 91
+            },
+            {
+              "car": 2,
+              "driver": "Austin Cindric",
+              "start": 5,
+              "qualifying_points": 36,
+              "finish": 7,
+              "race_points": 102,
+              "total": 138
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "team_id": 2,
+          "team": "Corey / Jeff",
+          "display_name": "Team 2 Corey / Jeff",
+          "qualifying_points": 97,
+          "race_points": 357,
+          "points": 454,
+          "weekly_total": 454,
+          "drivers": [
+            {
+              "car": 12,
+              "driver": "Ryan Blaney",
+              "start": 9,
+              "qualifying_points": 32,
+              "finish": 1,
+              "race_points": 120,
+              "total": 152
+            },
+            {
+              "car": 24,
+              "driver": "William Byron",
+              "start": 8,
+              "qualifying_points": 33,
+              "finish": 3,
+              "race_points": 114,
+              "total": 147
+            },
+            {
+              "car": 77,
+              "driver": "Justin Haley",
+              "start": 26,
+              "qualifying_points": 15,
+              "finish": 21,
+              "race_points": 60,
+              "total": 75
+            },
+            {
+              "car": 43,
+              "driver": "Erik Jones",
+              "start": 24,
+              "qualifying_points": 17,
+              "finish": 20,
+              "race_points": 63,
+              "total": 80
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "team_id": 3,
+          "team": "JJ / George",
+          "display_name": "Team 3 JJ / George",
+          "qualifying_points": 97,
+          "race_points": 354,
+          "points": 451,
+          "weekly_total": 451,
+          "drivers": [
+            {
+              "car": 20,
+              "driver": "Christopher Bell",
+              "start": 6,
+              "qualifying_points": 35,
+              "finish": 4,
+              "race_points": 111,
+              "total": 146
+            },
+            {
+              "car": 22,
+              "driver": "Joey Logano",
+              "start": 19,
+              "qualifying_points": 22,
+              "finish": 17,
+              "race_points": 72,
+              "total": 94
+            },
+            {
+              "car": 23,
+              "driver": "Bubba Wallace",
+              "start": 18,
+              "qualifying_points": 23,
+              "finish": 5,
+              "race_points": 108,
+              "total": 131
+            },
+            {
+              "car": 43,
+              "driver": "Erik Jones",
+              "start": 24,
+              "qualifying_points": 17,
+              "finish": 20,
+              "race_points": 63,
+              "total": 80
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "team_id": 4,
+          "team": "Ron / Jill",
+          "display_name": "Team 4 Ron / Jill",
+          "qualifying_points": 113,
+          "race_points": 276,
+          "points": 389,
+          "weekly_total": 389,
+          "drivers": [
+            {
+              "car": 22,
+              "driver": "Joey Logano",
+              "start": 19,
+              "qualifying_points": 22,
+              "finish": 17,
+              "race_points": 72,
+              "total": 94
+            },
+            {
+              "car": 5,
+              "driver": "Kyle Larson",
+              "start": 4,
+              "qualifying_points": 37,
+              "finish": 12,
+              "race_points": 87,
+              "total": 124
+            },
+            {
+              "car": 1,
+              "driver": "Ross Chastain",
+              "start": 15,
+              "qualifying_points": 26,
+              "finish": 27,
+              "race_points": 42,
+              "total": 68
+            },
+            {
+              "car": 48,
+              "driver": "Alex Bowman",
+              "start": 13,
+              "qualifying_points": 28,
+              "finish": 16,
+              "race_points": 75,
+              "total": 103
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "team_id": 5,
+          "team": "Don / Kendall",
+          "display_name": "Team 5 Don / Kendall",
+          "qualifying_points": 114,
+          "race_points": 255,
+          "points": 369,
+          "weekly_total": 369,
+          "drivers": [
+            {
+              "car": 45,
+              "driver": "Tyler Reddick",
+              "start": 3,
+              "qualifying_points": 38,
+              "finish": 2,
+              "race_points": 117,
+              "total": 155
+            },
+            {
+              "car": 19,
+              "driver": "Chase Briscoe",
+              "start": 1,
+              "qualifying_points": 40,
+              "finish": 39,
+              "race_points": 6,
+              "total": 46
+            },
+            {
+              "car": 60,
+              "driver": "Ryan Preece",
+              "start": 32,
+              "qualifying_points": 9,
+              "finish": 25,
+              "race_points": 48,
+              "total": 57
+            },
+            {
+              "car": 21,
+              "driver": "Josh Berry",
+              "start": 14,
+              "qualifying_points": 27,
+              "finish": 13,
+              "race_points": 84,
+              "total": 111
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "team_id": 6,
+          "team": "Craig / Patty",
+          "display_name": "Team 6 Craig / Patty",
+          "qualifying_points": 109,
+          "race_points": 327,
+          "points": 436,
+          "weekly_total": 436,
+          "drivers": [
+            {
+              "car": 54,
+              "driver": "Ty Gibbs",
+              "start": 20,
+              "qualifying_points": 21,
+              "finish": 11,
+              "race_points": 90,
+              "total": 111
+            },
+            {
+              "car": 20,
+              "driver": "Christopher Bell",
+              "start": 6,
+              "qualifying_points": 35,
+              "finish": 4,
+              "race_points": 111,
+              "total": 146
+            },
+            {
+              "car": 21,
+              "driver": "Josh Berry",
+              "start": 14,
+              "qualifying_points": 27,
+              "finish": 13,
+              "race_points": 84,
+              "total": 111
+            },
+            {
+              "car": 1,
+              "driver": "Ross Chastain",
+              "start": 15,
+              "qualifying_points": 26,
+              "finish": 27,
+              "race_points": 42,
+              "total": 68
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "team_id": 7,
+          "team": "Grub / Jim",
+          "display_name": "Team 7 Grub / Jim",
+          "qualifying_points": 125,
+          "race_points": 438,
+          "points": 563,
+          "weekly_total": 563,
+          "drivers": [
+            {
+              "car": 24,
+              "driver": "William Byron",
+              "start": 8,
+              "qualifying_points": 33,
+              "finish": 3,
+              "race_points": 114,
+              "total": 147
+            },
+            {
+              "car": 45,
+              "driver": "Tyler Reddick",
+              "start": 3,
+              "qualifying_points": 38,
+              "finish": 2,
+              "race_points": 117,
+              "total": 155
+            },
+            {
+              "car": 7,
+              "driver": "Daniel Suarez",
+              "start": 10,
+              "qualifying_points": 31,
+              "finish": 8,
+              "race_points": 99,
+              "total": 130
+            },
+            {
+              "car": 23,
+              "driver": "Bubba Wallace",
+              "start": 18,
+              "qualifying_points": 23,
+              "finish": 5,
+              "race_points": 108,
+              "total": 131
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "team_id": 8,
+          "team": "JohnnyC",
+          "display_name": "Team 8 JohnnyC",
+          "qualifying_points": 98,
+          "race_points": 219,
+          "points": 317,
+          "weekly_total": 317,
+          "drivers": [
+            {
+              "car": 19,
+              "driver": "Chase Briscoe",
+              "start": 1,
+              "qualifying_points": 40,
+              "finish": 39,
+              "race_points": 6,
+              "total": 46
+            },
+            {
+              "car": 54,
+              "driver": "Ty Gibbs",
+              "start": 20,
+              "qualifying_points": 21,
+              "finish": 11,
+              "race_points": 90,
+              "total": 111
+            },
+            {
+              "car": 48,
+              "driver": "Alex Bowman",
+              "start": 13,
+              "qualifying_points": 28,
+              "finish": 16,
+              "race_points": 75,
+              "total": 103
+            },
+            {
+              "car": 60,
+              "driver": "Ryan Preece",
+              "start": 32,
+              "qualifying_points": 9,
+              "finish": 25,
+              "race_points": 48,
+              "total": 57
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "team_id": 9,
+          "team": "Joe / Mike",
+          "display_name": "Team 9 Joe / Mike",
+          "qualifying_points": 120,
+          "race_points": 369,
+          "points": 489,
+          "weekly_total": 489,
+          "drivers": [
+            {
+              "car": 5,
+              "driver": "Kyle Larson",
+              "start": 4,
+              "qualifying_points": 37,
+              "finish": 12,
+              "race_points": 87,
+              "total": 124
+            },
+            {
+              "car": 12,
+              "driver": "Ryan Blaney",
+              "start": 9,
+              "qualifying_points": 32,
+              "finish": 1,
+              "race_points": 120,
+              "total": 152
+            },
+            {
+              "car": 2,
+              "driver": "Austin Cindric",
+              "start": 5,
+              "qualifying_points": 36,
+              "finish": 7,
+              "race_points": 102,
+              "total": 138
+            },
+            {
+              "car": 77,
+              "driver": "Justin Haley",
+              "start": 26,
+              "qualifying_points": 15,
+              "finish": 21,
+              "race_points": 60,
+              "total": 75
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "team_id": 10,
+          "team": "Linda",
+          "display_name": "Team 10 Linda",
+          "qualifying_points": 98,
+          "race_points": 252,
+          "points": 350,
+          "weekly_total": 350,
+          "drivers": [
+            {
+              "car": 17,
+              "driver": "Chris Buescher",
+              "start": 17,
+              "qualifying_points": 24,
+              "finish": 24,
+              "race_points": 51,
+              "total": 75
+            },
+            {
+              "car": 11,
+              "driver": "Denny Hamlin",
+              "start": 2,
+              "qualifying_points": 39,
+              "finish": 6,
+              "race_points": 105,
+              "total": 144
+            },
+            {
+              "car": 6,
+              "driver": "Brad Keselowski",
+              "start": 40,
+              "qualifying_points": 1,
+              "finish": 28,
+              "race_points": 39,
+              "total": 40
+            },
+            {
+              "car": 9,
+              "driver": "Chase Elliott",
+              "start": 7,
+              "qualifying_points": 34,
+              "finish": 22,
+              "race_points": 57,
+              "total": 91
+            }
+          ],
+          "rank": 9
+        }
+      ]
     }
   },
   "schedule": [
@@ -7483,7 +8107,7 @@
       "race_number": 12,
       "name": "Homestead-Miami Speedway",
       "date": "2026-11-08",
-      "status": "Upcoming"
+      "status": "Completed"
     }
   ],
   "notes": [
